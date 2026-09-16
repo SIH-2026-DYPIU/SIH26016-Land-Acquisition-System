@@ -1,0 +1,26 @@
+README.md
+backend/README.md
+backend/src/main/java/com/sih/landacquisitionsystem/config/CorsConfig.java
+backend/src/main/java/com/sih/landacquisitionsystem/controller/AcquisitionStageController.java
+backend/src/main/java/com/sih/landacquisitionsystem/controller/AffectedFamilyController.java
+backend/src/main/java/com/sih/landacquisitionsystem/controller/AuthController.java
+backend/src/main/java/com/sih/landacquisitionsystem/controller/CompensationController.java
+backend/src/main/java/com/sih/landacquisitionsystem/controller/DashboardController.java
+backend/src/main/java/com/sih/landacquisitionsystem/controller/LandParcelController.java
+backend/src/main/java/com/sih/landacquisitionsystem/controller/ProjectController.java
+backend/src/main/java/com/sih/landacquisitionsystem/service/AuthService.java
+backend/src/main/java/com/sih/landacquisitionsystem/service/DashboardService.java
+backend/src/main/resources/application.properties.snippet
+frontend/.env.example
+frontend/.gitignore
+frontend/index.html
+frontend/package.json
+frontend/src/App.jsx
+frontend/src/auth/LoginPage.jsx
+frontend/src/auth/auth.css
+frontend/src/index.css
+frontend/src/main.jsx
+frontend/src/services/api.js
+frontend/vite.config.js
+
+Updated GIS: frontend/src/GISMap.jsx (Leaflet/OpenStreetMap interactive national map)
