@@ -2,9 +2,7 @@ package com.sih.landacquisitionsystem.controller;
 
 import com.sih.landacquisitionsystem.dto.ProjectDTO;
 import com.sih.landacquisitionsystem.service.ProjectService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -13,62 +11,35 @@ import java.util.List;
 @RequestMapping("/api/projects")
 public class ProjectController {
 
-    @Autowired
-    private ProjectService projectService;
+    private final ProjectService projectService;
 
-    @PostMapping
-    @PreAuthorize("hasRole('MINISTRY_ADMIN') or hasRole('STATE_OFFICER')")
-    public ResponseEntity<ProjectDTO> createProject(@RequestBody ProjectDTO projectDTO, @RequestParam Long createdBy) {
-        ProjectDTO createdProject = projectService.createProject(projectDTO, createdBy);
-        return ResponseEntity.ok(createdProject);
+    public ProjectController(ProjectService projectService) {
+        this.projectService = projectService;
     }
 
-    @GetMapping("/{id}")
-    @PreAuthorize("isAuthenticated()")
-    public ResponseEntity<ProjectDTO> getProjectById(@PathVariable Long id) {
-        ProjectDTO projectDTO = projectService.getProjectById(id);
-        return ResponseEntity.ok(projectDTO);
+    @PostMapping
+    public ResponseEntity<ProjectDTO> create(@RequestBody ProjectDTO dto, @RequestParam Long createdById) {
+        return ResponseEntity.ok(projectService.createProject(dto, createdById));
     }
 
     @GetMapping
-    @PreAuthorize("isAuthenticated()")
-    public ResponseEntity<List<ProjectDTO>> getAllProjects() {
-        List<ProjectDTO> projects = projectService.getAllProjects();
-        return ResponseEntity.ok(projects);
-    }
+    public ResponseEntity<List<ProjectDTO>> getAll() { return ResponseEntity.ok(projectService.getAllProjects()); }
+
+    @GetMapping("/{id}")
+    public ResponseEntity<ProjectDTO> getById(@PathVariable Long id) { return ResponseEntity.ok(projectService.getProjectById(id)); }
 
     @GetMapping("/state/{state}")
-    @PreAuthorize("isAuthenticated()")
-    public ResponseEntity<List<ProjectDTO>> getProjectsByState(@PathVariable String state) {
-        List<ProjectDTO> projects = projectService.getProjectsByState(state);
-        return ResponseEntity.ok(projects);
-    }
+    public ResponseEntity<List<ProjectDTO>> byState(@PathVariable String state) { return ResponseEntity.ok(projectService.getProjectsByState(state)); }
 
     @GetMapping("/district/{district}")
-    @PreAuthorize("isAuthenticated()")
-    public ResponseEntity<List<ProjectDTO>> getProjectsByDistrict(@PathVariable String district) {
-        List<ProjectDTO> projects = projectService.getProjectsByDistrict(district);
-        return ResponseEntity.ok(projects);
-    }
+    public ResponseEntity<List<ProjectDTO>> byDistrict(@PathVariable String district) { return ResponseEntity.ok(projectService.getProjectsByDistrict(district)); }
 
     @GetMapping("/status/{status}")
-    @PreAuthorize("isAuthenticated()")
-    public ResponseEntity<List<ProjectDTO>> getProjectsByStatus(@PathVariable String status) {
-        List<ProjectDTO> projects = projectService.getProjectsByStatus(status);
-        return ResponseEntity.ok(projects);
-    }
+    public ResponseEntity<List<ProjectDTO>> byStatus(@PathVariable String status) { return ResponseEntity.ok(projectService.getProjectsByStatus(status)); }
 
     @PutMapping("/{id}")
-    @PreAuthorize("hasRole('MINISTRY_ADMIN') or hasRole('STATE_OFFICER')")
-    public ResponseEntity<ProjectDTO> updateProject(@PathVariable Long id, @RequestBody ProjectDTO projectDTO) {
-        ProjectDTO updatedProject = projectService.updateProject(id, projectDTO);
-        return ResponseEntity.ok(updatedProject);
-    }
+    public ResponseEntity<ProjectDTO> update(@PathVariable Long id, @RequestBody ProjectDTO dto) { return ResponseEntity.ok(projectService.updateProject(id, dto)); }
 
     @DeleteMapping("/{id}")
-    @PreAuthorize("hasRole('MINISTRY_ADMIN')")
-    public ResponseEntity<Void> deleteProject(@PathVariable Long id) {
-        projectService.deleteProject(id);
-        return ResponseEntity.noContent().build();
-    }
+    public ResponseEntity<Void> delete(@PathVariable Long id) { projectService.deleteProject(id); return ResponseEntity.noContent().build(); }
 }

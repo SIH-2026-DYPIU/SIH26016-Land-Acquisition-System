@@ -2,9 +2,7 @@ package com.sih.landacquisitionsystem.controller;
 
 import com.sih.landacquisitionsystem.dto.LandParcelDTO;
 import com.sih.landacquisitionsystem.service.LandParcelService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -13,48 +11,25 @@ import java.util.List;
 @RequestMapping("/api/parcels")
 public class LandParcelController {
 
-    @Autowired
-    private LandParcelService landParcelService;
+    private final LandParcelService service;
+
+    public LandParcelController(LandParcelService service) { this.service = service; }
 
     @PostMapping
-    @PreAuthorize("hasRole('CENTRAL_MINISTRY') or hasRole('STATE_AUTHORITY') or hasRole('DISTRICT_AUTHORITY')")
-    public ResponseEntity<LandParcelDTO> createParcel(@RequestBody LandParcelDTO landParcelDTO) {
-        LandParcelDTO createdParcel = landParcelService.createParcel(landParcelDTO);
-        return ResponseEntity.ok(createdParcel);
-    }
-
-    @GetMapping("/{id}")
-    @PreAuthorize("isAuthenticated()")
-    public ResponseEntity<LandParcelDTO> getParcelById(@PathVariable Long id) {
-        LandParcelDTO parcelDTO = landParcelService.getParcelById(id);
-        return ResponseEntity.ok(parcelDTO);
-    }
+    public ResponseEntity<LandParcelDTO> create(@RequestBody LandParcelDTO dto) { return ResponseEntity.ok(service.createParcel(dto)); }
 
     @GetMapping
-    @PreAuthorize("isAuthenticated()")
-    public ResponseEntity<List<LandParcelDTO>> getAllParcels() {
-        List<LandParcelDTO> parcels = landParcelService.getAllParcels();
-        return ResponseEntity.ok(parcels);
-    }
+    public ResponseEntity<List<LandParcelDTO>> getAll() { return ResponseEntity.ok(service.getAllParcels()); }
+
+    @GetMapping("/{id}")
+    public ResponseEntity<LandParcelDTO> getById(@PathVariable Long id) { return ResponseEntity.ok(service.getParcelById(id)); }
 
     @GetMapping("/project/{projectId}")
-    @PreAuthorize("isAuthenticated()")
-    public ResponseEntity<List<LandParcelDTO>> getParcelsByProjectId(@PathVariable Long projectId) {
-        List<LandParcelDTO> parcels = landParcelService.getParcelsByProjectId(projectId);
-        return ResponseEntity.ok(parcels);
-    }
+    public ResponseEntity<List<LandParcelDTO>> byProject(@PathVariable Long projectId) { return ResponseEntity.ok(service.getParcelsByProjectId(projectId)); }
 
     @PutMapping("/{id}")
-    @PreAuthorize("hasRole('CENTRAL_MINISTRY') or hasRole('STATE_AUTHORITY') or hasRole('DISTRICT_AUTHORITY')")
-    public ResponseEntity<LandParcelDTO> updateParcel(@PathVariable Long id, @RequestBody LandParcelDTO landParcelDTO) {
-        LandParcelDTO updatedParcel = landParcelService.updateParcel(id, landParcelDTO);
-        return ResponseEntity.ok(updatedParcel);
-    }
+    public ResponseEntity<LandParcelDTO> update(@PathVariable Long id, @RequestBody LandParcelDTO dto) { return ResponseEntity.ok(service.updateParcel(id, dto)); }
 
     @DeleteMapping("/{id}")
-    @PreAuthorize("hasRole('ADMIN')")
-    public ResponseEntity<Void> deleteParcel(@PathVariable Long id) {
-        landParcelService.deleteParcel(id);
-        return ResponseEntity.noContent().build();
-    }
+    public ResponseEntity<Void> delete(@PathVariable Long id) { service.deleteParcel(id); return ResponseEntity.noContent().build(); }
 }

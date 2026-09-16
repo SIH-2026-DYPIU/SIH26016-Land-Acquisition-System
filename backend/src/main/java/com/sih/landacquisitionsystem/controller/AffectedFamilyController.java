@@ -2,9 +2,7 @@ package com.sih.landacquisitionsystem.controller;
 
 import com.sih.landacquisitionsystem.dto.AffectedFamilyDTO;
 import com.sih.landacquisitionsystem.service.AffectedFamilyService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -13,55 +11,28 @@ import java.util.List;
 @RequestMapping("/api/affected-families")
 public class AffectedFamilyController {
 
-    @Autowired
-    private AffectedFamilyService affectedFamilyService;
+    private final AffectedFamilyService service;
+
+    public AffectedFamilyController(AffectedFamilyService service) { this.service = service; }
 
     @PostMapping
-    @PreAuthorize("hasRole('CENTRAL_MINISTRY') or hasRole('STATE_AUTHORITY') or hasRole('DISTRICT_AUTHORITY')")
-    public ResponseEntity<AffectedFamilyDTO> createAffectedFamily(@RequestBody AffectedFamilyDTO affectedFamilyDTO) {
-        AffectedFamilyDTO created = affectedFamilyService.createAffectedFamily(affectedFamilyDTO);
-        return ResponseEntity.ok(created);
-    }
-
-    @GetMapping("/{id}")
-    @PreAuthorize("isAuthenticated()")
-    public ResponseEntity<AffectedFamilyDTO> getAffectedFamilyById(@PathVariable Long id) {
-        AffectedFamilyDTO affectedFamily = affectedFamilyService.getAffectedFamilyById(id);
-        return ResponseEntity.ok(affectedFamily);
-    }
+    public ResponseEntity<AffectedFamilyDTO> create(@RequestBody AffectedFamilyDTO dto) { return ResponseEntity.ok(service.createAffectedFamily(dto)); }
 
     @GetMapping
-    @PreAuthorize("isAuthenticated()")
-    public ResponseEntity<List<AffectedFamilyDTO>> getAllAffectedFamilies() {
-        List<AffectedFamilyDTO> families = affectedFamilyService.getAllAffectedFamilies();
-        return ResponseEntity.ok(families);
-    }
+    public ResponseEntity<List<AffectedFamilyDTO>> getAll() { return ResponseEntity.ok(service.getAllAffectedFamilies()); }
+
+    @GetMapping("/{id}")
+    public ResponseEntity<AffectedFamilyDTO> getById(@PathVariable Long id) { return ResponseEntity.ok(service.getAffectedFamilyById(id)); }
 
     @GetMapping("/parcel/{parcelId}")
-    @PreAuthorize("isAuthenticated()")
-    public ResponseEntity<List<AffectedFamilyDTO>> getAffectedFamiliesByParcelId(@PathVariable Long parcelId) {
-        List<AffectedFamilyDTO> families = affectedFamilyService.getAffectedFamiliesByParcelId(parcelId);
-        return ResponseEntity.ok(families);
-    }
+    public ResponseEntity<List<AffectedFamilyDTO>> byParcel(@PathVariable Long parcelId) { return ResponseEntity.ok(service.getAffectedFamiliesByParcelId(parcelId)); }
 
     @GetMapping("/project/{projectId}")
-    @PreAuthorize("isAuthenticated()")
-    public ResponseEntity<List<AffectedFamilyDTO>> getAffectedFamiliesByProjectId(@PathVariable Long projectId) {
-        List<AffectedFamilyDTO> families = affectedFamilyService.getAffectedFamiliesByProjectId(projectId);
-        return ResponseEntity.ok(families);
-    }
+    public ResponseEntity<List<AffectedFamilyDTO>> byProject(@PathVariable Long projectId) { return ResponseEntity.ok(service.getAffectedFamiliesByProjectId(projectId)); }
 
     @PutMapping("/{id}")
-    @PreAuthorize("hasRole('CENTRAL_MINISTRY') or hasRole('STATE_AUTHORITY') or hasRole('DISTRICT_AUTHORITY')")
-    public ResponseEntity<AffectedFamilyDTO> updateAffectedFamily(@PathVariable Long id, @RequestBody AffectedFamilyDTO affectedFamilyDTO) {
-        AffectedFamilyDTO updated = affectedFamilyService.updateAffectedFamily(id, affectedFamilyDTO);
-        return ResponseEntity.ok(updated);
-    }
+    public ResponseEntity<AffectedFamilyDTO> update(@PathVariable Long id, @RequestBody AffectedFamilyDTO dto) { return ResponseEntity.ok(service.updateAffectedFamily(id, dto)); }
 
     @DeleteMapping("/{id}")
-    @PreAuthorize("hasRole('ADMIN')")
-    public ResponseEntity<Void> deleteAffectedFamily(@PathVariable Long id) {
-        affectedFamilyService.deleteAffectedFamily(id);
-        return ResponseEntity.noContent().build();
-    }
+    public ResponseEntity<Void> delete(@PathVariable Long id) { service.deleteAffectedFamily(id); return ResponseEntity.noContent().build(); }
 }

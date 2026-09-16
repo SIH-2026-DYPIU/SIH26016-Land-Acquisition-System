@@ -2,49 +2,39 @@ package com.sih.landacquisitionsystem.controller;
 
 import com.sih.landacquisitionsystem.dto.AcquisitionStageDTO;
 import com.sih.landacquisitionsystem.service.AcquisitionStageService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/projects")
+@RequestMapping("/api/acquisition-stages")
 public class AcquisitionStageController {
 
-    @Autowired
-    private AcquisitionStageService acquisitionStageService;
+    private final AcquisitionStageService service;
 
-    @GetMapping("/{projectId}/stage")
-    @PreAuthorize("isAuthenticated()")
-    public ResponseEntity<AcquisitionStageDTO> getStageByProjectId(@PathVariable Long projectId) {
-        AcquisitionStageDTO stageDTO = acquisitionStageService.getStageByProjectId(projectId);
-        return ResponseEntity.ok(stageDTO);
-    }
+    public AcquisitionStageController(AcquisitionStageService service) { this.service = service; }
 
-    @PutMapping("/{projectId}/stage")
-    @PreAuthorize("hasRole('CENTRAL_MINISTRY') or hasRole('STATE_AUTHORITY') or hasRole('DISTRICT_AUTHORITY') or hasRole('PROJECT_AGENCY')")
-    public ResponseEntity<AcquisitionStageDTO> updateStage(@PathVariable Long projectId, @RequestBody AcquisitionStageDTO stageDTO) {
-        stageDTO.setProjectId(projectId);
-        AcquisitionStageDTO updatedStage = acquisitionStageService.updateStage(stageDTO.getId(), stageDTO);
-        return ResponseEntity.ok(updatedStage);
-    }
+    @PostMapping
+    public ResponseEntity<AcquisitionStageDTO> create(@RequestBody AcquisitionStageDTO dto) { return ResponseEntity.ok(service.createStage(dto)); }
 
-    @PutMapping("/{projectId}/advance-stage")
-    @PreAuthorize("hasRole('CENTRAL_MINISTRY') or hasRole('STATE_AUTHORITY') or hasRole('DISTRICT_AUTHORITY') or hasRole('PROJECT_AGENCY')")
-    public ResponseEntity<AcquisitionStageDTO> advanceStage(
-            @PathVariable Long projectId,
-            @RequestParam Long updatedBy,
-            @RequestParam(required = false) String remarks) {
-        AcquisitionStageDTO updatedStage = acquisitionStageService.advanceStage(projectId, updatedBy, remarks);
-        return ResponseEntity.ok(updatedStage);
-    }
+    @GetMapping
+    public ResponseEntity<List<AcquisitionStageDTO>> getAll() { return ResponseEntity.ok(service.getAllStages()); }
 
-    @GetMapping("/stages")
-    @PreAuthorize("isAuthenticated()")
-    public ResponseEntity<List<AcquisitionStageDTO>> getAllStages() {
-        List<AcquisitionStageDTO> stages = acquisitionStageService.getAllStages();
-        return ResponseEntity.ok(stages);
+    @GetMapping("/{id}")
+    public ResponseEntity<AcquisitionStageDTO> getById(@PathVariable Long id) { return ResponseEntity.ok(service.getStageById(id)); }
+
+    @GetMapping("/project/{projectId}")
+    public ResponseEntity<AcquisitionStageDTO> byProject(@PathVariable Long projectId) { return ResponseEntity.ok(service.getStageByProjectId(projectId)); }
+
+    @PutMapping("/{id}")
+    public ResponseEntity<AcquisitionStageDTO> update(@PathVariable Long id, @RequestBody AcquisitionStageDTO dto) { return ResponseEntity.ok(service.updateStage(id, dto)); }
+
+    @DeleteMapping("/{id}")
+    public ResponseEntity<Void> delete(@PathVariable Long id) { service.deleteStage(id); return ResponseEntity.noContent().build(); }
+
+    @PostMapping("/project/{projectId}/advance")
+    public ResponseEntity<AcquisitionStageDTO> advance(@PathVariable Long projectId, @RequestParam Long updatedById, @RequestParam(defaultValue = "") String remarks) {
+        return ResponseEntity.ok(service.advanceStage(projectId, updatedById, remarks));
     }
 }

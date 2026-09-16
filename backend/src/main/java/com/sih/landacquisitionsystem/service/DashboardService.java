@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 @Service
 public class DashboardService {
@@ -18,59 +19,35 @@ public class DashboardService {
 
     public Map<String, Object> getSummary() {
         Map<String, Object> summary = new HashMap<>();
-
-        // Get all projects
         List<Project> allProjects = projectRepository.findAll();
+
         summary.put("totalProjects", allProjects.size());
+        summary.put("notifiedCount", count(allProjects, Status.NOTIFIED));
+        summary.put("awardedCount", count(allProjects, Status.AWARDED));
+        summary.put("compensationPaidCount", count(allProjects, Status.COMPENSATION_PAID));
+        summary.put("possessionTakenCount", count(allProjects, Status.POSSESSION_TAKEN));
+        summary.put("rrCompleteCount", count(allProjects, Status.RR_COMPLETE));
 
-        // Count by status
-        long notifiedCount = allProjects.stream()
-                .filter(p -> p.getStatus() == Status.NOTIFIED)
-                .count();
-        summary.put("notifiedCount", notifiedCount);
-
-        long awardedCount = allProjects.stream()
-                .filter(p -> p.getStatus() == Status.AWARDED)
-                .count();
-        summary.put("awardedCount", awardedCount);
-
-        long compensationPaidCount = allProjects.stream()
-                .filter(p -> p.getStatus() == Status.COMPENSATION_PAID)
-                .count();
-        summary.put("compensationPaidCount", compensationPaidCount);
-
-        long possessionTakenCount = allProjects.stream()
-                .filter(p -> p.getStatus() == Status.POSSESSION_TAKEN)
-                .count();
-        summary.put("possessionTakenCount", possessionTakenCount);
-
-        long rrCompleteCount = allProjects.stream()
-                .filter(p -> p.getStatus() == Status.RR_COMPLETE)
-                .count();
-        summary.put("rrCompleteCount", rrCompleteCount);
-
-        // Group by state
         Map<String, Long> projectsByState = allProjects.stream()
-                .collect(java.util.stream.Collectors.groupingBy(
-                        Project::getState,
-                        java.util.stream.Collectors.counting()
-                ));
+                .filter(p -> p.getState() != null)
+                .collect(Collectors.groupingBy(Project::getState, Collectors.counting()));
         summary.put("projectsByState", projectsByState);
 
-        // Group by state and status for more detailed breakdown
         Map<String, Map<String, Long>> projectsByStateAndStatus = allProjects.stream()
-                .collect(java.util.stream.Collectors.groupingBy(
+                .filter(p -> p.getState() != null && p.getStatus() != null)
+                .collect(Collectors.groupingBy(
                         Project::getState,
-                        java.util.stream.Collectors.collectingAndThen(
-                                java.util.stream.Collectors.groupingBy(
-                                        p -> p.getStatus().toString(),
-                                        java.util.stream.Collectors.counting
-                                ),
-                                map -> map
+                        Collectors.groupingBy(
+                                p -> p.getStatus().name(),
+                                Collectors.counting()
                         )
                 ));
         summary.put("projectsByStateAndStatus", projectsByStateAndStatus);
 
         return summary;
+    }
+
+    private long count(List<Project> projects, Status status) {
+        return projects.stream().filter(p -> p.getStatus() == status).count();
     }
 }
