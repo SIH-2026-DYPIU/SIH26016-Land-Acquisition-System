@@ -3,7 +3,7 @@
 venv/
 env/
 
-# Python cache
+# Python cache files
 __pycache__/
 *.py[cod]
 
@@ -13,4 +13,4 @@ __pycache__/
 # Generated analysis files
 ai/delay predictor/output.txt
 ai/delay predictor/analytics_outputs/
-ai/delay predictor/analytics_outputs/
+ai/delay predictor/risk_analysis_results.csv
