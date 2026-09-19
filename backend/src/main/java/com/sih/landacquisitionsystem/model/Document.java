@@ -1,49 +1,43 @@
 package com.sih.landacquisitionsystem.model;
 
 import jakarta.persistence.*;
-import jakarta.validation.constraints.NotBlank;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 
-import java.math.BigDecimal;
 import java.time.Instant;
-import java.util.List;
 
 @Entity
-@Table(name = "projects")
+@Table(name = "documents")
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class Project {
+public class Document {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @NotBlank(message = "Project name is required")
-    @Column(nullable = false)
-    private String name;
+    private String fileName;
 
-    private String description;
+    private String fileType; // e.g., PDF, JPG, PNG
 
-    private Instant startDate;
+    private String documentType; // e.g., OWNERSHIP, ID_PROOF, etc.
 
-    private Instant endDate;
-
-    private BigDecimal budget;
-
-    @Column(name = "project_status")
-    private String status; // e.g., PLANNING, ACTIVE, COMPLETED, CANCELLED
+    private String url; // storage URL or path
 
     @ManyToOne
-    @JoinColumn(name = "department_id", nullable = false)
-    private Department department;
+    @JoinColumn(name = "acquisition_case_id")
+    private AcquisitionCase acquisitionCase;
 
-    @OneToMany(mappedBy = "project", cascade = CascadeType.ALL, orphanRemoval = true)
-    private List<LandParcel> landParcels;
+    @ManyToOne
+    @JoinColumn(name = "uploaded_by_user_id")
+    private User uploadedBy;
+
+    @Column(name = "uploaded_at")
+    private Instant uploadedAt;
 
     @Column(name = "created_at")
     private Instant createdAt;

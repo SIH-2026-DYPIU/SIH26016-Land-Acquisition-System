@@ -1,0 +1,10 @@
+Implementation Summary:
+1. Cleaned up JWT remnants and preserved Firebase Authentication.
+2. Set up domain models: Department, User, Project, LandParcel, AcquisitionCase, Document, Compensation, StatusHistory, Notification.
+3. Implemented repositories with JPA and custom finders.
+4. Implemented services with CRUD methods and role-based authorization.
+5. Implemented controllers with REST endpoints and validation.
+6. Added exception handling and validation annotations.
+7. Configured springdoc-openapi-ui for API documentation.
+8. Added AcquisitionCaseService workflow for status transitions, status history, and notifications.
+9. Build issue: Lombok annotation processing fails with Java 17 due to module access restrictions. Workarounds: Use Eclipse IDE with Lombok enhancement, or adjust maven-compiler-plugin with --add-opens and fork=true, or use latest Lombok version with lombok.config.

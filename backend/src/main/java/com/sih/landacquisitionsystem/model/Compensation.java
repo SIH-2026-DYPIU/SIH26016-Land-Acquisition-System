@@ -1,14 +1,17 @@
 package com.sih.landacquisitionsystem.model;
 
 import jakarta.persistence.*;
-import lombok.*;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 
-import java.time.LocalDate;
+import java.math.BigDecimal;
+import java.time.Instant;
 
 @Entity
 @Table(name = "compensations")
-@Getter
-@Setter
+@Data
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
@@ -18,40 +21,35 @@ public class Compensation {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @ManyToOne
-    @JoinColumn(name = "parcel_id", nullable = false)
-    private LandParcel parcel;
+    private BigDecimal amount; // in local currency
 
-    @ManyToOne
-    @JoinColumn(name = "project_id", nullable = false)
-    private Project project;
+    private String currency; // e.g., INR, USD
 
-    @ManyToOne
-    @JoinColumn(name = "beneficiary_id", nullable = false)
-    private LandOwner beneficiary;
+    private String compensationType; // e.g., LAND_VALUE, STRUCTURE_VALUE, SOLATIUM, etc.
 
-    @Column(nullable = false)
-    private Double assessedAmount;
+    @Column(name = "payment_status")
+    private String paymentStatus; // e.g., PENDING, PAID, PARTIAL, FAILED
 
-    @Column(nullable = false)
-    private Double approvedAmount;
+    private Instant paymentDate;
 
-    @Column(nullable = false)
-    private Double paidAmount;
+    @OneToOne
+    @JoinColumn(name = "acquisition_case_id")
+    private AcquisitionCase acquisitionCase;
 
-    private LocalDate paidDate;
+    @Column(name = "created_at")
+    private Instant createdAt;
 
-    private String transactionReference;
+    @Column(name = "updated_at")
+    private Instant updatedAt;
 
-    @Enumerated(EnumType.STRING)
-    @Column(nullable = false)
-    private Status status;
+    @PrePersist
+    protected void onCreate() {
+        createdAt = Instant.now();
+        updatedAt = Instant.now();
+    }
 
-    public enum Status {
-        ASSESSED,
-        APPROVED,
-        PARTIALLY_PAID,
-        PAID,
-        DISPUTED
+    @PreUpdate
+    protected void onUpdate() {
+        updatedAt = Instant.now();
     }
 }

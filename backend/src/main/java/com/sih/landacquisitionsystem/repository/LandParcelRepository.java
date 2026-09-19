@@ -6,5 +6,6 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface LandParcelRepository extends JpaRepository<LandParcel, Long> {
-    // We can add custom queries if needed, but for now, basic CRUD is enough
+    // Find by project
+    // We can add custom queries if needed
 }

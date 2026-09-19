@@ -1,12 +1,16 @@
 package com.sih.landacquisitionsystem.model;
 
 import jakarta.persistence.*;
-import lombok.*;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+
+import java.time.Instant;
 
 @Entity
-@Table(name = "land_parcels")
-@Getter
-@Setter
+@Table(name = "land_parcels", uniqueConstraints = @UniqueConstraint(columnNames = "parcel_number"))
+@Data
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
@@ -16,51 +20,38 @@ public class LandParcel {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(nullable = false)
+    @Column(name = "parcel_number", nullable = false)
     private String parcelNumber;
 
-    @Column(nullable = false)
+    private String location;
+
+    private Double area; // in hectares
+
     private String surveyNumber;
+
+    // Additional land details can be added here
 
     @ManyToOne
     @JoinColumn(name = "project_id", nullable = false)
     private Project project;
 
-    @Column(nullable = false)
-    private String state;
+    @OneToOne(mappedBy = "landParcel", cascade = CascadeType.ALL, orphanRemoval = true)
+    private AcquisitionCase acquisitionCase;
 
-    @Column(nullable = false)
-    private String district;
+    @Column(name = "created_at")
+    private Instant createdAt;
 
-    private String village;
+    @Column(name = "updated_at")
+    private Instant updatedAt;
 
-    @Enumerated(EnumType.STRING)
-    @Column(nullable = false)
-    private LandType landType;
+    @PrePersist
+    protected void onCreate() {
+        createdAt = Instant.now();
+        updatedAt = Instant.now();
+    }
 
-    @Column(nullable = false)
-    private Double area; // in hectares
-
-    private Double latitude;  // for geo-tagging
-    private Double longitude; // for geo-tagging
-
-    @ManyToOne
-    @JoinColumn(name = "land_owner_id")
-    private LandOwner landOwner;
-
-    @Enumerated(EnumType.STRING)
-    @Column(nullable = false)
-    private LandParcelStatus status;
-
-    public enum LandParcelStatus {
-        IDENTIFIED,
-        VERIFIED,
-        NOTIFIED,
-        VALUATED,
-        AWARDED,
-        COMPENSATED,
-        POSSESSION_TAKEN,
-        DISPUTED,
-        REJECTED
+    @PreUpdate
+    protected void onUpdate() {
+        updatedAt = Instant.now();
     }
 }

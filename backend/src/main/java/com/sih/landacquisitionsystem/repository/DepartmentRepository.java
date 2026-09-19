@@ -1,10 +1,10 @@
 package com.sih.landacquisitionsystem.repository;
 
-import com.sih.landacquisitionsystem.model.Compensation;
+import com.sih.landacquisitionsystem.model.Department;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface CompensationRepository extends JpaRepository<Compensation, Long> {
-    // Find by acquisition case
+public interface DepartmentRepository extends JpaRepository<Department, Long> {
+    Department findByName(String name);
 }

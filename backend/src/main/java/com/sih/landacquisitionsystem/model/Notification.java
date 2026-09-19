@@ -1,49 +1,45 @@
 package com.sih.landacquisitionsystem.model;
 
 import jakarta.persistence.*;
-import jakarta.validation.constraints.NotBlank;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 
-import java.math.BigDecimal;
 import java.time.Instant;
-import java.util.List;
 
 @Entity
-@Table(name = "projects")
+@Table(name = "notifications")
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class Project {
+public class Notification {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @NotBlank(message = "Project name is required")
-    @Column(nullable = false)
-    private String name;
-
-    private String description;
-
-    private Instant startDate;
-
-    private Instant endDate;
-
-    private BigDecimal budget;
-
-    @Column(name = "project_status")
-    private String status; // e.g., PLANNING, ACTIVE, COMPLETED, CANCELLED
+    @ManyToOne
+    @JoinColumn(name = "recipient_user_id")
+    private User recipient;
 
     @ManyToOne
-    @JoinColumn(name = "department_id", nullable = false)
-    private Department department;
+    @JoinColumn(name = "sender_user_id")
+    private User sender;
 
-    @OneToMany(mappedBy = "project", cascade = CascadeType.ALL, orphanRemoval = true)
-    private List<LandParcel> landParcels;
+    private String title;
+
+    private String message;
+
+    private String notificationType; // e.g., STATUS_UPDATE, DOCUMENT_REQUEST, etc.
+
+    @Column(name = "is_read")
+    private boolean read = false;
+
+    @ManyToOne
+    @JoinColumn(name = "acquisition_case_id")
+    private AcquisitionCase acquisitionCase;
 
     @Column(name = "created_at")
     private Instant createdAt;

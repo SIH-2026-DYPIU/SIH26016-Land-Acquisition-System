@@ -1,49 +1,39 @@
 package com.sih.landacquisitionsystem.model;
 
 import jakarta.persistence.*;
-import jakarta.validation.constraints.NotBlank;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 
-import java.math.BigDecimal;
 import java.time.Instant;
-import java.util.List;
 
 @Entity
-@Table(name = "projects")
+@Table(name = "status_history")
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class Project {
+public class StatusHistory {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @NotBlank(message = "Project name is required")
-    @Column(nullable = false)
-    private String name;
-
-    private String description;
-
-    private Instant startDate;
-
-    private Instant endDate;
-
-    private BigDecimal budget;
-
-    @Column(name = "project_status")
-    private String status; // e.g., PLANNING, ACTIVE, COMPLETED, CANCELLED
+    private String status; // e.g., DRAFT, SUBMITTED, UNDER_REVIEW, APPROVED, REJECTED, COMPENSATED, CLOSED
 
     @ManyToOne
-    @JoinColumn(name = "department_id", nullable = false)
-    private Department department;
+    @JoinColumn(name = "changed_by_user_id")
+    private User changedBy;
 
-    @OneToMany(mappedBy = "project", cascade = CascadeType.ALL, orphanRemoval = true)
-    private List<LandParcel> landParcels;
+    @Column(name = "changed_at")
+    private Instant changedAt;
+
+    private String comments;
+
+    @ManyToOne
+    @JoinColumn(name = "acquisition_case_id")
+    private AcquisitionCase acquisitionCase;
 
     @Column(name = "created_at")
     private Instant createdAt;

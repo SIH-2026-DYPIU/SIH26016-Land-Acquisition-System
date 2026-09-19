@@ -7,43 +7,25 @@ import lombok.NoArgsConstructor;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 
-import java.math.BigDecimal;
 import java.time.Instant;
-import java.util.List;
 
 @Entity
-@Table(name = "projects")
+@Table(name = "departments", uniqueConstraints = @UniqueConstraint(columnNames = "name"))
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class Project {
+public class Department {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @NotBlank(message = "Project name is required")
+    @NotBlank(message = "Department name is required")
     @Column(nullable = false)
     private String name;
 
     private String description;
-
-    private Instant startDate;
-
-    private Instant endDate;
-
-    private BigDecimal budget;
-
-    @Column(name = "project_status")
-    private String status; // e.g., PLANNING, ACTIVE, COMPLETED, CANCELLED
-
-    @ManyToOne
-    @JoinColumn(name = "department_id", nullable = false)
-    private Department department;
-
-    @OneToMany(mappedBy = "project", cascade = CascadeType.ALL, orphanRemoval = true)
-    private List<LandParcel> landParcels;
 
     @Column(name = "created_at")
     private Instant createdAt;
