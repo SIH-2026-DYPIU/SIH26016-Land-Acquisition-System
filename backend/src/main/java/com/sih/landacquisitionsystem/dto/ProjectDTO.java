@@ -3,6 +3,8 @@ package com.sih.landacquisitionsystem.dto;
 import lombok.*;
 import com.sih.landacquisitionsystem.model.Project.Status;
 import com.sih.landacquisitionsystem.model.ProjectType;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 @Getter
 @Setter

@@ -1,7 +1,7 @@
 package com.sih.landacquisitionsystem.dto;
 
 import lombok.*;
-import com.sih.landacquisitionsystem.model.Compression.Status;
+import com.sih.landacquisitionsystem.model.Compensation;
 import java.time.LocalDate;
 
 @Getter
@@ -20,5 +20,5 @@ public class CompensationDTO {
     private Double paidAmount;
     private LocalDate paidDate;
     private String transactionReference;
-    private com.sih.landacquisitionsystem.model.Compression.Status status;
+    private Compensation.Status status;
 }

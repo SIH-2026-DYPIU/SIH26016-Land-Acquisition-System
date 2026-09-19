@@ -30,6 +30,13 @@ public class Compensation {
     @Column(name = "payment_status")
     private String paymentStatus; // e.g., PENDING, PAID, PARTIAL, FAILED
 
+    public enum Status {
+        PENDING,
+        PAID,
+        PARTIAL,
+        FAILED
+    }
+
     private Instant paymentDate;
 
     @OneToOne

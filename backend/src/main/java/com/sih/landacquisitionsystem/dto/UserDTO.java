@@ -1,7 +1,7 @@
 package com.sih.landacquisitionsystem.dto;
 
 import lombok.*;
-import com.sih.landacquisitionsystem.model.User.Role;
+import com.sih.landacquisitionsystem.model.Role;
 
 @Getter
 @Setter

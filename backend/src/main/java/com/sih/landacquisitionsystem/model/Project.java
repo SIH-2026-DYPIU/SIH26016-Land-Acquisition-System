@@ -36,7 +36,8 @@ public class Project {
     private BigDecimal budget;
 
     @Column(name = "project_status")
-    private String status; // e.g., PLANNING, ACTIVE, COMPLETED, CANCELLED
+    @Enumerated(EnumType.STRING)
+    private Status status; // e.g., NOTIFIED, AWARDED, COMPENSATION_PAID, POSSESSION_TAKEN, RR_COMPLETE
 
     @ManyToOne
     @JoinColumn(name = "department_id", nullable = false)
@@ -60,5 +61,13 @@ public class Project {
     @PreUpdate
     protected void onUpdate() {
         updatedAt = Instant.now();
+    }
+
+    public enum Status {
+        NOTIFIED,
+        AWARDED,
+        COMPENSATION_PAID,
+        POSSESSION_TAKEN,
+        RR_COMPLETE
     }
 }
