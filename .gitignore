@@ -1,3 +1,16 @@
+# Python virtual environments
 .venv/
+venv/
+env/
+
+# Python cache
 __pycache__/
-*.pyc
+*.py[cod]
+
+# Environment variables
+.env
+
+# Generated analysis files
+ai/delay predictor/output.txt
+ai/delay predictor/analytics_outputs/
+ai/delay predictor/analytics_outputs/

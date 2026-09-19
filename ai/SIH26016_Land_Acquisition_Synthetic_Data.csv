@@ -1,0 +1,652 @@
+land_id,state,district,city_village,project_type,land_area_acres,land_type,owner_type,owners_count,ownership_dispute,dispute_level,notice_issued,consent_status,valuation_amount,compensation_amount,compensation_status,payment_delay_days,approval_status,approval_delay_days,rehabilitation_status,grievance_status,acquisition_percent,total_delay_days,acquisition_status,risk_level,expected_completion_days
+LA20260639,Odisha,Panipat,Village_6,Dam,19.53,Industrial,Trust,3,No,None,Yes,Obtained,7459426.0,24043156.0,Paid,9,Approved,147,Completed,None,90.9,164,Near Completion,Low,156
+LA20260265,New Delhi,Ambala,Village_25,Expressway,9.81,Commercial,Joint Family,3,No,High,Yes,Disputed,18986052.0,4943679.0,Paid,61,Pending,81,Completed,None,8.53,216,Initial,Medium,446
+LA20260260,Telangana,Pune,Village_30,Expressway,40.1,Forest,Trust,1,No,None,Yes,Pending,8233146.0,22060848.0,Pending,151,Approved,132,Pending,None,6.79,333,Initial,High,510
+LA20260496,Uttar Pradesh,Patna,Village_13,National Highway,44.16,Agricultural,Government,5,Yes,Medium,Yes,Obtained,16103600.0,12911890.0,Pending,116,Approved,76,In Progress,None,96.34,187,Near Completion,High,150
+LA20260073,Bihar,Puri,Village_27,State Highway,5.73,Agricultural,Individual,5,No,None,No,Pending,7130136.0,1401913.0,Pending,133,Approved,145,Pending,Open,11.17,194,Initial,High,426
+LA20260441,Karnataka,Sarai Rohilla (Delhi),Village_96,Industrial Corridor,43.95,Agricultural,Joint Family,6,Yes,None,Yes,Disputed,1890969.0,21093110.0,Partial,39,Pending,93,Pending,Open,38.52,165,In Progress,High,324
+LA20260251,Uttar Pradesh,Ludhiana,Village_25,Dam,38.18,Commercial,Individual,2,Yes,Low,Yes,Disputed,1459308.0,22265775.0,Pending,71,Approved,44,Pending,Resolved,15.97,214,Initial,Medium,421
+LA20260132,Bihar,Vadodara,Village_61,Industrial Corridor,7.93,Agricultural,Company,3,No,None,Yes,Obtained,1243654.0,5014394.0,Paid,140,Pending,52,Not Required,None,84.99,6,Near Completion,Low,96
+LA20260328,Karnataka,Bhagalpur,Village_73,National Highway,6.36,Government,Government,4,No,None,Yes,Obtained,19971504.0,24793816.0,Partial,157,Approved,114,Completed,Resolved,47.39,178,In Progress,Medium,302
+LA20260279,Madhya Pradesh,Panipat,Village_43,National Highway,43.89,Commercial,Joint Family,4,Yes,Low,Yes,Obtained,10439211.0,7097962.0,Paid,171,Pending,44,Not Required,Resolved,17.85,331,Initial,High,473
+LA20260275,New Delhi,Bhagalpur,Village_12,Dam,18.71,Industrial,Government,2,No,None,Yes,Obtained,13020892.0,22010675.0,Partial,84,Pending,39,In Progress,None,25.8,364,In Progress,Low,464
+LA20260491,Maharashtra,Ahmednagar,Village_98,Industrial Corridor,21.18,Residential,Individual,7,Yes,None,Yes,Obtained,10960992.0,13433700.0,Paid,94,Pending,90,In Progress,Resolved,28.2,35,In Progress,High,292
+LA20260449, Punjab,Darbhanga,Village_93,Airport,3.73,Agricultural,Company,2,No,None,No,Obtained,17992219.0,12289202.0,Paid,133,Approved,122,Pending,Resolved,48.91,2,In Progress,Medium,209
+LA20260082,Gujarat,Chennai,Village_71,Metro,3.38,Residential,Joint Family,1,No,None,Yes,Obtained,4059867.0,8149968.0,Partial,0,Pending,80,Not Required,Resolved,31.61,349,In Progress,Low,438
+LA20260287,Uttar Pradesh,Udupi,Village_62,State Highway,20.92,Forest,Government,4,No,None,Yes,Obtained,4057842.0,18515768.0,Partial,107,Approved,148,Completed,None,41.16,186,In Progress,Medium,326
+LA20260422,Bihar,Gurugram,Village_12,National Highway,42.57,Residential,Joint Family,5,No,None,No,Disputed,14564270.0,8153662.0,Paid,175,Approved,121,Completed,None,81.37,351,Near Completion,Medium,280
+LA20260365,Madhya Pradesh,Bhagalpur,Village_69,National Highway,3.91,Commercial,Company,7,Yes,None,Yes,Disputed,3839495.0,12826012.0,Partial,47,Approved,14,Not Required,None,18.55,339,Initial,Medium,475
+LA20260568, Punjab,Udupi,Village_17,Dam,48.85,Agricultural,Trust,2,Yes,None,Yes,Pending,18133984.0,7758071.0,Partial,14,Pending,5,Pending,Resolved,91.81,16,Near Completion,Medium,79
+LA20260070,Maharashtra, Nizamabad,Village_87,Airport,15.93,Government,Government,6,Yes,High,Yes,Obtained,2128059.0,15460626.0,Pending,159,Rejected,7,In Progress,Resolved,38.25,274,In Progress,High,380
+LA20260011,New Delhi,jaisalmer,Village_60,Airport,31.37,Commercial,Company,1,Yes,Low,No,Obtained,8164756.0,15920459.0,Paid,33,Approved,71,Not Required,None,43.94,200,In Progress,Medium,324
+LA20260378,Madhya Pradesh,Kanpur,Village_40,State Highway,2.16,Commercial,Trust,5,No,None,Yes,Pending,14194711.0,21511259.0,Partial,17,Approved,61,Not Required,None,83.16,61,Near Completion,Low,129
+LA20260064, Punjab,Ludhiana,Village_38,Dam,1.78,Residential,Joint Family,1,No,Medium,Yes,Pending,17060436.0,5174004.0,Paid,69,Pending,95,Pending,Open,96.12,328,Near Completion,Medium,221
+LA20260564, Punjab,Ambala,Village_25,Dam,23.29,Forest,Individual,2,No,None,No,Disputed,3363039.0,6502853.0,Pending,106,Approved,121,In Progress,Open,82.31,249,Near Completion,Medium,226
+LA20260055, Punjab,Nagpur,Village_87,Railway,24.61,Commercial,Government,7,No,Low,Yes,Pending,6882046.0,16155569.0,Paid,160,Pending,139,Pending,Open,82.17,107,Near Completion,Medium,156
+LA20260536,Tamil Nadu,Gurugram,Village_18,National Highway,33.97,Agricultural,Trust,4,Yes,None,Yes,Obtained,7023013.0,17248434.0,Pending,168,Approved,85,Pending,None,31.75,180,In Progress,High,353
+LA20260466,Rajasthan, Bhopal,Village_82,Dam,40.0,Forest,Individual,5,No,None,Yes,Disputed,14979752.0,1846853.0,Pending,14,Approved,5,Not Required,None,37.05,332,In Progress,Low,412
+LA20260248, Punjab,Patna,Village_56,Dam,34.6,Forest,Government,3,Yes,Low,Yes,Obtained,10876037.0,20922178.0,Paid,51,Pending,8,Completed,None,73.31,47,Advanced,Medium,154
+LA20260301,Tamil Nadu, Nizamabad,Village_98,National Highway,30.37,Industrial,Individual,6,No,Medium,Yes,Obtained,4591234.0,15521767.0,Pending,127,Pending,30,Completed,Open,17.04,137,Initial,High,379
+LA20260510,Rajasthan,Thane,Village_67,Industrial Corridor,35.66,Residential,Government,7,Yes,Medium,No,Obtained,10992652.0,5088230.0,Pending,47,Approved,131,Not Required,None,89.67,174,Near Completion,High,165
+LA20260032, Punjab,Sangli,Village_99,State Highway,49.61,Commercial,Individual,7,No,None,Yes,Disputed,7926723.0,19227388.0,Pending,64,Approved,9,Completed,Resolved,66.14,273,Advanced,Low,290
+LA20260257,Maharashtra,Varanasi,Village_3,Airport,49.59,Commercial,Trust,7,No,None,No,Obtained,18151735.0,1861379.0,Pending,82,Approved,71,Completed,None,96.61,24,Near Completion,Low,68
+LA20260056,Gujarat,Sonipat,Village_37,Railway,30.51,Industrial,Company,1,No,None,Yes,Pending,558006.0,6710255.0,Partial,119,Pending,21,Not Required,Resolved,20.39,228,Initial,Medium,414
+LA20260175,Uttar Pradesh,Nagaur,Village_47,Metro,9.67,Residential,Individual,4,Yes,None,Yes,Obtained,18723356.0,19858029.0,Paid,77,Pending,99,Not Required,Resolved,55.62,346,Advanced,Medium,360
+LA20260269,New Delhi,Aurangabad,Village_79,Dam,0.76,Industrial,Company,5,No,Low,Yes,Pending,10854796.0,1832580.0,Pending,169,Approved,72,Not Required,None,76.48,268,Advanced,Low,254
+LA20260552,Tamil Nadu,Solapur,Village_71,Airport,32.83,Agricultural,Trust,5,No,None,Yes,Pending,8276306.0,1826899.0,Pending,87,Approved,35,Completed,Resolved,55.01,300,Advanced,Low,339
+LA20260211,Telangana,Kanpur,Village_37,Airport,30.84,Commercial,Company,7,No,None,Yes,Obtained,10339354.0,22788441.0,Pending,167,Approved,36,In Progress,Open,33.08,191,In Progress,Medium,355
+LA20260111,Bihar,Thane,Village_24,State Highway,1.05,Government,Joint Family,4,No,Low,Yes,Obtained,10613742.0,23908305.0,Partial,78,Approved,50,Completed,None,46.56,35,In Progress,Low,234
+LA20260210,Odisha,Ambala,Village_3,State Highway,22.25,Residential,Trust,3,No,Medium,Yes,Obtained,6428835.0,22510390.0,Paid,124,Approved,85,Completed,None,31.82,87,In Progress,High,307
+LA20260212,Maharashtra,Karnal,Village_43,State Highway,47.18,Residential,Company,4,No,Low,Yes,Obtained,18825666.0,23594091.0,Partial,53,Rejected,83,Completed,None,94.78,152,Near Completion,Low,138
+LA20260159, Punjab,Ahmednagar,Village_8,Metro,37.0,Commercial,Joint Family,4,No,None,Yes,Pending,10902943.0,205977.0,Partial,125,Approved,90,Pending,None,5.1,12,Initial,Medium,355
+LA20260166,Karnataka,Agra,Village_72,Railway,4.03,Industrial,Individual,3,No,None,No,Obtained,9502126.0,12705734.0,Pending,107,Pending,2,In Progress,Open,83.0,188,Near Completion,Medium,193
+LA20260290,Maharashtra,Ajmer,Village_25,Expressway,31.17,Agricultural,Individual,6,Yes,Low,No,Obtained,7795459.0,16792527.0,Paid,161,Pending,109,In Progress,Resolved,38.23,103,In Progress,High,294
+LA20260645,Odisha,jaisalmer,Village_41,Dam,25.56,Government,Trust,1,No,Low,Yes,Obtained,2598878.0,14323163.0,Paid,104,Approved,16,Not Required,Resolved,48.57,167,In Progress,Low,293
+LA20260077,Rajasthan, Nizamabad,Village_91,Industrial Corridor,32.68,Residential,Trust,5,Yes,High,Yes,Obtained,11899152.0,1181026.0,Paid,17,Approved,65,In Progress,Open,25.0,105,In Progress,High,338
+LA20260448,Uttar Pradesh,Karnal,Village_37,Metro,1.84,Commercial,Company,6,No,None,Yes,Pending,8329854.0,4131302.0,Paid,114,Pending,80,Not Required,Open,11.94,267,Initial,Medium,460
+LA20260003,Bihar,Ludhiana,Village_7,Dam,12.11,Residential,Government,5,Yes,None,Yes,Pending,14124945.0,23300962.0,Pending,122,Approved,144,Completed,Open,6.05,303,Initial,High,497
+LA20260620,Tamil Nadu,Ambala,Village_97,State Highway,33.63,Government,Government,2,Yes,None,Yes,Obtained,18663578.0,15431387.0,Paid,101,Pending,33,Not Required,None,30.53,274,In Progress,High,404
+LA20260443,Karnataka,Chennai,Village_63,Metro,43.59,Forest,Company,2,No,None,No,Obtained,15175850.0,2134248.0,Paid,52,Rejected,120,Not Required,Open,56.94,25,Advanced,Medium,195
+LA20260445,Bihar,Karnal,Village_60,Expressway,22.84,Forest,Government,1,No,High,Yes,Obtained,9993022.0,12420977.0,Partial,154,Approved,130,Not Required,Open,37.21,114,In Progress,High,303
+LA20260421,Maharashtra,Nanded,Village_93,Dam,47.31,Residential,Trust,3,No,Medium,Yes,Pending,10133643.0,9003879.0,Paid,135,Pending,51,Completed,Resolved,40.92,38,In Progress,Medium,253
+LA20260647,Haryana,Agra,Village_8,Metro,4.01,Residential,Individual,6,No,None,No,Disputed,18206985.0,2142788.0,Partial,147,Rejected,83,Completed,Open,61.21,92,Advanced,Medium,215
+LA20260091,Odisha,Amritsar,Village_64,State Highway,5.5,Commercial,Individual,1,No,None,Yes,Obtained,19338497.0,7888844.0,Pending,164,Approved,42,Not Required,Resolved,27.57,284,In Progress,Medium,419
+LA20260559,Karnataka,Kanpur,Village_60,State Highway,45.41,Industrial,Individual,4,No,None,Yes,Pending,16769896.0,24272567.0,Partial,150,Pending,28,Not Required,None,77.4,57,Advanced,Low,146
+LA20260320,Rajasthan,Ambala,Village_62,National Highway,30.11,Industrial,Individual,2,No,None,Yes,Obtained,14597824.0,6707919.0,Paid,80,Approved,100,Not Required,None,13.35,176,Initial,Medium,410
+LA20260031,Haryana,Vadodara,Village_44,Railway,25.1,Residential,Joint Family,2,Yes,Low,Yes,Disputed,15657505.0,6786572.0,Pending,92,Approved,47,Completed,None,65.95,144,Advanced,Medium,226
+LA20260330,Bihar,Satara,Village_14,Metro,42.07,Commercial,Trust,3,No,Medium,Yes,Obtained,16737832.0,5421107.0,Pending,41,Rejected,72,Pending,Resolved,12.56,363,Initial,Medium,506
+LA20260177,Madhya Pradesh,Pune,Village_10,National Highway,5.37,Residential,Joint Family,2,No,High,Yes,Pending,4345098.0,12434871.0,Paid,92,Pending,86,Not Required,None,77.49,215,Advanced,High,225
+LA20260321,Bihar,Thane,Village_17,National Highway,36.92,Industrial,Individual,2,No,Medium,Yes,Pending,19619071.0,6195760.0,Partial,141,Approved,56,Pending,None,69.89,52,Advanced,Medium,167
+LA20260045,Madhya Pradesh, Indore,Village_40,Metro,20.45,Forest,Joint Family,6,No,Medium,Yes,Obtained,10973695.0,9712471.0,Pending,50,Approved,47,Not Required,None,79.68,4,Advanced,Low,112
+LA20260266,Maharashtra,Ajmer,Village_48,State Highway,18.09,Industrial,Trust,6,No,None,Yes,Obtained,5507334.0,13024525.0,Paid,68,Approved,44,Completed,Open,39.28,208,In Progress,Medium,343
+LA20260079,Karnataka,Karnal,Village_98,Metro,3.54,Government,Trust,5,No,None,Yes,Obtained,5262191.0,16299018.0,Paid,12,Approved,81,In Progress,None,58.36,195,Advanced,Low,276
+LA20260216,Bihar,Noida,Village_87,Metro,44.4,Forest,Joint Family,6,Yes,None,No,Disputed,8041879.0,3449163.0,Paid,44,Approved,111,Not Required,Resolved,74.99,148,Advanced,Medium,199
+LA20260102, Punjab,Sangli,Village_40,State Highway,6.97,Government,Company,3,Yes,Medium,Yes,Obtained,6367944.0,18867633.0,Pending,60,Approved,131,In Progress,Open,75.25,204,Advanced,High,226
+LA20260465,Rajasthan,Karnal,Village_90,Dam,31.91,Industrial,Individual,6,No,Low,Yes,Obtained,7065031.0,9192064.0,Paid,23,Approved,150,Not Required,None,36.88,328,In Progress,Medium,411
+LA20260599,Tamil Nadu, Bhopal,Village_11,Metro,2.88,Agricultural,Joint Family,5,No,None,Yes,Pending,19239907.0,6549325.0,Partial,155,Pending,0,Completed,None,89.09,243,Near Completion,Low,201
+LA20260303,Karnataka,Puri,Village_90,Dam,40.35,Forest,Government,5,Yes,Low,Yes,Obtained,4183270.0,2778193.0,Paid,146,Pending,47,Not Required,Resolved,30.57,351,In Progress,High,443
+LA20260353,Madhya Pradesh,Amritsar,Village_38,Industrial Corridor,4.49,Government,Company,6,No,None,Yes,Obtained,6815272.0,3560818.0,Paid,108,Rejected,105,Completed,None,77.02,12,Advanced,Medium,125
+LA20260560,Bihar,Mumbai,Village_3,Railway,33.7,Agricultural,Individual,5,No,Medium,Yes,Obtained,11531841.0,4557738.0,Paid,139,Approved,73,In Progress,None,45.79,148,In Progress,Medium,292
+LA20260164,Karnataka, Mangaluru,Village_80,Dam,35.96,Agricultural,Company,3,No,None,Yes,Pending,9421366.0,7135912.0,Paid,175,Approved,87,In Progress,None,42.98,317,In Progress,Low,386
+LA20260235,New Delhi, Mangaluru,Village_13,State Highway,8.66,Commercial,Company,5,No,Low,Yes,Obtained,17656380.0,12207776.0,Pending,153,Pending,59,Pending,Resolved,83.51,157,Near Completion,Low,176
+LA20260066, Punjab,Nashik,Village_17,National Highway,48.17,Residential,Individual,2,No,None,Yes,Obtained,19500250.0,7438306.0,Paid,49,Approved,0,Not Required,None,60.05,240,Advanced,Low,293
+LA20260519,Rajasthan,Darbhanga,Village_84,National Highway,9.1,Agricultural,Company,7,Yes,None,Yes,Obtained,1968930.0,14562419.0,Partial,178,Pending,34,Completed,Resolved,39.41,119,In Progress,High,298
+LA20260050,Odisha,Pune,Village_4,Airport,32.23,Forest,Company,6,No,None,No,Obtained,15988927.0,8137477.0,Paid,92,Rejected,100,Completed,Open,63.9,317,Advanced,Medium,319
+LA20260481,Karnataka,Solapur,Village_6,Metro,44.75,Agricultural,Company,5,No,None,Yes,Pending,11194857.0,14422596.0,Pending,0,Pending,23,Pending,None,17.14,264,Initial,Low,442
+LA20260333,Odisha,Varanasi,Village_56,Airport,29.59,Residential,Individual,3,No,None,Yes,Obtained,11181486.0,10357111.0,Pending,151,Approved,47,Not Required,Resolved,70.0,83,Advanced,Low,182
+LA20260040,Madhya Pradesh,Noida,Village_96,Dam,43.47,Agricultural,Company,3,No,Low,Yes,Obtained,13084343.0,3905105.0,Partial,118,Approved,20,Pending,None,41.32,33,In Progress,Low,249
+LA20260214,Tamil Nadu,Surat,Village_90,Dam,6.51,Commercial,Company,7,No,None,No,Obtained,7174173.0,16991926.0,Partial,177,Pending,117,Completed,None,49.98,136,In Progress,Medium,273
+LA20260182,Haryana,Coimbtore,Village_26,Railway,4.57,Government,Trust,3,No,None,Yes,Pending,17818761.0,16734380.0,Paid,94,Approved,48,Completed,None,9.2,89,Initial,Medium,380
+LA20260007,Tamil Nadu, Nizamabad,Village_19,Railway,46.39,Forest,Trust,4,Yes,None,Yes,Obtained,1990296.0,8309768.0,Partial,178,Approved,68,Not Required,Open,9.37,300,Initial,High,485
+LA20260389, Punjab, Mangaluru,Village_59,Metro,28.23,Agricultural,Trust,3,Yes,Medium,Yes,Obtained,9519880.0,21746267.0,Partial,168,Pending,21,Pending,Resolved,56.51,129,Advanced,High,249
+LA20260484,Bihar,Nagaur,Village_51,State Highway,22.3,Residential,Company,1,No,Medium,Yes,Obtained,4817114.0,23566199.0,Pending,87,Pending,5,Not Required,Resolved,34.03,233,In Progress,Medium,373
+LA20260610,Haryana,Nagpur,Village_54,Airport,29.35,Government,Company,2,No,Low,Yes,Obtained,8641102.0,5785136.0,Paid,150,Approved,65,Not Required,None,36.61,54,In Progress,Medium,275
+LA20260423,Maharashtra,Agra,Village_39,Metro,33.62,Industrial,Individual,4,No,Medium,Yes,Obtained,2441978.0,24105117.0,Pending,141,Pending,7,In Progress,None,81.0,205,Near Completion,Medium,208
+LA20260222,Maharashtra, Chattarpur (Delhi),Village_25,Airport,45.99,Forest,Trust,3,No,None,Yes,Pending,10201288.0,9253180.0,Paid,46,Pending,83,Pending,Open,68.11,25,Advanced,Low,160
+LA20260626,Madhya Pradesh, Indore,Village_26,Airport,16.19,Commercial,Joint Family,7,No,None,Yes,Pending,19322255.0,10076606.0,Pending,74,Approved,39,Pending,Open,76.56,179,Advanced,Low,210
+LA20260193,Uttar Pradesh, Chattarpur (Delhi),Village_87,Dam,26.75,Industrial,Trust,1,No,Medium,Yes,Obtained,1945216.0,9991221.0,Pending,113,Approved,44,Not Required,Resolved,9.5,336,Initial,High,503
+LA20260087,Karnataka,Agra,Village_85,Railway,12.34,Agricultural,Trust,1,No,None,Yes,Pending,4308728.0,11984237.0,Partial,127,Approved,141,Pending,Open,65.21,62,Advanced,Medium,187
+LA20260430,Uttar Pradesh,Ludhiana,Village_95,Airport,40.42,Industrial,Joint Family,1,No,None,Yes,Pending,13918993.0,19007942.0,Pending,54,Pending,26,Completed,Open,39.95,295,In Progress,Medium,385
+LA20260413,Gujarat,Sangli,Village_30,Industrial Corridor,36.28,Residential,Trust,3,No,None,No,Obtained,17416915.0,4922255.0,Paid,26,Pending,117,In Progress,Resolved,51.4,66,Advanced,Low,234
+LA20260605,Uttar Pradesh,Ajmer,Village_76,Expressway,9.67,Forest,Individual,2,No,None,Yes,Obtained,4543910.0,15179324.0,Paid,99,Approved,136,Not Required,None,57.41,47,Advanced,Medium,205
+LA20260110,Odisha, Nizamabad,Village_55,Industrial Corridor,38.58,Industrial,Company,6,No,None,Yes,Obtained,7473342.0,17625213.0,Pending,58,Approved,143,Not Required,Open,5.77,165,Initial,Medium,429
+LA20260149,Madhya Pradesh,Nagaur,Village_17,National Highway,45.14,Industrial,Joint Family,4,No,None,Yes,Pending,5618594.0,22807107.0,Partial,47,Approved,136,Not Required,Open,68.49,14,Advanced,Medium,153
+LA20260042,Uttar Pradesh,Patna,Village_81,Dam,39.61,Commercial,Government,7,No,Medium,Yes,Disputed,17900667.0,11622447.0,Pending,133,Approved,68,Not Required,None,29.32,238,In Progress,High,390
+LA20260517,Uttar Pradesh,Sarai Rohilla (Delhi),Village_80,Dam,41.5,Commercial,Company,7,No,High,Yes,Obtained,17169175.0,9455543.0,Partial,14,Approved,128,Not Required,None,83.95,300,Near Completion,Medium,246
+LA20260368,New Delhi,Bhagalpur,Village_40,National Highway,13.45,Residential,Company,2,No,None,Yes,Obtained,7252640.0,14230533.0,Partial,169,Approved,10,Completed,None,42.28,194,In Progress,Low,327
+LA20260057,Tamil Nadu,Satara,Village_75,Metro,38.36,Forest,Company,6,No,High,Yes,Obtained,8126531.0,1498210.0,Pending,70,Approved,16,Not Required,None,75.25,151,Advanced,Medium,200
+LA20260648,New Delhi,Kapurtala,Village_72,National Highway,13.09,Forest,Government,3,No,Low,Yes,Obtained,4033751.0,1999855.0,Paid,104,Pending,44,Completed,Open,34.5,4,In Progress,Medium,257
+LA20260278,Tamil Nadu,Thane,Village_61,State Highway,15.63,Agricultural,Trust,3,Yes,Medium,Yes,Pending,18508240.0,1947425.0,Paid,47,Approved,68,Completed,None,46.25,281,In Progress,Medium,358
+LA20260581,Maharashtra, Chattarpur (Delhi),Village_64,Metro,48.16,Residential,Joint Family,5,No,None,Yes,Pending,19787743.0,16711453.0,Partial,119,Approved,130,Not Required,None,21.37,283,Initial,High,438
+LA20260146,Maharashtra,Darbhanga,Village_59,Airport,13.11,Government,Trust,4,No,None,Yes,Obtained,16525438.0,23226992.0,Paid,163,Approved,62,Completed,None,52.69,62,Advanced,Low,227
+LA20260205,Madhya Pradesh,Ambala,Village_24,Airport,17.24,Commercial,Joint Family,3,Yes,Medium,Yes,Obtained,4229520.0,12198163.0,Pending,87,Pending,19,Not Required,Resolved,38.03,339,In Progress,High,413
+LA20260109,Uttar Pradesh,Udupi,Village_98,Railway,36.81,Commercial,Joint Family,1,No,High,No,Pending,7648571.0,16997057.0,Partial,24,Approved,56,Pending,None,98.86,307,Near Completion,Medium,202
+LA20260025, Punjab,Ahmednagar,Village_37,Metro,15.62,Agricultural,Government,6,No,High,No,Pending,3969559.0,8637530.0,Partial,102,Approved,79,Pending,None,15.91,170,Initial,High,399
+LA20260119,Bihar,Gurugram,Village_99,Metro,11.15,Residential,Joint Family,4,No,None,Yes,Obtained,14525985.0,9182104.0,Paid,92,Approved,72,Not Required,Resolved,84.31,89,Near Completion,Low,140
+LA20260134,Gujarat,Darbhanga,Village_42,Airport,37.0,Agricultural,Joint Family,5,Yes,None,Yes,Pending,14400193.0,23383587.0,Paid,53,Pending,95,Pending,Resolved,65.46,320,Advanced,Medium,316
+LA20260228,Gujarat,Ambala,Village_66,National Highway,38.93,Industrial,Government,5,No,None,Yes,Pending,3306672.0,14434584.0,Partial,18,Approved,120,In Progress,Open,70.03,171,Advanced,Medium,226
+LA20260433,Gujarat,Nagpur,Village_64,Airport,39.42,Government,Individual,6,No,High,Yes,Obtained,8357951.0,1528699.0,Paid,14,Approved,61,Pending,Resolved,59.77,358,Advanced,Medium,353
+LA20260083,Tamil Nadu,Kapurtala,Village_10,Metro,49.75,Forest,Trust,7,Yes,High,Yes,Pending,16571983.0,2519299.0,Pending,62,Pending,69,Pending,None,31.0,173,In Progress,High,352
+LA20260482,Madhya Pradesh,Karnal,Village_79,Expressway,32.89,Agricultural,Company,2,No,High,Yes,Obtained,10646077.0,5538047.0,Pending,161,Approved,38,Not Required,None,95.05,261,Near Completion,High,191
+LA20260168,Uttar Pradesh,Solapur,Village_82,Railway,47.85,Industrial,Individual,6,No,Low,Yes,Obtained,11726467.0,6185473.0,Paid,166,Approved,2,In Progress,None,37.12,216,In Progress,Medium,354
+LA20260078,Tamil Nadu,Darbhanga,Village_40,Metro,8.03,Industrial,Joint Family,5,Yes,Low,Yes,Pending,13124017.0,10195361.0,Paid,164,Approved,4,Not Required,Resolved,37.18,257,In Progress,High,375
+LA20260523, Punjab,Sangli,Village_69,State Highway,12.37,Agricultural,Individual,2,No,None,Yes,Pending,15490898.0,15905069.0,Paid,36,Pending,77,Not Required,Resolved,42.85,122,In Progress,Low,289
+LA20260071,Karnataka,Thane,Village_86,Industrial Corridor,25.55,Government,Individual,1,No,None,No,Pending,6200702.0,10416274.0,Partial,79,Rejected,26,Completed,None,60.13,70,Advanced,Low,208
+LA20260451,Gujarat,Karnal,Village_68,State Highway,45.51,Government,Government,2,No,Medium,Yes,Obtained,13777113.0,16056783.0,Paid,43,Approved,18,In Progress,None,63.22,337,Advanced,Low,331
+LA20260221,Karnataka,Solapur,Village_86,Railway,42.4,Forest,Joint Family,7,No,None,Yes,Pending,15286301.0,4736489.0,Paid,85,Approved,125,Not Required,None,74.47,262,Advanced,Low,258
+LA20260239, Punjab,jaisalmer,Village_99,Airport,11.07,Forest,Trust,1,No,Low,No,Disputed,11143537.0,15540912.0,Paid,66,Pending,80,Completed,None,37.28,74,In Progress,Low,283
+LA20260133, Punjab,Ahmednagar,Village_43,National Highway,16.57,Agricultural,Government,3,Yes,Medium,Yes,Pending,943811.0,13507866.0,Partial,61,Approved,105,Pending,Open,5.98,196,Initial,High,444
+LA20260061,Gujarat,Patna,Village_42,Industrial Corridor,7.75,Forest,Government,2,Yes,None,Yes,Obtained,16758568.0,12180043.0,Paid,9,Approved,127,Completed,Resolved,21.96,319,Initial,High,454
+LA20260537,Tamil Nadu,Varanasi,Village_15,Airport,16.59,Industrial,Company,2,No,None,Yes,Pending,3387492.0,8270373.0,Pending,36,Pending,45,Not Required,Resolved,12.37,151,Initial,Low,401
+LA20260209,New Delhi,Patna,Village_98,Metro,21.89,Commercial,Government,5,No,Medium,Yes,Obtained,6715661.0,6324742.0,Paid,98,Pending,111,Not Required,Resolved,66.29,340,Advanced,High,323
+LA20260336,Haryana,Satara,Village_29,Airport,17.06,Forest,Individual,3,Yes,High,Yes,Obtained,380144.0,5856889.0,Partial,17,Approved,132,Pending,None,36.35,252,In Progress,High,375
+LA20260555,Maharashtra,Panipat,Village_64,Expressway,38.42,Government,Individual,2,No,Low,Yes,Obtained,6225290.0,10232084.0,Paid,37,Pending,24,Not Required,Resolved,28.95,132,In Progress,Low,338
+LA20260621,Telangana,Karnal,Village_33,Airport,41.55,Agricultural,Company,3,No,Low,Yes,Disputed,17218159.0,8486747.0,Pending,3,Approved,56,Not Required,Open,66.95,128,Advanced,Low,215
+LA20260136,Uttar Pradesh,Solapur,Village_39,Metro,19.11,Industrial,Government,6,No,None,Yes,Disputed,10272378.0,21094856.0,Pending,130,Approved,41,In Progress,None,33.35,17,In Progress,Medium,267
+LA20260573,Maharashtra,Karnal,Village_48,Metro,45.94,Agricultural,Joint Family,6,Yes,Medium,Yes,Obtained,2434243.0,17313869.0,Paid,26,Approved,74,Not Required,None,95.36,231,Near Completion,Medium,175
+LA20260232,Maharashtra,patiyala,Village_34,State Highway,49.24,Agricultural,Company,4,Yes,None,Yes,Obtained,11897930.0,8523109.0,Pending,169,Pending,15,Not Required,None,19.09,75,Initial,High,341
+LA20260513,Haryana,patiyala,Village_92,Expressway,41.17,Commercial,Individual,6,No,Medium,Yes,Obtained,2151228.0,11455395.0,Paid,20,Rejected,123,Not Required,None,17.21,262,Initial,Medium,441
+LA20260452,Uttar Pradesh,Mumbai,Village_20,National Highway,27.17,Agricultural,Company,1,No,None,Yes,Obtained,17207815.0,3400103.0,Pending,17,Approved,63,Pending,None,9.09,300,Initial,Low,486
+LA20260300, Punjab,Agra,Village_74,National Highway,28.25,Forest,Individual,7,No,None,Yes,Pending,711612.0,11187391.0,Pending,11,Pending,43,Pending,None,65.24,245,Advanced,Low,279
+LA20260527,Rajasthan,Agra,Village_38,Industrial Corridor,37.57,Residential,Joint Family,6,No,None,No,Obtained,12002066.0,2151702.0,Paid,3,Approved,0,Not Required,None,11.65,20,Initial,Low,338
+LA20260335,Odisha,Satara,Village_92,Metro,18.43,Commercial,Trust,2,No,Low,Yes,Obtained,18538621.0,19326375.0,Pending,71,Pending,118,Not Required,None,47.65,84,In Progress,Low,255
+LA20260030,Rajasthan,Nanded,Village_53,Industrial Corridor,46.01,Government,Government,2,No,Low,Yes,Obtained,19721497.0,19265352.0,Pending,98,Approved,120,Pending,None,89.44,79,Near Completion,Medium,118
+LA20260305,Maharashtra,Puri,Village_3,Airport,41.34,Commercial,Company,3,No,Medium,Yes,Disputed,9594173.0,22277473.0,Pending,180,Pending,126,Not Required,None,88.9,65,Near Completion,High,113
+LA20260306,Gujarat,Varanasi,Village_6,Industrial Corridor,25.16,Industrial,Trust,7,No,High,No,Obtained,397391.0,6904645.0,Pending,156,Rejected,83,Not Required,None,97.2,346,Near Completion,High,227
+LA20260200,New Delhi,Nanded,Village_18,Metro,29.33,Commercial,Individual,6,No,None,Yes,Obtained,6724702.0,5288641.0,Pending,84,Approved,12,Pending,None,29.13,134,In Progress,Low,339
+LA20260293,Odisha, Mangaluru,Village_4,National Highway,5.1,Government,Joint Family,5,No,Low,No,Obtained,12155097.0,3487837.0,Partial,141,Approved,37,Not Required,Resolved,46.44,92,In Progress,Low,262
+LA20260382,Maharashtra,Nagaur,Village_6,Railway,26.85,Agricultural,Company,3,No,None,Yes,Obtained,11464644.0,430895.0,Partial,46,Approved,40,Completed,None,98.86,47,Near Completion,Low,72
+LA20260583,Tamil Nadu,Gurugram,Village_81,Industrial Corridor,15.59,Industrial,Company,2,No,None,Yes,Pending,7229302.0,11610545.0,Pending,106,Approved,71,Pending,None,59.98,193,Advanced,Low,270
+LA20260327,Bihar,Satara,Village_89,Dam,39.39,Agricultural,Trust,3,No,Low,Yes,Obtained,1519865.0,12006206.0,Paid,98,Approved,32,Not Required,None,29.4,131,In Progress,Medium,336
+LA20260347,Maharashtra,Agra,Village_5,National Highway,42.18,Forest,Company,3,No,None,Yes,Pending,9997554.0,13635656.0,Paid,91,Pending,125,Not Required,None,33.44,187,In Progress,High,351
+LA20260292, Punjab,Nashik,Village_52,Expressway,39.81,Industrial,Joint Family,2,No,None,Yes,Obtained,14350983.0,23655257.0,Pending,52,Pending,109,Not Required,None,61.82,303,Advanced,Low,319
+LA20260322,Maharashtra,Sarai Rohilla (Delhi),Village_88,Expressway,49.92,Government,Joint Family,3,No,None,Yes,Obtained,3282713.0,12178750.0,Partial,70,Pending,56,Not Required,Open,60.15,329,Advanced,Low,337
+LA20260334,Madhya Pradesh,Kapurtala,Village_67,Airport,9.63,Agricultural,Government,5,No,High,Yes,Pending,18052298.0,19546084.0,Paid,166,Pending,66,Completed,None,40.14,156,In Progress,High,315
+LA20260371,Telangana,Amritsar,Village_62,Airport,12.85,Industrial,Individual,5,Yes,None,Yes,Obtained,7851959.0,22823913.0,Paid,124,Approved,64,Pending,Resolved,69.92,361,Advanced,Medium,322
+LA20260611,New Delhi,Pune,Village_86,Metro,49.77,Residential,Trust,7,Yes,None,Yes,Obtained,6807343.0,6575983.0,Partial,33,Approved,74,Pending,Open,41.3,54,In Progress,Medium,260
+LA20260606,Karnataka,Mumbai,Village_46,Airport,4.41,Residential,Joint Family,3,No,High,Yes,Pending,9394135.0,21809073.0,Paid,48,Approved,139,Pending,Resolved,49.47,104,In Progress,Medium,259
+LA20260383, Punjab,patiyala,Village_88,Industrial Corridor,20.85,Government,Joint Family,2,No,None,No,Obtained,17657838.0,11171365.0,Paid,34,Approved,17,Pending,None,79.44,136,Advanced,Low,179
+LA20260497,Tamil Nadu,Coimbtore,Village_39,Dam,21.66,Forest,Company,7,No,None,No,Pending,11325164.0,6840803.0,Pending,59,Approved,25,Not Required,None,35.48,256,In Progress,Low,379
+LA20260438,Tamil Nadu,Sarai Rohilla (Delhi),Village_30,Metro,37.96,Forest,Company,1,No,High,Yes,Pending,6892376.0,13713066.0,Paid,143,Rejected,38,Not Required,Open,79.39,330,Advanced,High,276
+LA20260361,Rajasthan,Mumbai,Village_60,Railway,7.2,Government,Individual,6,Yes,Medium,Yes,Obtained,15147664.0,19907640.0,Pending,163,Approved,93,Pending,Open,39.61,29,In Progress,High,253
+LA20260105,Haryana,jaisalmer,Village_59,State Highway,10.13,Government,Government,5,No,Low,Yes,Obtained,9808281.0,375994.0,Partial,6,Pending,136,Not Required,None,53.68,158,Advanced,Low,272
+LA20260115,Bihar,Thane,Village_33,National Highway,13.36,Forest,Company,1,No,None,Yes,Pending,13480401.0,16124334.0,Pending,87,Approved,54,Pending,Open,99.81,84,Near Completion,Low,88
+LA20260156,Odisha,Satara,Village_80,Dam,3.8,Agricultural,Government,5,No,None,Yes,Obtained,11470758.0,8895939.0,Paid,127,Pending,100,Pending,Open,97.24,300,Near Completion,Medium,204
+LA20260312,Uttar Pradesh,Darbhanga,Village_49,Metro,39.54,Residential,Government,1,No,Low,Yes,Pending,13726876.0,18301250.0,Pending,79,Approved,46,Pending,None,51.43,186,Advanced,Low,293
+LA20260008,Madhya Pradesh,Ajmer,Village_19,Metro,27.23,Agricultural,Government,7,No,None,Yes,Obtained,18967560.0,15773377.0,Partial,179,Approved,63,In Progress,None,38.54,287,In Progress,Medium,385
+LA20260250,Rajasthan,Chennai,Village_30,State Highway,32.0,Forest,Joint Family,1,No,Medium,No,Pending,9787420.0,6068502.0,Paid,23,Pending,114,Not Required,Resolved,51.88,267,Advanced,Medium,332
+LA20260518,Telangana,Vadodara,Village_59,State Highway,17.09,Forest,Individual,5,No,Medium,Yes,Pending,8419122.0,12432538.0,Paid,68,Approved,89,Not Required,Open,80.9,329,Near Completion,Medium,271
+LA20260483,Uttar Pradesh,Kanpur,Village_32,Industrial Corridor,8.03,Agricultural,Trust,6,No,Medium,Yes,Pending,13177632.0,21568299.0,Paid,67,Approved,65,Pending,Resolved,59.33,306,Advanced,Low,328
+LA20260627,Karnataka,Thane,Village_22,Metro,22.01,Agricultural,Government,4,No,None,Yes,Obtained,4462327.0,12529749.0,Pending,164,Approved,141,Pending,None,77.28,150,Advanced,Medium,193
+LA20260602,Gujarat,Ludhiana,Village_88,Railway,33.56,Residential,Trust,6,Yes,High,No,Obtained,10630980.0,13502978.0,Paid,82,Pending,8,Completed,None,16.16,358,Initial,High,492
+LA20260323,Bihar,Ludhiana,Village_3,Industrial Corridor,46.69,Residential,Company,1,No,None,Yes,Obtained,4668159.0,22193422.0,Partial,178,Pending,33,In Progress,None,61.48,48,Advanced,Low,192
+LA20260291,New Delhi,Kolhapur,Village_71,Dam,18.1,Forest,Company,4,No,Low,Yes,Obtained,8602566.0,3331830.0,Paid,107,Approved,11,In Progress,Resolved,34.77,116,In Progress,Medium,312
+LA20260141, Punjab,Vadodara,Village_94,Dam,47.79,Industrial,Trust,6,Yes,Low,Yes,Disputed,9322101.0,970490.0,Partial,179,Pending,25,Completed,None,48.83,101,In Progress,Medium,259
+LA20260285,Maharashtra, Mangaluru,Village_88,Airport,29.86,Commercial,Individual,7,No,None,Yes,Obtained,12526993.0,4222148.0,Paid,46,Approved,38,Pending,Resolved,41.43,102,In Progress,Low,283
+LA20260044,Odisha,Ahmednagar,Village_9,Railway,4.51,Agricultural,Individual,7,Yes,None,Yes,Pending,2078014.0,23264133.0,Paid,7,Approved,66,In Progress,Resolved,39.63,253,In Progress,Medium,365
+LA20260043,Karnataka,Mumbai,Village_14,Expressway,15.58,Commercial,Joint Family,7,No,Low,Yes,Obtained,18411893.0,22538852.0,Paid,128,Pending,69,Not Required,Resolved,67.76,137,Advanced,Low,217
+LA20260074,Karnataka,Pune,Village_57,Industrial Corridor,32.22,Industrial,Joint Family,7,Yes,None,Yes,Pending,18581777.0,5414849.0,Paid,122,Approved,90,Not Required,Resolved,64.46,352,Advanced,Medium,335
+LA20260635,Maharashtra,Karnal,Village_49,Industrial Corridor,35.28,Industrial,Joint Family,2,No,Medium,Yes,Pending,10328208.0,12508805.0,Paid,158,Approved,108,Completed,None,17.35,76,Initial,High,347
+LA20260588, Punjab,Kolhapur,Village_64,Expressway,35.33,Industrial,Company,6,No,Low,Yes,Pending,17519992.0,5425525.0,Paid,3,Approved,63,Completed,None,76.12,288,Advanced,Low,265
+LA20260067,Haryana,Nagaur,Village_37,Dam,27.7,Forest,Joint Family,2,No,High,Yes,Pending,16882257.0,4484381.0,Paid,36,Pending,41,Not Required,Resolved,90.71,144,Near Completion,Medium,147
+LA20260012,Bihar,Ahmednagar,Village_82,State Highway,4.91,Forest,Individual,7,Yes,High,Yes,Pending,1214241.0,1983287.0,Paid,163,Rejected,68,Not Required,None,65.24,192,Advanced,High,252
+LA20260435,Bihar,Noida,Village_35,Metro,13.3,Commercial,Company,1,No,Low,Yes,Pending,13382152.0,15639225.0,Pending,162,Approved,25,Pending,Resolved,24.01,137,Initial,Medium,357
+LA20260529,Haryana,Noida,Village_34,National Highway,31.24,Forest,Government,2,No,Medium,Yes,Pending,6879710.0,10189081.0,Paid,158,Approved,134,Not Required,None,62.18,224,Advanced,High,278
+LA20260342,Haryana,Udupi,Village_42,National Highway,15.29,Industrial,Joint Family,5,No,None,Yes,Obtained,12218068.0,14085285.0,Partial,176,Approved,18,Pending,Open,45.49,245,In Progress,Medium,342
+LA20260582,Bihar,Amritsar,Village_77,Expressway,36.47,Commercial,Government,6,No,Low,Yes,Pending,1283951.0,7298363.0,Pending,51,Approved,125,Pending,Resolved,16.01,206,Initial,Medium,417
+LA20260261,Karnataka,Ahmednagar,Village_68,State Highway,10.6,Government,Individual,6,No,None,Yes,Disputed,1013431.0,10514659.0,Paid,148,Pending,6,Pending,None,17.1,174,Initial,Medium,397
+LA20260426,Rajasthan,Panipat,Village_13,Dam,32.72,Residential,Trust,1,Yes,None,Yes,Obtained,10908376.0,10868363.0,Pending,134,Approved,87,In Progress,None,72.33,258,Advanced,Medium,263
+LA20260178,Rajasthan,Sarai Rohilla (Delhi),Village_16,National Highway,33.18,Industrial,Individual,7,No,Low,Yes,Pending,980468.0,1193713.0,Paid,72,Pending,88,Pending,None,68.11,278,Advanced,Low,286
+LA20260604,Odisha,Pune,Village_17,Industrial Corridor,44.67,Industrial,Trust,1,No,Medium,Yes,Obtained,2388755.0,6843265.0,Pending,72,Approved,118,Not Required,Resolved,97.17,318,Near Completion,Medium,213
+LA20260591,Madhya Pradesh,Nagaur,Village_38,Airport,12.47,Agricultural,Trust,1,Yes,None,Yes,Disputed,17041488.0,3359720.0,Paid,40,Pending,104,Not Required,None,16.25,301,Initial,High,464
+LA20260084, Punjab,jaisalmer,Village_45,Expressway,3.36,Commercial,Company,5,No,None,Yes,Obtained,11340577.0,10792389.0,Pending,33,Pending,114,Not Required,Open,21.6,215,Initial,Medium,403
+LA20260396,Madhya Pradesh,Pune,Village_53,State Highway,13.2,Industrial,Trust,5,No,High,Yes,Pending,17117110.0,7255897.0,Paid,167,Approved,17,Not Required,None,70.5,202,Advanced,High,240
+LA20260633,Telangana,Agra,Village_98,Industrial Corridor,31.75,Agricultural,Individual,1,No,Low,Yes,Pending,18644579.0,3628490.0,Paid,25,Pending,57,Not Required,None,58.38,21,Advanced,Low,189
+LA20260585, Punjab,Varanasi,Village_21,Metro,14.44,Industrial,Government,3,No,None,Yes,Obtained,10162044.0,5417228.0,Paid,134,Approved,67,Not Required,Open,12.63,341,Initial,Medium,495
+LA20260080,Rajasthan,Kanpur,Village_12,Metro,39.15,Agricultural,Trust,7,Yes,Medium,Yes,Obtained,7418415.0,17512150.0,Paid,89,Pending,130,Pending,None,61.35,144,Advanced,High,241
+LA20260024,Gujarat,Coimbtore,Village_5,Airport,27.91,Industrial,Joint Family,1,No,Medium,Yes,Disputed,14203121.0,15576033.0,Paid,174,Approved,69,Not Required,None,95.24,236,Near Completion,Medium,178
+LA20260249,Tamil Nadu, Indore,Village_10,Railway,43.73,Government,Company,7,No,Medium,Yes,Obtained,19382531.0,1282791.0,Partial,125,Approved,29,Not Required,None,81.07,318,Near Completion,Medium,265
+LA20260339,Gujarat,Nanded,Village_25,State Highway,41.67,Residential,Joint Family,3,No,Medium,Yes,Obtained,13452445.0,9622122.0,Partial,114,Pending,105,Not Required,None,96.48,275,Near Completion,High,194
+LA20260474, Punjab,Patna,Village_99,Metro,42.93,Government,Government,6,No,None,Yes,Obtained,16192507.0,12162434.0,Paid,75,Approved,52,Completed,None,89.36,91,Near Completion,Low,125
+LA20260355,Maharashtra,Nanded,Village_5,National Highway,25.07,Commercial,Company,4,Yes,None,Yes,Obtained,11795956.0,2992709.0,Partial,23,Approved,84,Completed,Open,83.5,239,Near Completion,Medium,217
+LA20260236,Maharashtra,jaisalmer,Village_18,Expressway,7.02,Government,Government,3,Yes,None,Yes,Obtained,10400806.0,16272933.0,Paid,140,Approved,9,Not Required,Open,29.88,301,In Progress,High,420
+LA20260282,Uttar Pradesh,Ajmer,Village_56,State Highway,22.71,Government,Individual,2,No,Medium,Yes,Obtained,2712082.0,7210151.0,Pending,160,Approved,101,Not Required,None,88.88,124,Near Completion,High,143
+LA20260258,Rajasthan,Kapurtala,Village_45,Industrial Corridor,5.41,Residential,Individual,2,Yes,None,Yes,Obtained,3986594.0,899145.0,Paid,180,Approved,47,Completed,None,43.39,221,In Progress,Medium,337
+LA20260138,Bihar,Ahmednagar,Village_3,Dam,23.24,Government,Trust,2,No,Low,Yes,Pending,14946064.0,10850308.0,Paid,36,Approved,103,Pending,Resolved,84.29,263,Near Completion,Low,227
+LA20260276,Karnataka,Sonipat,Village_59,Airport,16.68,Commercial,Individual,6,Yes,Medium,Yes,Obtained,19385099.0,10368590.0,Pending,56,Pending,99,Completed,Resolved,59.89,158,Advanced,High,252
+LA20260237,Gujarat,Coimbtore,Village_32,Railway,36.44,Industrial,Joint Family,6,No,None,Yes,Pending,15538122.0,655288.0,Paid,57,Rejected,30,Not Required,None,70.44,203,Advanced,Low,241
+LA20260450,Gujarat, Chattarpur (Delhi),Village_22,State Highway,23.46,Agricultural,Trust,4,No,None,Yes,Obtained,17945883.0,9230202.0,Pending,54,Approved,67,Not Required,None,33.65,209,In Progress,Low,362
+LA20260213,Madhya Pradesh,Udupi,Village_40,National Highway,12.41,Government,Trust,1,No,None,Yes,Pending,1146071.0,13101716.0,Pending,129,Approved,47,Not Required,None,98.83,310,Near Completion,Low,204
+LA20260010,New Delhi,Ludhiana,Village_29,Metro,26.29,Government,Government,5,No,None,Yes,Pending,6876807.0,22757750.0,Paid,73,Approved,49,Pending,None,35.27,352,In Progress,Low,428
+LA20260245,Madhya Pradesh,Nashik,Village_62,Dam,25.66,Agricultural,Joint Family,4,No,Low,Yes,Obtained,14512216.0,3352145.0,Partial,57,Rejected,67,In Progress,None,92.1,107,Near Completion,Low,124
+LA20260272,Madhya Pradesh, Bhopal,Village_49,Expressway,37.41,Forest,Government,5,No,None,Yes,Disputed,15373755.0,22705087.0,Paid,71,Approved,110,Pending,None,58.0,355,Advanced,Low,357
+LA20260358,Madhya Pradesh,Satara,Village_18,Dam,38.39,Government,Individual,6,No,High,Yes,Pending,14317683.0,6468593.0,Pending,114,Approved,7,Not Required,None,54.63,5,Advanced,High,193
+LA20260637,Haryana,Thane,Village_61,Dam,25.86,Industrial,Individual,7,No,None,Yes,Disputed,18101450.0,17030770.0,Partial,22,Pending,91,Not Required,None,43.7,3,In Progress,Low,227
+LA20260297,Tamil Nadu,Panipat,Village_93,National Highway,3.71,Residential,Individual,4,No,None,Yes,Pending,19327225.0,18054997.0,Paid,72,Pending,64,In Progress,Open,34.61,52,In Progress,Medium,280
+LA20260085,Gujarat,Kapurtala,Village_17,State Highway,34.9,Industrial,Trust,5,No,Medium,No,Obtained,15291313.0,3393110.0,Paid,102,Approved,6,In Progress,Resolved,35.91,92,In Progress,High,296
+LA20260502,Odisha,Patna,Village_32,Industrial Corridor,36.11,Commercial,Trust,4,No,None,Yes,Obtained,6035087.0,8367168.0,Paid,84,Pending,26,Completed,Resolved,19.35,291,Initial,Low,449
+LA20260219,Bihar, Indore,Village_4,National Highway,40.89,Forest,Trust,1,Yes,None,Yes,Obtained,7833940.0,12539639.0,Partial,136,Approved,77,Pending,None,18.54,130,Initial,High,371
+LA20260204,Odisha,Kanpur,Village_31,Dam,6.84,Residential,Individual,1,Yes,None,Yes,Pending,17672336.0,23260788.0,Partial,91,Pending,57,In Progress,None,43.97,288,In Progress,Medium,368
+LA20260197,Maharashtra,Kapurtala,Village_94,National Highway,14.99,Forest,Company,2,Yes,Medium,Yes,Disputed,19814726.0,9699858.0,Partial,41,Approved,126,Not Required,None,50.13,171,Advanced,High,290
+LA20260427,Uttar Pradesh,Kapurtala,Village_46,Metro,27.5,Residential,Government,3,No,Medium,Yes,Obtained,16403541.0,21900216.0,Paid,87,Approved,27,Not Required,Open,53.19,248,Advanced,Medium,319
+LA20260094,Haryana,Ajmer,Village_65,Expressway,25.72,Forest,Joint Family,1,No,None,Yes,Obtained,7910807.0,16890603.0,Paid,144,Approved,127,Not Required,Resolved,70.14,230,Advanced,Medium,256
+LA20260409,Tamil Nadu,Ajmer,Village_42,Metro,28.28,Government,Individual,6,No,Medium,Yes,Obtained,2755489.0,1288251.0,Partial,27,Approved,8,Not Required,None,88.57,36,Near Completion,Low,100
+LA20260464,Tamil Nadu, Indore,Village_22,Industrial Corridor,29.09,Government,Joint Family,2,Yes,Medium,Yes,Obtained,8948703.0,7721369.0,Partial,8,Approved,39,Completed,Resolved,35.1,359,In Progress,High,432
+LA20260594,Uttar Pradesh,Ludhiana,Village_45,Metro,15.41,Industrial,Company,7,No,None,No,Obtained,6209377.0,3528220.0,Paid,148,Approved,129,Not Required,None,47.46,12,In Progress,Medium,219
+LA20260029,Tamil Nadu,patiyala,Village_98,National Highway,26.03,Agricultural,Joint Family,6,Yes,None,Yes,Pending,2603164.0,4939419.0,Paid,61,Approved,61,Completed,Open,8.3,152,Initial,High,414
+LA20260185,Rajasthan,Bhagalpur,Village_7,National Highway,38.58,Agricultural,Company,1,No,Medium,Yes,Obtained,751253.0,14751844.0,Pending,96,Pending,47,Not Required,None,11.57,66,Initial,High,361
+LA20260524,Tamil Nadu,Sonipat,Village_3,National Highway,7.53,Industrial,Company,6,No,Medium,Yes,Disputed,1695436.0,2667506.0,Partial,133,Approved,2,Pending,None,71.46,243,Advanced,Medium,258
+LA20260179, Punjab,Chennai,Village_71,Industrial Corridor,38.34,Commercial,Joint Family,3,No,Medium,No,Obtained,14877912.0,24611185.0,Pending,99,Approved,53,Completed,Open,28.35,284,In Progress,High,416
+LA20260609,Gujarat,Kanpur,Village_80,Railway,2.22,Forest,Joint Family,7,Yes,None,Yes,Pending,14841598.0,10236706.0,Paid,54,Approved,142,Pending,Resolved,67.81,217,Advanced,Medium,257
+LA20260154,Uttar Pradesh,Pune,Village_12,Industrial Corridor,32.02,Industrial,Trust,2,No,None,Yes,Pending,10460473.0,20814896.0,Paid,56,Approved,66,Not Required,Open,37.92,127,In Progress,Medium,307
+LA20260076,Rajasthan,Nagaur,Village_6,Metro,31.17,Residential,Joint Family,1,No,Low,No,Obtained,11078354.0,15465705.0,Pending,32,Approved,15,Not Required,Resolved,64.14,10,Advanced,Low,165
+LA20260415,Uttar Pradesh,Panipat,Village_31,Railway,35.54,Forest,Trust,2,No,Medium,Yes,Disputed,5106686.0,209958.0,Pending,104,Approved,60,In Progress,Open,64.01,95,Advanced,Medium,208
+LA20260093,Telangana,Gurugram,Village_54,State Highway,3.58,Residential,Trust,5,No,High,Yes,Pending,3027156.0,21705373.0,Paid,11,Approved,28,Not Required,None,92.3,278,Near Completion,Medium,209
+LA20260356, Punjab,Nagpur,Village_48,Metro,22.12,Forest,Individual,5,Yes,None,No,Pending,368212.0,23362888.0,Partial,18,Approved,57,Completed,Open,30.39,262,In Progress,High,399
+LA20260069,Madhya Pradesh,Amritsar,Village_76,National Highway,21.91,Commercial,Government,5,Yes,Medium,Yes,Obtained,19632144.0,22788689.0,Paid,156,Approved,80,Pending,Open,52.36,13,Advanced,High,204
+LA20260319,Bihar,Varanasi,Village_82,National Highway,11.42,Industrial,Trust,6,Yes,None,Yes,Obtained,16937534.0,11564682.0,Paid,91,Pending,1,Not Required,Open,69.17,215,Advanced,High,251
+LA20260337,Gujarat,Nagpur,Village_9,Railway,1.8,Government,Individual,5,No,None,Yes,Disputed,1693161.0,23071138.0,Paid,76,Rejected,118,Not Required,None,81.78,71,Near Completion,Low,139
+LA20260189, Punjab,Pune,Village_9,Metro,6.51,Industrial,Joint Family,4,Yes,High,Yes,Obtained,11233586.0,11326088.0,Partial,134,Approved,15,In Progress,None,65.2,278,Advanced,High,295
+LA20260016,Bihar,Kapurtala,Village_69,Railway,39.21,Forest,Trust,6,No,None,Yes,Pending,7144054.0,13402534.0,Paid,15,Approved,77,Not Required,None,49.35,126,In Progress,Low,270
+LA20260534,Telangana,Ajmer,Village_24,Dam,31.89,Industrial,Individual,2,No,None,Yes,Obtained,4627330.0,24680082.0,Pending,176,Approved,138,Completed,None,47.75,362,In Progress,Medium,393
+LA20260480,Haryana,Ahmednagar,Village_33,National Highway,9.62,Industrial,Trust,4,No,None,Yes,Obtained,5213383.0,4890640.0,Paid,154,Pending,116,In Progress,None,90.91,44,Near Completion,Medium,96
+LA20260089,Uttar Pradesh,Panipat,Village_62,National Highway,6.51,Industrial,Government,7,No,Low,Yes,Pending,17380918.0,19204341.0,Paid,55,Approved,46,Pending,None,41.35,274,In Progress,Low,370
+LA20260547,Telangana,Sarai Rohilla (Delhi),Village_8,National Highway,25.88,Residential,Joint Family,1,No,High,Yes,Obtained,9646774.0,1727878.0,Paid,75,Approved,140,Not Required,None,52.94,122,Advanced,Medium,257
+LA20260118,Maharashtra,Agra,Village_83,Expressway,27.0,Government,Trust,3,No,Medium,Yes,Obtained,18681580.0,21095352.0,Paid,120,Approved,52,Not Required,None,31.13,302,In Progress,High,416
+LA20260508,Maharashtra,Kanpur,Village_75,State Highway,41.04,Industrial,Joint Family,7,No,Low,Yes,Obtained,16395677.0,24626242.0,Pending,38,Approved,140,Completed,None,10.2,211,Initial,Medium,438
+LA20260489,Tamil Nadu, Indore,Village_98,Airport,25.51,Government,Government,6,No,High,Yes,Pending,7578611.0,6858802.0,Paid,50,Approved,130,Pending,Open,75.29,201,Advanced,High,225
+LA20260034,Maharashtra,Solapur,Village_24,Dam,10.82,Government,Government,3,No,None,No,Pending,18244568.0,8177822.0,Paid,27,Approved,3,Pending,None,53.29,336,Advanced,Low,362
+LA20260001,Haryana,Sangli,Village_7,Metro,39.87,Commercial,Individual,5,No,High,Yes,Pending,4344260.0,1979037.0,Paid,131,Approved,9,Pending,None,96.01,14,Near Completion,High,65
+LA20260644,Karnataka,patiyala,Village_32,National Highway,37.31,Commercial,Individual,1,No,None,Yes,Obtained,3505614.0,8553823.0,Partial,122,Approved,0,Not Required,None,93.27,135,Near Completion,Low,134
+LA20260408,Rajasthan,Ahmednagar,Village_23,State Highway,42.61,Commercial,Government,4,No,None,No,Pending,2511608.0,1452585.0,Paid,31,Pending,75,Pending,Resolved,53.84,14,Advanced,Low,200
+LA20260632,Uttar Pradesh,Thane,Village_15,Metro,30.55,Government,Joint Family,7,No,Low,Yes,Pending,8219022.0,8705570.0,Paid,130,Approved,136,Not Required,None,83.1,176,Near Completion,Medium,187
+LA20260539,Uttar Pradesh, Mangaluru,Village_27,Industrial Corridor,3.95,Government,Company,2,No,None,Yes,Obtained,18886728.0,24401597.0,Partial,174,Approved,9,Not Required,None,71.42,189,Advanced,Low,231
+LA20260501,Uttar Pradesh,patiyala,Village_75,National Highway,26.61,Agricultural,Individual,3,No,None,Yes,Obtained,16215399.0,23527872.0,Paid,80,Approved,107,Not Required,Resolved,30.25,78,In Progress,Medium,307
+LA20260341,Madhya Pradesh,Coimbtore,Village_76,Industrial Corridor,26.14,Commercial,Government,7,No,High,Yes,Disputed,9306851.0,15205767.0,Paid,139,Pending,39,Not Required,Open,89.26,263,Near Completion,High,211
+LA20260023,Rajasthan,Ajmer,Village_20,State Highway,46.88,Industrial,Joint Family,6,No,None,Yes,Disputed,16009379.0,2256282.0,Paid,80,Rejected,110,In Progress,None,93.88,362,Near Completion,Low,246
+LA20260062,Karnataka,Solapur,Village_100,Industrial Corridor,18.69,Agricultural,Individual,7,Yes,None,Yes,Obtained,4466166.0,10518553.0,Paid,30,Approved,36,Completed,Open,76.9,285,Advanced,Medium,261
+LA20260117,Madhya Pradesh, Nizamabad,Village_20,State Highway,7.29,Commercial,Company,1,Yes,Low,Yes,Obtained,5694952.0,3336313.0,Partial,70,Pending,89,Not Required,None,8.65,164,Initial,Medium,419
+LA20260457,Haryana,Satara,Village_64,Airport,19.33,Government,Government,4,No,None,Yes,Obtained,4939523.0,22860442.0,Paid,92,Approved,44,Completed,Open,84.99,226,Near Completion,Medium,206
+LA20260229,Madhya Pradesh,Satara,Village_55,Railway,32.98,Residential,Trust,6,No,None,No,Obtained,18961790.0,16007634.0,Paid,158,Approved,35,Completed,None,6.81,233,Initial,Medium,460
+LA20260090, Punjab,Ludhiana,Village_46,Metro,15.51,Residential,Individual,2,Yes,None,Yes,Obtained,8755901.0,12549125.0,Pending,79,Approved,111,Completed,None,35.95,346,In Progress,High,423
+LA20260183,Odisha,Thane,Village_85,Metro,48.41,Commercial,Government,2,No,None,Yes,Disputed,12090588.0,7250350.0,Paid,16,Approved,134,Pending,Open,28.24,147,In Progress,Medium,348
+LA20260406,Odisha, Bhopal,Village_58,Airport,11.65,Commercial,Company,1,Yes,None,Yes,Obtained,16180719.0,8152436.0,Paid,152,Approved,106,Not Required,Open,99.77,160,Near Completion,High,126
+LA20260345,Maharashtra,Coimbtore,Village_40,Industrial Corridor,21.77,Agricultural,Company,3,Yes,Medium,No,Obtained,19353097.0,4575015.0,Paid,21,Pending,145,In Progress,Resolved,14.39,258,Initial,High,448
+LA20260019,Telangana,jaisalmer,Village_2,Metro,15.5,Government,Company,6,No,None,Yes,Pending,3237575.0,4655350.0,Paid,18,Approved,104,Not Required,None,45.23,65,In Progress,Low,253
+LA20260313,Odisha,Nagpur,Village_9,State Highway,26.1,Industrial,Individual,6,No,Low,No,Obtained,1236191.0,10391136.0,Pending,133,Approved,102,Not Required,None,89.55,191,Near Completion,Medium,174
+LA20260479,Rajasthan,Solapur,Village_11,Airport,10.5,Agricultural,Joint Family,6,No,None,Yes,Pending,12748909.0,18506139.0,Paid,125,Approved,9,In Progress,None,8.49,301,Initial,Medium,488
+LA20260145,Madhya Pradesh,Bhagalpur,Village_44,Dam,22.16,Forest,Company,1,No,None,Yes,Pending,13089241.0,2267801.0,Pending,121,Pending,99,Not Required,Resolved,6.84,175,Initial,High,431
+LA20260571, Punjab,Satara,Village_9,Airport,2.58,Government,Company,7,No,High,Yes,Disputed,17649691.0,17910155.0,Partial,14,Pending,99,Not Required,Resolved,34.01,69,In Progress,High,291
+LA20260332,Madhya Pradesh,Karnal,Village_11,Industrial Corridor,28.81,Commercial,Individual,7,Yes,None,No,Obtained,16863986.0,5993894.0,Partial,26,Approved,8,Completed,Open,60.99,324,Advanced,Medium,332
+LA20260587,Haryana,Sarai Rohilla (Delhi),Village_94,National Highway,6.07,Forest,Joint Family,4,No,Medium,Yes,Pending,14638957.0,22439314.0,Paid,169,Pending,41,Not Required,None,23.84,9,Initial,High,293
+LA20260434,Odisha,Darbhanga,Village_88,Industrial Corridor,10.47,Government,Individual,3,Yes,Low,Yes,Obtained,2940272.0,3684375.0,Partial,57,Approved,61,In Progress,None,96.57,189,Near Completion,Medium,150
+LA20260531,Telangana,Coimbtore,Village_35,Metro,42.15,Forest,Individual,7,No,Medium,No,Obtained,19238566.0,2412710.0,Partial,24,Approved,115,In Progress,None,48.55,343,In Progress,Medium,381
+LA20260047,Madhya Pradesh,Kanpur,Village_25,Airport,34.9,Government,Joint Family,3,Yes,None,Yes,Disputed,15187152.0,22426659.0,Paid,24,Approved,148,Completed,None,16.06,213,Initial,High,420
+LA20260262,Gujarat,Gurugram,Village_18,State Highway,27.98,Industrial,Government,6,Yes,Medium,Yes,Obtained,7076312.0,18064268.0,Pending,99,Pending,50,Not Required,Resolved,79.29,310,Advanced,High,266
+LA20260196,Uttar Pradesh,Agra,Village_95,Industrial Corridor,40.04,Residential,Joint Family,2,No,Medium,Yes,Obtained,13929337.0,23329673.0,Paid,60,Pending,55,Not Required,None,90.94,168,Near Completion,Low,158
+LA20260651,Karnataka,Vadodara,Village_62,Expressway,2.76,Agricultural,Individual,4,No,None,Yes,Obtained,12060419.0,16785081.0,Paid,52,Approved,44,Not Required,None,20.42,359,Initial,Low,479
+LA20260542,Telangana,Kapurtala,Village_46,Metro,11.75,Industrial,Company,5,Yes,Medium,Yes,Obtained,18781263.0,16316625.0,Pending,141,Approved,85,Not Required,Resolved,70.97,184,Advanced,High,230
+LA20260108,Odisha,Sangli,Village_54,Metro,41.46,Industrial,Individual,4,No,None,Yes,Pending,8973921.0,13610988.0,Paid,14,Approved,128,Not Required,None,77.33,111,Advanced,Low,173
+LA20260404,Madhya Pradesh,Kanpur,Village_5,Expressway,6.15,Government,Company,4,No,Medium,Yes,Pending,12008593.0,6779070.0,Paid,180,Pending,137,Completed,Open,48.57,113,In Progress,High,266
+LA20260640,Madhya Pradesh,Chennai,Village_9,Expressway,24.64,Commercial,Individual,1,No,None,Yes,Obtained,12458604.0,15062082.0,Pending,71,Approved,104,In Progress,None,81.5,127,Near Completion,Low,168
+LA20260364,Haryana,Thane,Village_28,National Highway,47.85,Commercial,Trust,4,No,High,No,Obtained,6605787.0,6826805.0,Paid,151,Pending,99,Not Required,None,58.29,117,Advanced,High,237
+LA20260619,Karnataka,Ludhiana,Village_2,Metro,45.53,Commercial,Government,4,No,None,Yes,Obtained,4864206.0,16339550.0,Pending,2,Pending,106,Completed,Open,41.47,66,In Progress,Medium,265
+LA20260311,New Delhi,Amritsar,Village_87,Airport,35.53,Government,Company,6,No,Low,Yes,Pending,17119406.0,14608021.0,Pending,179,Approved,12,Not Required,Resolved,64.8,67,Advanced,Low,191
+LA20260580,Maharashtra,Kolhapur,Village_11,Airport,1.39,Industrial,Government,6,No,None,Yes,Obtained,9177641.0,16660612.0,Partial,56,Approved,72,Not Required,Open,44.52,7,In Progress,Low,226
+LA20260576,New Delhi,Varanasi,Village_86,State Highway,14.96,Forest,Company,7,Yes,None,Yes,Pending,3461672.0,11835602.0,Pending,52,Pending,133,Completed,Resolved,88.99,262,Near Completion,Medium,211
+LA20260486,Haryana,Sonipat,Village_58,Railway,4.63,Residential,Joint Family,4,Yes,None,Yes,Obtained,6325498.0,8937260.0,Paid,160,Approved,72,Completed,None,52.65,337,Advanced,Medium,365
+LA20260370,Gujarat,Ludhiana,Village_96,Metro,45.36,Forest,Joint Family,3,No,None,Yes,Disputed,11290296.0,23455074.0,Pending,44,Approved,1,Not Required,None,93.48,238,Near Completion,Low,185
+LA20260150,Maharashtra,Karnal,Village_74,National Highway,23.34,Industrial,Company,1,Yes,High,Yes,Obtained,19604108.0,8771380.0,Paid,167,Pending,64,Completed,None,26.68,354,In Progress,High,457
+LA20260125,Tamil Nadu,Amritsar,Village_66,Airport,24.65,Commercial,Joint Family,5,No,None,Yes,Pending,11005844.0,10450893.0,Paid,131,Approved,37,Not Required,None,32.16,29,In Progress,Medium,277
+LA20260516,Haryana,Nagaur,Village_47,Metro,24.96,Industrial,Trust,4,No,None,Yes,Obtained,16510140.0,12107347.0,Paid,147,Approved,130,Pending,Open,86.27,177,Near Completion,Medium,177
+LA20260623,Bihar, Nizamabad,Village_30,Railway,28.8,Government,Individual,2,Yes,None,Yes,Pending,9748060.0,1151424.0,Pending,158,Pending,119,Pending,None,54.27,342,Advanced,High,362
+LA20260186, Punjab,Ambala,Village_14,Expressway,31.42,Government,Joint Family,1,No,Low,Yes,Obtained,5083798.0,11254100.0,Paid,161,Approved,12,Pending,Open,19.0,356,Initial,Medium,482
+LA20260375,Telangana,Pune,Village_56,Expressway,38.95,Government,Joint Family,3,No,Medium,Yes,Disputed,1754495.0,7696462.0,Paid,134,Approved,145,Not Required,Open,43.15,76,In Progress,High,265
+LA20260351,Bihar,Satara,Village_88,Dam,24.41,Agricultural,Trust,6,Yes,Low,Yes,Pending,3059842.0,23693211.0,Partial,178,Approved,96,Not Required,None,72.01,124,Advanced,High,197
+LA20260642,Maharashtra,Ajmer,Village_73,Airport,47.55,Forest,Trust,5,No,None,No,Pending,19366839.0,2912026.0,Paid,149,Approved,26,In Progress,None,88.5,217,Near Completion,Low,190
+LA20260600,Tamil Nadu,jaisalmer,Village_86,Industrial Corridor,45.19,Government,Individual,2,No,None,Yes,Obtained,6394324.0,16340533.0,Paid,25,Approved,16,Pending,Resolved,9.27,293,Initial,Low,482
+LA20260143,Rajasthan,Nanded,Village_12,Metro,16.11,Forest,Government,4,No,None,Yes,Obtained,5099767.0,6169672.0,Partial,155,Approved,42,In Progress,None,56.66,334,Advanced,Low,351
+LA20260142,Bihar,Chennai,Village_98,National Highway,39.45,Commercial,Government,6,No,High,No,Pending,5868341.0,23683192.0,Partial,123,Approved,139,Not Required,None,48.96,334,In Progress,High,375
+LA20260350,Bihar,Coimbtore,Village_98,Airport,23.18,Agricultural,Joint Family,3,No,None,Yes,Disputed,10155112.0,23324611.0,Pending,107,Pending,92,Completed,Open,57.65,132,Advanced,Medium,247
+LA20260020,Gujarat,Puri,Village_67,State Highway,13.52,Agricultural,Trust,6,No,Low,No,Obtained,7457714.0,14536188.0,Pending,94,Pending,131,Not Required,None,21.38,364,Initial,High,479
+LA20260173,Karnataka,Aurangabad,Village_26,Industrial Corridor,38.85,Commercial,Company,3,No,None,No,Pending,13347442.0,20456476.0,Paid,115,Approved,112,In Progress,None,65.47,311,Advanced,Medium,311
+LA20260528,Odisha,Thane,Village_15,Dam,32.73,Forest,Joint Family,3,No,None,Yes,Pending,1975114.0,13277310.0,Pending,20,Approved,103,Completed,None,80.16,189,Near Completion,Low,203
+LA20260013,Telangana,Panipat,Village_2,Airport,37.89,Industrial,Company,5,No,None,Yes,Obtained,10031005.0,22743339.0,Pending,69,Approved,134,Not Required,None,7.29,335,Initial,Medium,509
+LA20260026,Telangana,Panipat,Village_38,Dam,20.15,Residential,Trust,3,Yes,Low,Yes,Obtained,7461094.0,21426945.0,Paid,53,Approved,92,Not Required,None,95.87,50,Near Completion,Medium,83
+LA20260453,Rajasthan,Ajmer,Village_96,Industrial Corridor,25.14,Government,Individual,7,No,None,Yes,Pending,1957711.0,10871847.0,Paid,15,Approved,100,Not Required,None,16.57,341,Initial,Medium,482
+LA20260170,Haryana, Chattarpur (Delhi),Village_12,Airport,17.99,Agricultural,Government,7,No,None,Yes,Pending,3452555.0,9038837.0,Partial,100,Approved,137,Completed,Open,61.41,140,Advanced,Medium,238
+LA20260557,Telangana,Bhagalpur,Village_53,Dam,33.42,Industrial,Company,4,Yes,None,Yes,Disputed,228281.0,5576994.0,Partial,142,Approved,43,Pending,Resolved,52.59,139,Advanced,Medium,266
+LA20260357,New Delhi,Surat,Village_90,State Highway,36.61,Forest,Individual,3,Yes,Medium,Yes,Obtained,15267918.0,4752775.0,Partial,82,Pending,78,Pending,None,31.37,359,In Progress,High,444
+LA20260246,Gujarat,Chennai,Village_57,Dam,15.23,Forest,Trust,2,No,None,Yes,Disputed,843235.0,9046735.0,Paid,62,Approved,89,Completed,Resolved,85.83,186,Near Completion,Low,183
+LA20260299,Uttar Pradesh,Darbhanga,Village_54,Metro,28.29,Government,Joint Family,5,No,None,Yes,Pending,7562368.0,5632667.0,Pending,80,Approved,100,Not Required,Resolved,47.29,67,In Progress,Low,247
+LA20260381,Maharashtra,Sonipat,Village_33,National Highway,7.39,Residential,Company,3,No,Low,Yes,Obtained,7535730.0,10699279.0,Pending,43,Approved,66,Not Required,Open,43.68,273,In Progress,Low,362
+LA20260273,Karnataka,patiyala,Village_88,Airport,10.52,Residential,Government,4,No,Medium,Yes,Obtained,13227408.0,3237539.0,Pending,16,Approved,15,Not Required,Resolved,29.12,89,In Progress,Medium,316
+LA20260155,New Delhi,Kapurtala,Village_62,Industrial Corridor,30.89,Industrial,Company,5,No,None,Yes,Obtained,943067.0,19215855.0,Paid,7,Pending,137,Completed,None,61.59,287,Advanced,Low,311
+LA20260127,Tamil Nadu, Nizamabad,Village_73,State Highway,27.62,Forest,Joint Family,3,No,None,No,Pending,1813183.0,11013965.0,Paid,17,Pending,23,Not Required,None,14.68,329,Initial,Low,483
+LA20260412,Bihar,Ambala,Village_53,Industrial Corridor,43.08,Forest,Company,3,No,Medium,Yes,Obtained,6305372.0,6556051.0,Partial,61,Approved,124,Completed,None,95.15,11,Near Completion,Medium,66
+LA20260288,Gujarat,Mumbai,Village_77,National Highway,34.93,Industrial,Trust,7,No,None,No,Obtained,9928343.0,21698009.0,Paid,71,Approved,81,Not Required,Open,6.76,204,Initial,Medium,445
+LA20260114,Bihar,Bhagalpur,Village_56,Dam,1.45,Residential,Government,5,No,Low,Yes,Pending,10580243.0,23851850.0,Partial,179,Approved,126,Completed,None,91.59,182,Near Completion,Medium,163
+LA20260432,Madhya Pradesh,Bhagalpur,Village_60,State Highway,3.07,Commercial,Government,2,No,None,Yes,Obtained,14050652.0,14343750.0,Paid,55,Approved,100,Pending,None,28.98,322,In Progress,Medium,433
+LA20260174,Haryana,Pune,Village_26,State Highway,33.24,Forest,Company,4,No,None,Yes,Pending,6899684.0,23997885.0,Paid,121,Approved,148,Pending,Resolved,88.75,151,Near Completion,Medium,156
+LA20260058,Odisha,Coimbtore,Village_70,State Highway,9.15,Forest,Individual,1,No,Medium,Yes,Pending,11087563.0,5928287.0,Paid,16,Pending,6,Completed,None,46.19,107,In Progress,Low,271
+LA20260478,Karnataka,Mumbai,Village_29,Dam,7.47,Commercial,Individual,3,No,None,Yes,Pending,17203150.0,5521208.0,Paid,167,Pending,75,Pending,Open,39.8,52,In Progress,Medium,264
+LA20260223,Maharashtra,Solapur,Village_13,Industrial Corridor,12.99,Residential,Trust,5,No,None,Yes,Disputed,19769737.0,10924442.0,Pending,4,Approved,12,Not Required,None,17.41,23,Initial,Low,321
+LA20260281,Karnataka,Varanasi,Village_39,Dam,18.73,Residential,Trust,6,Yes,None,No,Pending,10657919.0,23639037.0,Partial,116,Pending,38,Not Required,Resolved,23.12,90,Initial,High,336
+LA20260018,Rajasthan, Mangaluru,Village_11,National Highway,2.29,Agricultural,Government,2,Yes,None,Yes,Disputed,16102776.0,9942409.0,Pending,180,Approved,55,In Progress,None,95.54,133,Near Completion,Medium,126
+LA20260614,Karnataka,Puri,Village_33,Railway,3.65,Industrial,Company,7,No,High,Yes,Pending,1231034.0,22862600.0,Paid,68,Approved,133,Pending,None,29.31,213,In Progress,High,378
+LA20260256,New Delhi,Noida,Village_49,Expressway,36.46,Forest,Trust,2,Yes,Low,Yes,Pending,6541915.0,6689450.0,Paid,116,Pending,21,Pending,None,22.6,180,Initial,High,383
+LA20260638,Uttar Pradesh,Ambala,Village_67,National Highway,5.66,Residential,Trust,4,No,Medium,Yes,Pending,3299278.0,10638234.0,Paid,29,Approved,49,Completed,None,71.39,327,Advanced,Low,300
+LA20260624,Madhya Pradesh,Chennai,Village_33,State Highway,26.11,Industrial,Trust,5,No,Low,Yes,Pending,10502408.0,21795770.0,Paid,44,Approved,146,Not Required,None,77.97,32,Advanced,Low,131
+LA20260191,New Delhi, Bhopal,Village_72,Railway,38.84,Government,Joint Family,5,No,None,Yes,Pending,5739385.0,16657893.0,Pending,18,Approved,101,Completed,Resolved,10.07,352,Initial,Medium,509
+LA20260384, Punjab,Nashik,Village_19,State Highway,17.69,Commercial,Government,2,No,Low,Yes,Pending,18849731.0,1342515.0,Paid,59,Pending,57,In Progress,None,59.63,0,Advanced,Low,174
+LA20260572,Maharashtra,Udupi,Village_38,Railway,37.13,Government,Trust,7,No,High,No,Pending,6699451.0,5066610.0,Partial,62,Pending,11,Not Required,None,71.1,112,Advanced,Medium,193
+LA20260329,Rajasthan,Ambala,Village_68,Railway,20.79,Commercial,Government,4,No,Medium,Yes,Pending,691381.0,19306858.0,Paid,97,Approved,74,In Progress,None,71.0,144,Advanced,Medium,210
+LA20260095,Gujarat,Surat,Village_51,Metro,49.84,Agricultural,Company,1,Yes,None,No,Obtained,19043708.0,1364718.0,Pending,47,Approved,132,Not Required,Open,75.72,301,Advanced,High,273
+LA20260181,Tamil Nadu, Nizamabad,Village_23,Expressway,1.54,Commercial,Government,6,No,None,Yes,Pending,19363718.0,3975260.0,Paid,73,Approved,112,In Progress,None,46.45,29,In Progress,Low,231
+LA20260302,Odisha,Solapur,Village_57,Railway,33.99,Government,Government,6,No,None,Yes,Pending,15653329.0,19295346.0,Pending,69,Approved,76,Completed,None,74.64,307,Advanced,Low,280
+LA20260444,Maharashtra,Kanpur,Village_28,Railway,12.32,Forest,Joint Family,7,No,None,Yes,Pending,15923864.0,2832024.0,Pending,126,Pending,12,Not Required,None,75.64,72,Advanced,Low,159
+LA20260397, Punjab,Agra,Village_42,Expressway,32.88,Commercial,Individual,7,Yes,None,Yes,Obtained,15030181.0,1367118.0,Paid,50,Pending,80,Not Required,None,96.98,133,Near Completion,Medium,121
+LA20260394,Maharashtra,Mumbai,Village_45,Metro,36.68,Agricultural,Individual,7,No,Medium,Yes,Obtained,6172912.0,3170047.0,Partial,110,Approved,5,Not Required,None,94.61,126,Near Completion,Medium,125
+LA20260376, Punjab,Bhagalpur,Village_40,Airport,3.74,Agricultural,Company,1,No,Medium,Yes,Pending,17648910.0,22398112.0,Paid,36,Approved,29,Completed,Open,83.85,170,Near Completion,Medium,182
+LA20260006,Uttar Pradesh,Kolhapur,Village_85,Dam,49.63,Forest,Company,6,No,None,Yes,Disputed,13075050.0,681151.0,Paid,119,Approved,132,Not Required,None,11.83,363,Initial,High,509
+LA20260046,Telangana,Agra,Village_66,State Highway,9.09,Commercial,Individual,7,Yes,None,Yes,Pending,14862089.0,12395101.0,Pending,84,Approved,35,Not Required,None,16.55,175,Initial,Medium,400
+LA20260354,Maharashtra, Nizamabad,Village_72,Dam,36.53,Commercial,Trust,7,No,None,Yes,Obtained,10532251.0,13056311.0,Pending,133,Approved,132,Completed,None,42.36,117,In Progress,Medium,288
+LA20260468, Punjab,Patna,Village_14,Expressway,45.8,Government,Company,2,Yes,None,Yes,Obtained,15184427.0,1174440.0,Pending,12,Approved,118,Not Required,Resolved,13.04,181,Initial,High,414
+LA20260458,Rajasthan,Satara,Village_17,Railway,38.89,Industrial,Company,6,No,Low,Yes,Pending,8475776.0,20858255.0,Paid,21,Approved,86,Not Required,None,49.06,150,In Progress,Low,283
+LA20260017,Madhya Pradesh,Sonipat,Village_20,Dam,35.58,Government,Company,4,No,Medium,Yes,Pending,15502234.0,7723434.0,Pending,58,Pending,100,Not Required,None,86.77,174,Near Completion,Medium,174
+LA20260049,Telangana,Thane,Village_22,Railway,48.79,Commercial,Trust,7,No,High,Yes,Obtained,3502389.0,290677.0,Paid,82,Approved,71,Not Required,Open,13.01,22,Initial,High,334
+LA20260630,Uttar Pradesh,Udupi,Village_90,Metro,44.68,Industrial,Trust,3,No,None,Yes,Obtained,4428042.0,21814486.0,Pending,117,Pending,122,In Progress,None,97.52,184,Near Completion,Medium,145
+LA20260595,Maharashtra,Chennai,Village_89,Industrial Corridor,30.12,Commercial,Government,2,No,None,Yes,Obtained,8089879.0,16189967.0,Paid,42,Pending,121,Not Required,None,74.73,271,Advanced,Low,261
+LA20260004,Haryana,Sangli,Village_33,Railway,20.27,Agricultural,Individual,7,No,Low,No,Pending,8170022.0,22728571.0,Pending,47,Approved,127,Completed,Resolved,10.67,304,Initial,Medium,483
+LA20260558,Haryana,Nanded,Village_24,Industrial Corridor,13.38,Agricultural,Joint Family,1,Yes,High,Yes,Pending,9101750.0,16806359.0,Pending,173,Pending,13,Not Required,None,95.36,81,Near Completion,High,100
+LA20260362,Rajasthan,Surat,Village_48,Metro,37.69,Forest,Trust,2,No,Medium,Yes,Pending,19112468.0,11516657.0,Pending,101,Approved,90,Pending,None,26.9,21,In Progress,High,289
+LA20260317,Madhya Pradesh,Vadodara,Village_35,Dam,21.98,Commercial,Individual,7,Yes,None,Yes,Obtained,10267885.0,1488759.0,Pending,165,Approved,76,Pending,Resolved,14.45,107,Initial,High,372
+LA20260284,Odisha, Nizamabad,Village_46,State Highway,44.37,Residential,Company,5,No,Low,No,Disputed,9753363.0,16848350.0,Pending,111,Approved,106,Pending,None,87.5,51,Near Completion,Medium,110
+LA20260650,Maharashtra,Coimbtore,Village_92,Metro,23.89,Forest,Individual,1,No,None,Yes,Pending,9087257.0,5478682.0,Pending,86,Approved,31,Not Required,None,8.64,244,Initial,Low,459
+LA20260286,Bihar,Ajmer,Village_11,State Highway,19.88,Forest,Company,7,Yes,None,Yes,Obtained,398930.0,12263771.0,Partial,133,Pending,117,Not Required,Open,34.77,360,In Progress,High,434
+LA20260363,Rajasthan,Nanded,Village_77,Industrial Corridor,33.02,Government,Company,1,No,None,Yes,Pending,4955002.0,4435053.0,Pending,167,Pending,32,Not Required,None,49.63,155,In Progress,Low,284
+LA20260226, Punjab,Udupi,Village_16,Industrial Corridor,42.18,Commercial,Government,2,No,High,No,Pending,5393032.0,12691556.0,Pending,149,Pending,104,Completed,None,86.76,268,Near Completion,High,221
+LA20260027,Maharashtra, Mangaluru,Village_94,Metro,22.64,Forest,Government,2,No,High,Yes,Obtained,2294939.0,10980018.0,Paid,94,Approved,37,Pending,Open,39.99,327,In Progress,High,401
+LA20260512,Bihar,Bhagalpur,Village_56,State Highway,23.82,Forest,Trust,5,No,None,Yes,Obtained,18084818.0,17671442.0,Partial,56,Approved,19,In Progress,Resolved,94.09,38,Near Completion,Low,83
+LA20260264,Rajasthan,Bhagalpur,Village_37,Dam,30.99,Industrial,Individual,7,No,Low,Yes,Pending,13784605.0,10319403.0,Paid,102,Approved,8,Not Required,Open,35.41,34,In Progress,Medium,269
+LA20260051,Uttar Pradesh,Varanasi,Village_26,Industrial Corridor,41.21,Government,Company,4,No,None,Yes,Obtained,14458204.0,10660001.0,Paid,116,Pending,95,In Progress,None,19.0,12,Initial,High,310
+LA20260230,Maharashtra,Mumbai,Village_99,Airport,9.28,Industrial,Trust,6,No,Low,Yes,Obtained,15383608.0,14006390.0,Paid,114,Pending,7,Pending,None,72.15,294,Advanced,Low,281
+LA20260038, Punjab,Nagaur,Village_59,Expressway,19.34,Agricultural,Individual,2,Yes,None,Yes,Obtained,16894268.0,5330423.0,Partial,146,Approved,113,Not Required,None,95.15,142,Near Completion,High,132
+LA20260158,Tamil Nadu, Chattarpur (Delhi),Village_83,Expressway,7.93,Residential,Trust,7,No,None,Yes,Disputed,19374699.0,13432150.0,Paid,55,Approved,86,Completed,Resolved,60.07,81,Advanced,Low,213
+LA20260238,Gujarat,Nanded,Village_96,Railway,40.98,Agricultural,Company,3,No,Low,Yes,Pending,11330466.0,16419057.0,Pending,145,Approved,20,Pending,None,92.75,148,Near Completion,Low,142
+LA20260625,Maharashtra,Kolhapur,Village_77,Dam,21.81,Forest,Trust,1,No,Medium,Yes,Obtained,19509842.0,12916198.0,Pending,44,Pending,70,Not Required,None,20.61,118,Initial,Medium,358
+LA20260176,New Delhi,Nagpur,Village_32,Airport,9.12,Industrial,Company,3,Yes,None,Yes,Obtained,18261710.0,15174316.0,Paid,28,Pending,52,Not Required,None,77.12,259,Advanced,Medium,248
+LA20260548,Karnataka,Surat,Village_79,Airport,15.61,Agricultural,Joint Family,4,Yes,None,No,Pending,19892372.0,4229961.0,Pending,96,Pending,100,In Progress,Open,89.12,37,Near Completion,High,98
+LA20260418,Tamil Nadu,Varanasi,Village_2,Dam,23.19,Government,Individual,6,No,None,No,Obtained,14624180.0,4948942.0,Pending,43,Pending,49,Completed,None,39.34,134,In Progress,Low,306
+LA20260195,Odisha,Surat,Village_82,Metro,48.44,Forest,Government,1,Yes,None,Yes,Obtained,15053184.0,3935152.0,Paid,124,Pending,132,In Progress,Resolved,26.43,185,In Progress,High,373
+LA20260550,Karnataka,Aurangabad,Village_46,Industrial Corridor,2.14,Government,Government,3,No,None,Yes,Pending,1666683.0,17213401.0,Pending,147,Pending,84,Pending,Open,7.3,317,Initial,Medium,500
+LA20260391,Telangana,Mumbai,Village_48,Industrial Corridor,3.09,Forest,Trust,3,No,High,No,Pending,3983030.0,10964412.0,Pending,141,Pending,108,Completed,Resolved,69.18,39,Advanced,High,163
+LA20260629,Maharashtra,Nashik,Village_38,Airport,30.3,Residential,Trust,6,No,None,Yes,Obtained,4105405.0,516583.0,Paid,144,Approved,123,Pending,Resolved,6.78,326,Initial,High,506
+LA20260584,New Delhi,Amritsar,Village_72,National Highway,41.56,Government,Trust,6,No,None,Yes,Obtained,9741623.0,4997491.0,Pending,42,Pending,37,Not Required,None,39.61,46,In Progress,Low,261
+LA20260068,Bihar, Nizamabad,Village_25,Metro,48.31,Agricultural,Trust,3,No,None,Yes,Obtained,10117357.0,9608267.0,Pending,117,Approved,62,Not Required,None,6.13,355,Initial,Medium,523
+LA20260447,Madhya Pradesh,Surat,Village_94,State Highway,38.71,Forest,Joint Family,6,No,None,Yes,Obtained,5499835.0,24460983.0,Paid,79,Approved,141,Not Required,None,14.69,170,Initial,Medium,403
+LA20260169,Uttar Pradesh,Ludhiana,Village_89,Airport,37.01,Forest,Company,3,No,Low,Yes,Pending,7264056.0,2147699.0,Paid,147,Approved,80,In Progress,Resolved,28.83,31,In Progress,Medium,288
+LA20260589,Gujarat,Pune,Village_82,National Highway,27.26,Government,Joint Family,7,No,None,Yes,Pending,18786642.0,5842840.0,Pending,132,Approved,77,In Progress,None,31.81,130,In Progress,Medium,328
+LA20260163,Maharashtra,Nashik,Village_87,Dam,4.7,Industrial,Joint Family,5,Yes,None,Yes,Disputed,1485006.0,20186465.0,Paid,139,Approved,3,Not Required,Resolved,83.77,69,Near Completion,Medium,131
+LA20260310,Telangana,Nagaur,Village_47,State Highway,39.35,Agricultural,Individual,2,No,None,Yes,Pending,18319749.0,7997966.0,Pending,143,Approved,115,Not Required,None,85.52,32,Near Completion,Medium,107
+LA20260194, Punjab, Mangaluru,Village_93,Industrial Corridor,2.58,Agricultural,Government,4,No,High,Yes,Obtained,8390577.0,16221964.0,Paid,138,Approved,70,Pending,Open,63.21,208,Advanced,High,267
+LA20260454,Madhya Pradesh,Sarai Rohilla (Delhi),Village_100,Metro,5.72,Residential,Government,3,No,None,Yes,Obtained,17326901.0,7012685.0,Pending,11,Pending,65,In Progress,None,87.19,114,Near Completion,Low,143
+LA20260366,Rajasthan,Ahmednagar,Village_77,National Highway,3.32,Government,Company,7,Yes,None,Yes,Obtained,11623335.0,3856857.0,Paid,68,Approved,113,Not Required,Resolved,57.89,192,Advanced,Medium,276
+LA20260431,Tamil Nadu,Ajmer,Village_98,Railway,23.23,Residential,Joint Family,6,No,Medium,Yes,Pending,11206242.0,15229143.0,Paid,140,Approved,80,Completed,Open,36.98,273,In Progress,High,383
+LA20260153,Uttar Pradesh,Panipat,Village_47,Railway,44.81,Commercial,Individual,2,No,None,Yes,Pending,345685.0,4831959.0,Pending,134,Pending,79,Not Required,None,38.07,318,In Progress,Medium,402
+LA20260538,Telangana,Nanded,Village_80,Expressway,34.47,Agricultural,Joint Family,6,Yes,Low,Yes,Pending,11350655.0,2549525.0,Paid,41,Approved,75,Pending,Open,18.78,55,Initial,High,332
+LA20260405,Gujarat,Panipat,Village_45,Dam,7.99,Government,Trust,6,No,None,Yes,Pending,7447360.0,22618036.0,Pending,7,Approved,119,In Progress,Resolved,71.21,158,Advanced,Low,216
+LA20260227,Uttar Pradesh,Ahmednagar,Village_42,National Highway,36.56,Government,Joint Family,5,No,High,Yes,Obtained,8834196.0,4729103.0,Pending,37,Approved,13,Pending,None,6.26,124,Initial,Medium,407
+LA20260399,Karnataka, Chattarpur (Delhi),Village_63,Dam,28.48,Agricultural,Trust,5,No,None,Yes,Pending,2526536.0,21596715.0,Pending,4,Approved,109,Pending,None,17.98,13,Initial,Medium,314
+LA20260522,Madhya Pradesh,patiyala,Village_57,Metro,5.48,Forest,Government,1,No,Medium,Yes,Pending,5965690.0,16919836.0,Paid,118,Approved,49,Completed,None,34.17,301,In Progress,High,406
+LA20260104,Odisha,Chennai,Village_36,Railway,22.76,Commercial,Individual,5,No,Medium,Yes,Obtained,8964566.0,11279950.0,Paid,33,Approved,88,Pending,None,33.67,212,In Progress,Medium,363
+LA20260471,Bihar,Kanpur,Village_29,Industrial Corridor,34.95,Commercial,Government,6,No,None,Yes,Obtained,3209208.0,23733122.0,Paid,100,Approved,112,Completed,Open,37.65,118,In Progress,High,304
+LA20260075,Gujarat,Nashik,Village_31,Expressway,11.19,Residential,Company,5,Yes,None,Yes,Disputed,1499397.0,14234037.0,Pending,34,Approved,85,Not Required,None,44.6,299,In Progress,Medium,372
+LA20260596,Tamil Nadu, Bhopal,Village_33,National Highway,15.21,Commercial,Government,1,No,High,Yes,Pending,6474878.0,8623583.0,Paid,81,Approved,43,Pending,Resolved,21.46,207,Initial,Medium,400
+LA20260628,Gujarat,Pune,Village_66,Expressway,38.81,Industrial,Individual,4,No,None,Yes,Obtained,16259870.0,16751905.0,Paid,8,Pending,102,Not Required,Resolved,10.69,132,Initial,Medium,397
+LA20260120,Madhya Pradesh,Sonipat,Village_81,Expressway,1.1,Agricultural,Individual,3,No,None,Yes,Obtained,11628296.0,16579649.0,Partial,95,Pending,107,In Progress,None,32.92,237,In Progress,High,378
+LA20260643,Maharashtra,Chennai,Village_95,Airport,30.23,Residential,Company,5,Yes,Low,Yes,Pending,18312037.0,10052824.0,Paid,142,Pending,31,In Progress,Resolved,84.17,234,Near Completion,Medium,213
+LA20260494, Punjab,Sangli,Village_81,National Highway,31.92,Forest,Individual,7,No,None,No,Obtained,4512060.0,17407811.0,Partial,156,Approved,82,Not Required,Resolved,54.93,276,Advanced,Low,327
+LA20260613,Bihar, Indore,Village_20,State Highway,26.31,Agricultural,Company,7,No,High,Yes,Obtained,15525103.0,9308487.0,Paid,104,Approved,7,Completed,None,11.63,84,Initial,High,370
+LA20260208,Bihar,Surat,Village_45,Industrial Corridor,18.92,Commercial,Trust,4,No,Medium,Yes,Disputed,17794266.0,20105875.0,Paid,139,Approved,53,In Progress,None,73.83,289,Advanced,Medium,273
+LA20260400,Haryana,Aurangabad,Village_27,Metro,23.46,Residential,Company,3,Yes,Medium,Yes,Pending,5189565.0,4239986.0,Paid,76,Approved,29,In Progress,Open,38.03,65,In Progress,High,276
+LA20260424,Odisha,Ajmer,Village_66,Railway,23.38,Government,Joint Family,5,No,Low,Yes,Obtained,8246055.0,16111176.0,Pending,79,Approved,112,Pending,Open,93.9,42,Near Completion,Medium,86
+LA20260410,Madhya Pradesh,Nanded,Village_10,Railway,26.41,Industrial,Trust,1,Yes,None,Yes,Pending,10829811.0,18065256.0,Partial,130,Approved,38,Completed,None,38.75,154,In Progress,High,318
+LA20260487,Gujarat,Udupi,Village_87,Industrial Corridor,44.18,Residential,Individual,7,No,None,Yes,Pending,13943807.0,6004633.0,Paid,134,Approved,73,Pending,None,7.21,196,Initial,Medium,440
+LA20260009,Uttar Pradesh,Coimbtore,Village_36,Expressway,42.18,Commercial,Trust,7,Yes,None,No,Obtained,5319434.0,7024717.0,Paid,98,Pending,13,Completed,Resolved,97.09,244,Near Completion,Medium,176
+LA20260540,Karnataka,Pune,Village_72,Dam,9.16,Agricultural,Trust,4,No,None,Yes,Obtained,275840.0,7299224.0,Paid,91,Pending,60,Not Required,None,7.14,21,Initial,Medium,353
+LA20260037,Tamil Nadu,Kolhapur,Village_30,Industrial Corridor,40.96,Forest,Government,1,No,Medium,No,Obtained,7698326.0,23306939.0,Paid,103,Approved,41,Not Required,Open,75.53,335,Advanced,Medium,291
+LA20260140,Madhya Pradesh,Pune,Village_51,Expressway,44.66,Residential,Government,2,No,Medium,Yes,Obtained,3960708.0,4102815.0,Pending,34,Approved,7,Completed,Open,7.95,144,Initial,Medium,412
+LA20260254,New Delhi,Vadodara,Village_65,Metro,0.96,Residential,Government,4,No,None,Yes,Pending,19937616.0,23983800.0,Partial,164,Approved,22,Not Required,Open,61.68,357,Advanced,Medium,346
+LA20260304, Punjab, Chattarpur (Delhi),Village_41,Expressway,13.86,Government,Individual,5,No,Low,Yes,Pending,1785255.0,24066660.0,Partial,40,Approved,81,Not Required,None,47.62,286,In Progress,Low,356
+LA20260570,Madhya Pradesh,Kolhapur,Village_100,Metro,21.42,Commercial,Joint Family,7,No,Medium,Yes,Obtained,4799335.0,2330578.0,Paid,41,Pending,59,In Progress,None,9.14,159,Initial,Medium,415
+LA20260470,Maharashtra, Indore,Village_47,State Highway,8.32,Forest,Company,1,No,None,No,Pending,14939955.0,11179851.0,Paid,171,Approved,34,In Progress,None,15.54,272,Initial,Medium,451
+LA20260369,New Delhi,Nagpur,Village_45,Railway,12.73,Government,Company,3,Yes,None,No,Pending,14000858.0,17924617.0,Partial,118,Pending,54,Completed,None,31.54,167,In Progress,High,348
+LA20260060,Telangana,Puri,Village_85,Railway,20.23,Industrial,Government,3,Yes,Medium,Yes,Obtained,13337109.0,21316932.0,Paid,123,Pending,67,In Progress,None,64.03,175,Advanced,High,248
+LA20260112,Maharashtra, Nizamabad,Village_22,Expressway,21.1,Commercial,Joint Family,1,No,None,Yes,Disputed,16214229.0,13377231.0,Pending,85,Approved,111,Not Required,None,29.32,111,In Progress,Medium,327
+LA20260425,New Delhi, Bhopal,Village_96,Railway,20.88,Industrial,Joint Family,7,No,Low,Yes,Pending,9804444.0,781137.0,Paid,81,Approved,44,Not Required,Resolved,43.31,336,In Progress,Low,394
+LA20260437, Punjab,Vadodara,Village_83,Industrial Corridor,16.85,Forest,Government,4,No,None,Yes,Pending,12859621.0,12700938.0,Paid,96,Approved,23,Not Required,None,16.34,310,Initial,Medium,468
+LA20260597,Bihar, Indore,Village_41,Metro,15.35,Forest,Individual,7,No,High,Yes,Obtained,9454269.0,17757106.0,Pending,107,Approved,101,Not Required,Resolved,32.14,245,In Progress,High,385
+LA20260263,Rajasthan,Sangli,Village_62,Metro,36.79,Forest,Trust,1,No,None,Yes,Obtained,5451525.0,22973469.0,Partial,39,Approved,64,Not Required,None,96.96,273,Near Completion,Low,191
+LA20260544,Tamil Nadu,Sonipat,Village_17,Expressway,14.32,Commercial,Individual,3,No,None,Yes,Obtained,2442220.0,20294426.0,Paid,52,Approved,144,Completed,Open,84.42,65,Near Completion,Medium,127
+LA20260298,Madhya Pradesh,Surat,Village_63,Airport,29.21,Commercial,Company,1,No,None,No,Obtained,2786561.0,18894580.0,Pending,73,Pending,101,Not Required,None,99.11,2,Near Completion,Low,49
+LA20260151,Telangana,Ambala,Village_57,Metro,32.04,Residential,Trust,1,Yes,Medium,Yes,Obtained,12005920.0,15613381.0,Pending,16,Approved,70,Not Required,None,35.15,133,In Progress,High,319
+LA20260267,Odisha,Bhagalpur,Village_65,Industrial Corridor,39.3,Commercial,Trust,3,No,None,Yes,Pending,16267026.0,22720475.0,Pending,141,Approved,121,Pending,None,6.66,159,Initial,High,423
+LA20260617,Haryana,Solapur,Village_32,State Highway,6.19,Commercial,Individual,1,Yes,Medium,No,Obtained,9647498.0,9711656.0,Paid,2,Approved,71,Completed,None,56.01,292,Advanced,Medium,332
+LA20260360,Uttar Pradesh,Kanpur,Village_37,Industrial Corridor,30.71,Residential,Trust,7,Yes,Medium,Yes,Obtained,1248132.0,9702479.0,Pending,111,Approved,148,Pending,Open,66.57,230,Advanced,High,267
+LA20260575,Madhya Pradesh,patiyala,Village_63,Airport,42.99,Forest,Joint Family,7,No,None,Yes,Pending,12794892.0,10511215.0,Paid,104,Rejected,62,Not Required,None,7.71,134,Initial,Medium,407
+LA20260039, Punjab,Sarai Rohilla (Delhi),Village_87,Industrial Corridor,43.96,Agricultural,Individual,4,No,None,Yes,Pending,12955418.0,9083832.0,Partial,54,Approved,140,In Progress,None,94.31,297,Near Completion,Low,212
+LA20260128,Odisha, Indore,Village_40,Dam,22.99,Residential,Government,2,No,None,Yes,Disputed,4028117.0,18767070.0,Partial,80,Approved,59,Pending,None,51.89,166,Advanced,Low,282
+LA20260417,New Delhi,Sarai Rohilla (Delhi),Village_100,Expressway,4.55,Commercial,Joint Family,7,Yes,Low,No,Obtained,2216576.0,2165390.0,Paid,24,Approved,78,Pending,None,93.46,193,Near Completion,Medium,162
+LA20260308, Punjab,Darbhanga,Village_5,Industrial Corridor,3.4,Agricultural,Individual,4,No,None,Yes,Obtained,16190992.0,13054433.0,Paid,88,Approved,28,Pending,None,84.31,154,Near Completion,Low,172
+LA20260199,Odisha,Mumbai,Village_99,Expressway,30.29,Commercial,Individual,5,No,None,Yes,Obtained,10064148.0,704459.0,Partial,139,Approved,48,Completed,None,86.05,204,Near Completion,Low,192
+LA20260352,Uttar Pradesh,Mumbai,Village_79,National Highway,7.11,Commercial,Government,3,Yes,Medium,No,Disputed,8952911.0,9351640.0,Paid,134,Approved,93,Not Required,Open,44.66,14,In Progress,High,229
+LA20260429,Tamil Nadu,Ahmednagar,Village_17,Industrial Corridor,25.87,Forest,Trust,1,No,None,Yes,Disputed,16195063.0,2544997.0,Paid,126,Rejected,106,Not Required,Resolved,72.69,318,Advanced,Medium,291
+LA20260147,Madhya Pradesh,Varanasi,Village_49,National Highway,42.12,Residential,Joint Family,7,No,None,Yes,Obtained,8470630.0,14577480.0,Paid,160,Approved,48,In Progress,Open,60.89,295,Advanced,Medium,318
+LA20260603,Madhya Pradesh,Vadodara,Village_41,Expressway,29.86,Forest,Trust,5,Yes,None,Yes,Disputed,1330562.0,11041273.0,Partial,130,Approved,58,Not Required,None,22.07,55,Initial,High,322
+LA20260543,Uttar Pradesh,Bhagalpur,Village_89,Dam,41.93,Commercial,Joint Family,4,No,High,Yes,Pending,3587502.0,812493.0,Pending,67,Approved,136,Completed,None,77.97,9,Advanced,Medium,120
+LA20260420,Tamil Nadu,Thane,Village_77,Metro,8.71,Agricultural,Joint Family,7,Yes,Medium,Yes,Disputed,7551164.0,12224497.0,Partial,141,Pending,50,Completed,None,21.54,31,Initial,High,312
+LA20260577,Telangana,Bhagalpur,Village_2,Expressway,45.58,Forest,Company,3,Yes,None,Yes,Disputed,8710659.0,9319171.0,Paid,51,Approved,18,Not Required,None,76.07,110,Advanced,Medium,177
+LA20260148,Telangana,Patna,Village_61,Railway,2.4,Government,Government,4,No,Low,Yes,Obtained,1647085.0,16742514.0,Pending,153,Approved,114,Not Required,Open,37.62,83,In Progress,High,286
+LA20260520,Haryana,Karnal,Village_6,State Highway,35.74,Residential,Joint Family,4,Yes,None,Yes,Obtained,8868073.0,4889126.0,Paid,75,Approved,13,Not Required,Resolved,25.66,71,In Progress,Medium,318
+LA20260349,Karnataka,Udupi,Village_59,Airport,40.23,Agricultural,Individual,5,Yes,None,Yes,Pending,11270906.0,19200696.0,Pending,24,Approved,4,Completed,Open,65.14,230,Advanced,Medium,272
+LA20260326,Maharashtra,Agra,Village_13,Industrial Corridor,31.99,Commercial,Individual,6,No,None,Yes,Obtained,3900764.0,2601105.0,Paid,29,Pending,74,Completed,Resolved,77.44,24,Advanced,Low,129
+LA20260488, Punjab,Surat,Village_26,Dam,40.28,Government,Trust,6,Yes,Medium,Yes,Obtained,519268.0,1434569.0,Partial,2,Approved,35,Completed,None,38.77,24,In Progress,High,253
+LA20260124,Telangana,Karnal,Village_26,Metro,48.0,Commercial,Joint Family,6,Yes,None,No,Obtained,10288276.0,1704940.0,Paid,68,Pending,24,Completed,None,93.52,57,Near Completion,Medium,94
+LA20260549,Gujarat,Kapurtala,Village_27,Industrial Corridor,11.03,Forest,Company,7,Yes,None,Yes,Obtained,13647600.0,22396840.0,Paid,151,Approved,5,Completed,None,89.23,122,Near Completion,Medium,140
+LA20260097,Bihar,Pune,Village_36,Dam,30.95,Residential,Government,1,No,None,Yes,Pending,17388344.0,19129714.0,Pending,111,Approved,116,Not Required,Resolved,38.41,171,In Progress,High,328
+LA20260144,New Delhi,Kapurtala,Village_19,State Highway,34.56,Agricultural,Joint Family,7,No,None,No,Pending,12975705.0,6150733.0,Pending,17,Approved,109,Pending,None,68.74,120,Advanced,Low,205
+LA20260240,Rajasthan,Thane,Village_39,State Highway,25.54,Government,Individual,5,No,None,Yes,Pending,2471891.0,7884208.0,Pending,121,Approved,32,Pending,Resolved,52.77,228,Advanced,Low,310
+LA20260395,Telangana,Amritsar,Village_89,Industrial Corridor,49.07,Agricultural,Individual,4,No,Medium,Yes,Pending,7803578.0,13391938.0,Partial,122,Approved,111,Not Required,Resolved,73.68,348,Advanced,High,303
+LA20260598,Haryana, Indore,Village_8,State Highway,37.29,Agricultural,Company,2,No,None,Yes,Obtained,5854476.0,14024134.0,Pending,136,Approved,61,Pending,None,87.15,132,Near Completion,Low,152
+LA20260098,Tamil Nadu,Nashik,Village_26,State Highway,15.66,Commercial,Individual,3,No,Medium,Yes,Obtained,17648763.0,3585275.0,Pending,121,Pending,69,Not Required,None,10.97,179,Initial,High,419
+LA20260372,Maharashtra,Karnal,Village_93,State Highway,13.96,Residential,Government,5,No,Medium,Yes,Pending,8520942.0,23662675.0,Pending,13,Approved,15,Not Required,Open,29.93,243,In Progress,Medium,391
+LA20260325,New Delhi,Gurugram,Village_99,Industrial Corridor,21.35,Government,Trust,5,No,Medium,Yes,Pending,15892287.0,18793199.0,Partial,51,Approved,34,Completed,None,30.32,94,In Progress,Medium,315
+LA20260280,Madhya Pradesh,Surat,Village_70,Dam,49.82,Industrial,Joint Family,7,No,Medium,Yes,Obtained,2517875.0,8247765.0,Paid,172,Approved,5,Not Required,None,30.9,287,In Progress,High,410
+LA20260294,Odisha,patiyala,Village_59,Metro,29.62,Commercial,Company,4,No,None,Yes,Obtained,6118738.0,19411889.0,Paid,15,Approved,142,Pending,None,98.18,143,Near Completion,Low,122
+LA20260255,Bihar, Nizamabad,Village_94,Dam,12.71,Residential,Trust,3,No,None,Yes,Pending,8720795.0,15412366.0,Pending,93,Approved,15,Not Required,None,73.82,86,Advanced,Low,172
+LA20260401,Telangana,Nanded,Village_38,Metro,48.61,Government,Individual,5,No,Medium,Yes,Pending,18430978.0,20347859.0,Paid,159,Approved,121,Not Required,None,96.69,350,Near Completion,High,231
+LA20260123,New Delhi,Aurangabad,Village_73,State Highway,40.18,Industrial,Trust,7,No,None,Yes,Obtained,12438439.0,15121828.0,Pending,58,Rejected,41,Not Required,None,45.61,214,In Progress,Low,326
+LA20260184,Telangana,Puri,Village_86,National Highway,15.12,Agricultural,Trust,6,No,None,Yes,Obtained,10695036.0,14727301.0,Partial,136,Approved,28,Not Required,None,77.73,143,Advanced,Low,188
+LA20260203,Haryana,Ambala,Village_14,Dam,33.0,Industrial,Individual,4,No,Medium,Yes,Obtained,13747340.0,13275928.0,Paid,163,Approved,58,Not Required,None,34.34,160,In Progress,High,335
+LA20260439,Uttar Pradesh,Thane,Village_71,Airport,26.21,Agricultural,Company,7,Yes,None,No,Pending,18155958.0,7230978.0,Partial,7,Approved,123,Pending,None,38.26,352,In Progress,High,419
+LA20260324,Karnataka,Noida,Village_32,National Highway,32.31,Industrial,Individual,6,No,None,Yes,Pending,4393603.0,9583020.0,Paid,64,Pending,57,In Progress,Resolved,32.63,113,In Progress,Low,317
+LA20260247,Telangana,Nashik,Village_16,Expressway,28.47,Residential,Joint Family,4,No,Low,Yes,Disputed,11986481.0,14893578.0,Pending,90,Approved,131,Pending,None,53.45,228,Advanced,Low,308
+LA20260416,Gujarat,Pune,Village_82,Dam,27.41,Commercial,Joint Family,3,Yes,None,Yes,Obtained,919547.0,20186101.0,Pending,91,Approved,132,Pending,None,5.34,214,Initial,High,455
+LA20260504,Telangana,Amritsar,Village_47,Expressway,4.43,Agricultural,Individual,2,Yes,None,No,Obtained,14958875.0,12508119.0,Paid,177,Approved,147,Pending,Resolved,29.48,128,In Progress,High,335
+LA20260554,Tamil Nadu,Gurugram,Village_93,State Highway,43.62,Residential,Joint Family,4,No,None,Yes,Obtained,11246008.0,14395712.0,Paid,35,Approved,99,Not Required,None,32.19,66,In Progress,Medium,295
+LA20260541,Maharashtra,Agra,Village_60,Railway,42.86,Forest,Joint Family,7,No,None,Yes,Pending,4914872.0,10710443.0,Paid,60,Approved,17,Not Required,Open,86.36,67,Near Completion,Low,122
+LA20260495,Tamil Nadu,Mumbai,Village_99,State Highway,8.71,Industrial,Individual,3,No,Low,Yes,Pending,13605349.0,12335204.0,Pending,16,Approved,82,Completed,None,55.19,17,Advanced,Low,197
+LA20260574,Haryana, Indore,Village_60,State Highway,14.36,Industrial,Trust,2,Yes,Medium,Yes,Pending,17426494.0,9881336.0,Paid,92,Approved,2,Not Required,Resolved,12.32,20,Initial,High,336
+LA20260469,Telangana,Sonipat,Village_64,National Highway,26.88,Industrial,Government,5,No,Medium,Yes,Obtained,6773614.0,16441697.0,Partial,90,Approved,119,Pending,None,9.42,208,Initial,Medium,439
+LA20260126,Uttar Pradesh,Nagaur,Village_73,Airport,5.93,Agricultural,Trust,3,No,None,Yes,Obtained,7316592.0,13756051.0,Paid,85,Approved,84,Completed,None,45.58,105,In Progress,Low,272
+LA20260403,Maharashtra,Udupi,Village_7,Railway,17.8,Industrial,Individual,2,No,None,Yes,Obtained,10762908.0,22875643.0,Pending,10,Approved,61,In Progress,Open,15.61,194,Initial,Medium,412
+LA20260514,Telangana,Sangli,Village_93,Railway,23.23,Agricultural,Government,6,Yes,None,Yes,Obtained,4795156.0,13607153.0,Pending,81,Approved,12,Not Required,None,13.33,149,Initial,Medium,397
+LA20260498,Telangana,Sonipat,Village_15,State Highway,8.53,Industrial,Individual,7,No,None,Yes,Obtained,14869487.0,11482779.0,Partial,149,Approved,20,In Progress,None,50.56,141,Advanced,Low,274
+LA20260224,Tamil Nadu, Chattarpur (Delhi),Village_82,Industrial Corridor,37.87,Industrial,Government,2,No,High,Yes,Obtained,9412495.0,15654676.0,Paid,0,Approved,46,Pending,None,65.79,265,Advanced,Medium,287
+LA20260343,Odisha,Aurangabad,Village_9,Dam,47.06,Forest,Individual,5,No,None,Yes,Obtained,3932297.0,12262845.0,Pending,158,Approved,46,Pending,None,36.57,340,In Progress,Medium,418
+LA20260054,Odisha,Darbhanga,Village_98,National Highway,46.18,Industrial,Government,1,No,None,Yes,Pending,3644753.0,1137056.0,Partial,11,Rejected,65,Not Required,None,79.3,91,Advanced,Low,157
+LA20260220,Odisha,Nagpur,Village_93,Dam,43.14,Residential,Government,7,No,Low,Yes,Pending,18325241.0,4040099.0,Paid,127,Pending,22,Pending,Open,84.64,3,Near Completion,Medium,96
+LA20260130,Uttar Pradesh,Panipat,Village_1,Industrial Corridor,5.36,Forest,Company,5,Yes,None,Yes,Obtained,8292251.0,19326828.0,Paid,23,Pending,65,Pending,None,30.76,153,In Progress,Medium,343
+LA20260590,Haryana,Chennai,Village_95,Railway,5.28,Government,Individual,1,No,None,No,Obtained,16140849.0,7134116.0,Paid,79,Approved,126,Not Required,None,82.23,269,Near Completion,Low,236
+LA20260622,Odisha, Mangaluru,Village_77,National Highway,44.01,Industrial,Joint Family,5,No,None,Yes,Pending,14253744.0,20484024.0,Paid,87,Pending,116,Not Required,None,17.79,28,Initial,Medium,322
+LA20260187, Punjab,Nashik,Village_79,Airport,19.41,Forest,Government,4,No,None,Yes,Obtained,9300372.0,20935742.0,Paid,172,Approved,2,Not Required,Open,70.95,57,Advanced,Medium,166
+LA20260593,Madhya Pradesh, Mangaluru,Village_11,Dam,23.7,Forest,Trust,7,Yes,None,Yes,Obtained,16552587.0,2063545.0,Paid,1,Approved,131,Completed,Open,14.32,163,Initial,High,401
+LA20260440,Odisha,Puri,Village_74,Railway,10.64,Agricultural,Joint Family,4,No,Medium,No,Obtained,11829923.0,23720944.0,Partial,172,Approved,20,Pending,None,26.31,281,In Progress,High,421
+LA20260586,Haryana, Nizamabad,Village_18,Railway,43.7,Industrial,Joint Family,4,No,Medium,Yes,Obtained,6455529.0,771568.0,Paid,116,Approved,79,In Progress,None,89.26,241,Near Completion,Medium,200
+LA20260101, Punjab,Nanded,Village_11,Dam,21.59,Residential,Government,5,No,None,Yes,Obtained,14546247.0,699019.0,Paid,41,Approved,109,In Progress,None,59.06,321,Advanced,Low,337
+LA20260532,Maharashtra,Aurangabad,Village_64,State Highway,23.83,Forest,Trust,4,No,None,Yes,Obtained,16183781.0,10888380.0,Paid,142,Pending,51,Completed,Resolved,31.32,98,In Progress,Medium,314
+LA20260387,Rajasthan,Solapur,Village_92,State Highway,33.36,Agricultural,Individual,1,No,None,Yes,Disputed,13449252.0,11941186.0,Pending,7,Approved,26,Not Required,None,29.99,106,In Progress,Low,322
+LA20260631,Bihar, Mangaluru,Village_46,State Highway,22.45,Residential,Government,4,No,Low,Yes,Pending,13586642.0,11279140.0,Paid,64,Approved,99,Not Required,Resolved,23.37,133,Initial,Medium,357
+LA20260295,Gujarat,Vadodara,Village_72,Railway,24.31,Commercial,Joint Family,4,No,None,Yes,Pending,8334165.0,6767445.0,Paid,170,Approved,6,Not Required,None,38.84,109,In Progress,Medium,295
+LA20260268, Punjab,Patna,Village_53,National Highway,27.93,Agricultural,Government,6,No,None,Yes,Pending,1296124.0,20148485.0,Partial,108,Pending,9,In Progress,Open,23.28,6,Initial,Medium,294
+LA20260052,Gujarat, Chattarpur (Delhi),Village_58,Expressway,7.06,Forest,Trust,3,Yes,None,Yes,Obtained,1905488.0,5896964.0,Partial,137,Approved,127,In Progress,None,20.2,240,Initial,High,420
+LA20260442,Haryana,Ajmer,Village_98,Dam,44.04,Government,Individual,6,No,None,Yes,Obtained,9106119.0,18114863.0,Paid,13,Approved,114,Completed,Resolved,66.31,277,Advanced,Low,291
+LA20260500,Telangana,Bhagalpur,Village_29,State Highway,28.21,Agricultural,Government,3,No,None,Yes,Pending,7239490.0,17724735.0,Pending,124,Approved,129,Pending,Resolved,77.1,306,Advanced,Medium,271
+LA20260113, Punjab,Sonipat,Village_69,Industrial Corridor,24.33,Forest,Government,1,No,Low,Yes,Obtained,7363013.0,10113045.0,Paid,133,Approved,103,Completed,Open,16.39,86,Initial,High,356
+LA20260180,Gujarat,Ambala,Village_17,Metro,13.62,Commercial,Trust,3,No,None,Yes,Pending,16586683.0,9710332.0,Pending,175,Rejected,19,Completed,None,87.34,97,Near Completion,Low,134
+LA20260507,Tamil Nadu,Sarai Rohilla (Delhi),Village_22,National Highway,42.98,Industrial,Company,7,No,None,No,Obtained,9295051.0,19059522.0,Paid,169,Approved,22,In Progress,None,35.24,256,In Progress,Medium,380
+LA20260592,Gujarat, Bhopal,Village_32,National Highway,1.11,Industrial,Government,7,No,None,Yes,Obtained,11100797.0,16053720.0,Partial,131,Approved,75,Not Required,None,76.83,60,Advanced,Low,149
+LA20260533,Karnataka, Indore,Village_25,National Highway,48.97,Agricultural,Government,2,No,None,Yes,Obtained,9300729.0,4534711.0,Pending,162,Pending,119,Not Required,Resolved,49.09,317,In Progress,Medium,366
+LA20260526,Telangana,Ahmednagar,Village_58,State Highway,22.79,Agricultural,Individual,3,No,None,Yes,Pending,8667848.0,3199824.0,Partial,7,Approved,50,In Progress,None,82.82,5,Near Completion,Low,102
+LA20260374,Maharashtra,Sangli,Village_67,Railway,22.76,Commercial,Government,2,Yes,None,Yes,Pending,316122.0,3462820.0,Paid,133,Approved,105,Not Required,Open,85.61,94,Near Completion,High,138
+LA20260315,Madhya Pradesh,Nashik,Village_20,Expressway,7.8,Agricultural,Joint Family,7,No,High,No,Obtained,16941114.0,17542960.0,Pending,131,Pending,52,In Progress,None,33.21,87,In Progress,High,302
+LA20260463,Karnataka,Surat,Village_65,Dam,39.75,Industrial,Company,4,No,None,No,Pending,11531220.0,13259555.0,Pending,76,Approved,16,Not Required,Open,51.58,241,Advanced,Low,320
+LA20260152,Tamil Nadu,Gurugram,Village_55,State Highway,33.14,Commercial,Company,5,Yes,None,Yes,Disputed,14252794.0,1162226.0,Pending,167,Pending,6,Not Required,None,96.46,120,Near Completion,Medium,116
+LA20260172,Haryana,Ajmer,Village_59,State Highway,17.81,Industrial,Trust,4,No,None,Yes,Pending,16638017.0,13857126.0,Paid,70,Pending,125,Not Required,None,35.77,31,In Progress,Medium,266
+LA20260234,Maharashtra,Nanded,Village_13,Industrial Corridor,2.64,Forest,Individual,5,No,Low,No,Obtained,18837323.0,10932624.0,Paid,81,Pending,119,Not Required,Open,11.49,213,Initial,Medium,435
+LA20260307,Maharashtra,Bhagalpur,Village_5,Expressway,4.31,Forest,Trust,5,No,None,Yes,Obtained,1878370.0,20604454.0,Paid,58,Approved,9,Pending,Open,45.33,324,In Progress,Low,382
+LA20260515,Maharashtra,Bhagalpur,Village_21,Metro,18.21,Government,Government,4,No,High,Yes,Pending,14236220.0,21270084.0,Paid,98,Approved,2,Not Required,Resolved,84.65,120,Near Completion,High,154
+LA20260165,Haryana,Agra,Village_70,Dam,4.07,Residential,Individual,3,No,Low,No,Disputed,4956851.0,4949729.0,Partial,158,Approved,150,Completed,None,8.23,88,Initial,High,383
+LA20260318,Karnataka,Sonipat,Village_50,National Highway,4.89,Residential,Joint Family,5,No,Medium,Yes,Obtained,4811456.0,21521746.0,Paid,168,Approved,43,Pending,Resolved,83.16,239,Near Completion,Medium,218
+LA20260137,Uttar Pradesh, Bhopal,Village_35,Industrial Corridor,20.03,Forest,Individual,1,Yes,None,Yes,Pending,5013866.0,7719563.0,Partial,36,Approved,110,Not Required,None,67.47,152,Advanced,Medium,225
+LA20260411,Bihar,Aurangabad,Village_32,Railway,6.18,Forest,Government,6,Yes,None,Yes,Obtained,18744090.0,11223103.0,Paid,127,Pending,23,Not Required,None,15.38,26,Initial,High,329
+LA20260579,Madhya Pradesh,Kapurtala,Village_72,Industrial Corridor,40.34,Agricultural,Joint Family,6,No,None,Yes,Obtained,14788532.0,7878869.0,Partial,180,Approved,79,Pending,None,42.7,282,In Progress,Low,369
+LA20260198,Maharashtra,Ajmer,Village_39,National Highway,49.01,Government,Company,5,Yes,None,Yes,Pending,5702244.0,18292131.0,Paid,12,Pending,31,Pending,None,26.27,259,In Progress,Medium,410
+LA20260359,Rajasthan, Bhopal,Village_70,Dam,8.37,Forest,Company,6,No,None,No,Obtained,7452470.0,10284586.0,Pending,8,Approved,11,Pending,Resolved,45.92,319,In Progress,Low,378
+LA20260259,Bihar,Satara,Village_14,Metro,20.37,Agricultural,Individual,6,No,None,Yes,Pending,12385493.0,6269678.0,Paid,79,Approved,106,In Progress,None,67.1,48,Advanced,Low,174
+LA20260233,Bihar,patiyala,Village_30,Metro,46.9,Forest,Government,2,No,None,Yes,Pending,14484693.0,19174643.0,Pending,122,Pending,90,In Progress,Open,77.78,307,Advanced,Medium,270
+LA20260535, Punjab,Sarai Rohilla (Delhi),Village_12,Industrial Corridor,6.75,Commercial,Individual,3,No,None,Yes,Disputed,18682411.0,14116525.0,Paid,42,Approved,141,Not Required,Open,60.46,82,Advanced,Medium,213
+LA20260116,New Delhi, Nizamabad,Village_36,Railway,38.13,Government,Trust,6,No,None,Yes,Obtained,5534901.0,7594129.0,Partial,148,Approved,0,Pending,None,22.16,268,Initial,Medium,428
+LA20260121,Madhya Pradesh,Patna,Village_62,Airport,12.44,Agricultural,Company,6,No,Low,Yes,Obtained,13024857.0,11876247.0,Paid,31,Approved,149,Pending,Resolved,10.41,21,Initial,Medium,342
+LA20260446, Punjab, Mangaluru,Village_79,Expressway,49.26,Commercial,Joint Family,5,No,None,No,Obtained,17916002.0,4185691.0,Pending,174,Approved,18,Not Required,None,47.94,50,In Progress,Low,237
+LA20260283,Karnataka,Bhagalpur,Village_63,Railway,36.24,Agricultural,Company,7,Yes,High,Yes,Obtained,11931371.0,11629545.0,Paid,30,Pending,129,Pending,Open,72.26,125,Advanced,High,196
+LA20260377,Haryana,Ajmer,Village_98,Airport,24.63,Government,Individual,4,No,Medium,Yes,Obtained,1742004.0,24306926.0,Paid,52,Approved,9,Pending,None,19.67,0,Initial,Medium,302
+LA20260385,Haryana,Karnal,Village_80,Expressway,45.04,Agricultural,Government,5,Yes,None,No,Pending,14843352.0,13688172.0,Pending,89,Rejected,59,Pending,None,15.94,234,Initial,Medium,431
+LA20260225,Karnataka,Amritsar,Village_33,Railway,23.3,Forest,Joint Family,4,No,Medium,Yes,Obtained,1353109.0,2045825.0,Paid,43,Approved,43,Not Required,None,78.35,228,Advanced,Low,228
+LA20260618,Odisha,Solapur,Village_97,Dam,5.15,Agricultural,Government,1,No,None,Yes,Pending,2791447.0,20948181.0,Pending,155,Pending,112,Pending,None,58.3,48,Advanced,Medium,202
+LA20260530, Punjab, Nizamabad,Village_61,Railway,17.94,Commercial,Trust,2,No,None,Yes,Pending,1976078.0,14802495.0,Paid,148,Approved,116,Not Required,Resolved,59.43,102,Advanced,Medium,226
+LA20260473, Punjab,Agra,Village_36,Expressway,16.18,Industrial,Trust,4,Yes,High,Yes,Pending,7043415.0,13395753.0,Pending,121,Approved,6,Completed,None,22.87,257,Initial,High,420
+LA20260348,Telangana,Sonipat,Village_11,Expressway,9.71,Agricultural,Joint Family,3,No,None,No,Obtained,1905099.0,3450781.0,Partial,76,Approved,65,Not Required,None,96.18,3,Near Completion,Low,59
+LA20260506,Tamil Nadu,Solapur,Village_84,Expressway,9.78,Residential,Joint Family,7,Yes,None,No,Obtained,6194799.0,4377326.0,Partial,70,Approved,94,Not Required,None,17.28,297,Initial,High,458
+LA20260641,Odisha,Udupi,Village_6,State Highway,32.79,Government,Company,6,Yes,Medium,Yes,Pending,3356019.0,20225453.0,Pending,63,Approved,116,Completed,None,31.07,44,In Progress,High,288
+LA20260607,Tamil Nadu, Nizamabad,Village_32,Expressway,12.36,Government,Government,4,No,None,Yes,Pending,8778368.0,24972837.0,Pending,144,Pending,118,Not Required,Open,98.52,58,Near Completion,Medium,79
+LA20260551,Tamil Nadu,Aurangabad,Village_50,National Highway,15.55,Industrial,Company,6,No,None,Yes,Obtained,19858076.0,6397563.0,Pending,29,Approved,50,Completed,Resolved,41.37,155,In Progress,Low,310
+LA20260086,Tamil Nadu,Nanded,Village_26,National Highway,49.19,Industrial,Government,2,No,None,Yes,Pending,14329426.0,23701067.0,Paid,9,Pending,49,In Progress,None,23.95,259,Initial,Low,418
+LA20260243,Maharashtra,Nagpur,Village_62,Industrial Corridor,27.34,Forest,Trust,6,No,None,Yes,Pending,5523459.0,23095949.0,Paid,54,Approved,35,Not Required,None,61.08,57,Advanced,Low,198
+LA20260160,Haryana,Coimbtore,Village_95,Expressway,25.85,Agricultural,Government,5,No,High,Yes,Obtained,9272455.0,6182860.0,Paid,158,Approved,102,Not Required,None,90.56,23,Near Completion,High,87
+LA20260525,Madhya Pradesh,Nagpur,Village_1,Dam,17.72,Commercial,Individual,5,Yes,None,Yes,Pending,16586108.0,15183514.0,Pending,25,Approved,39,Not Required,Open,32.87,74,In Progress,High,297
+LA20260036,New Delhi,Kanpur,Village_74,Metro,6.26,Agricultural,Company,2,No,None,Yes,Obtained,3655070.0,23591257.0,Paid,25,Approved,55,Not Required,Open,87.28,324,Near Completion,Low,248
+LA20260171,New Delhi,Kapurtala,Village_15,Expressway,15.18,Agricultural,Government,6,No,None,Yes,Pending,10173645.0,18741765.0,Paid,47,Approved,93,Not Required,Resolved,24.76,160,Initial,Medium,366
+LA20260553,Madhya Pradesh,Bhagalpur,Village_3,National Highway,46.95,Commercial,Company,6,Yes,Medium,Yes,Obtained,5890570.0,17327260.0,Paid,6,Pending,70,Completed,Resolved,69.44,320,Advanced,Medium,303
+LA20260545,Tamil Nadu, Mangaluru,Village_93,Railway,32.32,Industrial,Company,5,No,None,Yes,Obtained,11489707.0,13507139.0,Partial,83,Approved,127,In Progress,None,16.66,263,Initial,Medium,443
+LA20260612,Haryana,Thane,Village_92,Industrial Corridor,42.86,Government,Government,7,No,None,Yes,Pending,6466082.0,12090483.0,Partial,104,Pending,10,Not Required,None,61.47,128,Advanced,Low,232
+LA20260096,Telangana,Coimbtore,Village_53,State Highway,40.79,Residential,Government,6,Yes,None,Yes,Pending,6530473.0,14244807.0,Paid,25,Approved,95,Pending,Resolved,84.27,254,Near Completion,Medium,222
+LA20260241,Uttar Pradesh,Nagpur,Village_46,National Highway,42.11,Industrial,Company,3,No,Medium,Yes,Obtained,2697526.0,2327698.0,Paid,86,Approved,30,Completed,None,49.0,303,In Progress,Low,360
+LA20260461,Rajasthan,Thane,Village_17,Metro,26.4,Government,Joint Family,6,No,None,Yes,Pending,2872574.0,974096.0,Paid,28,Approved,23,Completed,None,26.16,87,In Progress,Low,325
+LA20260616,Telangana,Chennai,Village_40,Airport,30.15,Residential,Trust,5,Yes,Low,No,Pending,15951779.0,9461426.0,Pending,174,Approved,98,Not Required,None,6.51,313,Initial,High,501
+LA20260207,Rajasthan, Bhopal,Village_60,Railway,11.62,Government,Individual,3,No,Low,Yes,Obtained,1383293.0,3169720.0,Paid,36,Approved,56,In Progress,None,8.7,105,Initial,Low,390
+LA20260393,Haryana,Sarai Rohilla (Delhi),Village_13,National Highway,13.38,Industrial,Government,2,Yes,Low,Yes,Pending,9188385.0,22658437.0,Paid,25,Approved,65,Not Required,Open,59.49,15,Advanced,Medium,182
+LA20260398,Maharashtra,Aurangabad,Village_100,Industrial Corridor,10.31,Residential,Government,3,Yes,Medium,Yes,Disputed,5591845.0,16779958.0,Partial,122,Pending,101,Not Required,Resolved,80.89,258,Near Completion,High,235
+LA20260546,Rajasthan,Pune,Village_53,State Highway,34.86,Forest,Joint Family,6,No,None,Yes,Pending,17264508.0,7099786.0,Pending,33,Pending,103,Not Required,Resolved,83.13,224,Near Completion,Low,211
+LA20260218,Rajasthan,Ahmednagar,Village_15,Industrial Corridor,14.65,Residential,Company,2,No,High,Yes,Obtained,8610925.0,1050588.0,Paid,105,Approved,5,In Progress,Open,10.56,140,Initial,High,401
+LA20260005,Telangana,Aurangabad,Village_23,Dam,8.04,Agricultural,Government,5,No,High,Yes,Obtained,18416793.0,19576008.0,Paid,31,Rejected,10,Not Required,None,99.32,195,Near Completion,Medium,145
+LA20260578, Punjab, Nizamabad,Village_88,Dam,37.82,Residential,Government,4,No,None,Yes,Obtained,5887702.0,2695375.0,Paid,62,Rejected,17,Completed,Open,99.26,245,Near Completion,Low,170
+LA20260099,Odisha,jaisalmer,Village_29,Metro,31.38,Commercial,Government,1,No,Medium,Yes,Pending,7133693.0,5871035.0,Paid,11,Approved,129,Completed,None,64.14,263,Advanced,Medium,291
+LA20260407,Tamil Nadu,Coimbtore,Village_31,Airport,12.92,Commercial,Joint Family,2,No,Medium,Yes,Obtained,10561068.0,13897983.0,Pending,167,Approved,140,In Progress,None,35.77,253,In Progress,High,377
+LA20260503, Punjab,Ahmednagar,Village_2,State Highway,44.57,Commercial,Joint Family,5,Yes,None,Yes,Disputed,11510016.0,1246572.0,Pending,50,Pending,70,In Progress,None,71.57,61,Advanced,Medium,166
+LA20260048,Uttar Pradesh,Ludhiana,Village_73,State Highway,17.63,Commercial,Company,6,No,Low,Yes,Obtained,12212981.0,20206354.0,Pending,174,Rejected,26,In Progress,Resolved,24.42,363,Initial,Medium,468
+LA20260033,Odisha,Aurangabad,Village_86,Railway,42.65,Government,Trust,4,Yes,None,Yes,Obtained,11655566.0,5306005.0,Pending,67,Approved,35,Completed,None,90.71,154,Near Completion,Medium,152
+LA20260201,Odisha,Puri,Village_59,Expressway,37.53,Commercial,Trust,7,Yes,High,Yes,Disputed,8923942.0,12279647.0,Paid,19,Pending,24,Completed,None,34.13,45,In Progress,High,278
+LA20260135,Maharashtra,Mumbai,Village_25,Airport,24.06,Government,Trust,6,Yes,None,Yes,Obtained,10854274.0,20906928.0,Paid,142,Approved,38,In Progress,None,42.42,45,In Progress,Medium,252
+LA20260028, Punjab, Indore,Village_9,Industrial Corridor,30.23,Forest,Government,3,Yes,None,No,Obtained,12638491.0,4982422.0,Paid,146,Approved,100,In Progress,Resolved,66.39,358,Advanced,High,332
+LA20260569,Gujarat,Darbhanga,Village_84,Expressway,5.98,Government,Individual,6,No,None,Yes,Obtained,19506726.0,4708850.0,Partial,13,Pending,143,Not Required,None,25.5,328,In Progress,Medium,447
+LA20260231,Telangana,Nagaur,Village_42,Metro,27.48,Agricultural,Individual,2,Yes,None,Yes,Pending,5512087.0,18509729.0,Paid,86,Approved,149,Not Required,Open,65.38,274,Advanced,High,293
+LA20260490,Madhya Pradesh,Thane,Village_46,Airport,48.37,Agricultural,Individual,3,No,None,Yes,Obtained,7163854.0,16425047.0,Paid,78,Approved,43,In Progress,None,53.46,272,Advanced,Low,330
+LA20260379,Karnataka,Agra,Village_91,State Highway,3.6,Commercial,Company,5,No,Low,Yes,Obtained,18416756.0,2928439.0,Paid,37,Approved,84,Not Required,None,56.33,206,Advanced,Low,288
+LA20260289,Bihar,Bhagalpur,Village_98,State Highway,0.66,Forest,Trust,7,No,None,Yes,Obtained,19019971.0,15731230.0,Pending,70,Approved,53,Not Required,None,73.85,13,Advanced,Low,135
+LA20260419,Gujarat, Indore,Village_78,Industrial Corridor,24.49,Residential,Individual,2,No,Medium,Yes,Obtained,4153461.0,9778663.0,Pending,173,Pending,131,In Progress,Open,42.71,289,In Progress,High,373
+LA20260392,Bihar,Nagaur,Village_41,State Highway,21.23,Forest,Company,6,No,None,Yes,Pending,15852169.0,20521811.0,Paid,95,Approved,73,Not Required,None,28.72,337,In Progress,Medium,442
+LA20260499,Tamil Nadu,Sonipat,Village_29,Expressway,1.12,Commercial,Joint Family,1,No,High,Yes,Obtained,13304834.0,11875468.0,Paid,151,Pending,119,Completed,Resolved,82.11,135,Near Completion,High,170
+LA20260139,Telangana,Karnal,Village_44,Airport,39.36,Commercial,Joint Family,3,No,Low,Yes,Obtained,3531084.0,11873507.0,Pending,130,Approved,76,Completed,None,58.05,73,Advanced,Low,216
+LA20260063, Punjab,Bhagalpur,Village_41,Airport,3.87,Forest,Individual,2,No,Low,Yes,Obtained,2585540.0,24450772.0,Pending,59,Pending,37,Completed,Resolved,9.52,363,Initial,Low,516
+LA20260472,Telangana,Karnal,Village_76,State Highway,39.77,Residential,Joint Family,2,Yes,Low,Yes,Obtained,2780296.0,6300794.0,Paid,70,Approved,28,Not Required,None,61.42,23,Advanced,Medium,180
+LA20260129, Punjab,Nagaur,Village_17,Industrial Corridor,42.3,Forest,Individual,1,No,None,No,Pending,19024745.0,20732539.0,Paid,113,Pending,110,Not Required,None,71.17,349,Advanced,Medium,312
+LA20260634, Punjab,Nashik,Village_44,Industrial Corridor,29.79,Industrial,Joint Family,3,No,None,Yes,Obtained,1962393.0,11098741.0,Partial,180,Pending,147,In Progress,Open,30.12,240,In Progress,High,389
+LA20260521,Uttar Pradesh,Sarai Rohilla (Delhi),Village_19,Railway,41.39,Residential,Company,1,No,High,Yes,Pending,4768545.0,22542512.0,Partial,61,Approved,140,Not Required,None,93.24,218,Near Completion,Medium,176
+LA20260065,Uttar Pradesh,Puri,Village_34,Dam,7.19,Industrial,Joint Family,5,No,Medium,Yes,Obtained,3300934.0,5540910.0,Paid,16,Approved,138,Not Required,None,11.83,364,Initial,Medium,509
+LA20260015,Bihar,Darbhanga,Village_47,Dam,41.39,Forest,Individual,5,No,None,No,Disputed,8139212.0,2127268.0,Paid,109,Approved,15,Pending,None,54.35,309,Advanced,Low,346
+LA20260157,Tamil Nadu, Nizamabad,Village_88,National Highway,26.16,Commercial,Trust,6,No,None,Yes,Pending,18431263.0,9544904.0,Paid,116,Pending,94,Pending,None,98.39,179,Near Completion,Medium,140
+LA20260041, Punjab,Aurangabad,Village_81,Industrial Corridor,40.39,Forest,Joint Family,6,Yes,Low,No,Obtained,17363065.0,12847630.0,Pending,123,Rejected,78,Completed,Open,47.46,303,In Progress,High,365
+LA20260493,Madhya Pradesh,Nagpur,Village_4,Metro,33.56,Government,Government,3,Yes,None,Yes,Obtained,15844601.0,10027676.0,Pending,5,Pending,92,In Progress,Open,86.99,351,Near Completion,High,262
+LA20260380,Madhya Pradesh,Nanded,Village_77,Airport,45.37,Residential,Joint Family,7,No,High,Yes,Obtained,5559535.0,23696214.0,Pending,128,Approved,133,Pending,Resolved,26.18,153,In Progress,High,358
+LA20260188, Punjab,Sangli,Village_7,Metro,10.68,Residential,Individual,7,No,None,Yes,Obtained,12644377.0,6771183.0,Partial,8,Pending,1,Pending,None,89.8,280,Near Completion,Low,218
+LA20260217,New Delhi, Chattarpur (Delhi),Village_39,State Highway,32.47,Government,Company,5,No,None,Yes,Pending,4143307.0,15103738.0,Pending,102,Approved,109,In Progress,Open,33.25,187,In Progress,High,352
+LA20260053,Karnataka,Kolhapur,Village_29,Expressway,43.17,Agricultural,Trust,5,No,None,Yes,Obtained,9383435.0,5149376.0,Paid,55,Approved,25,Completed,Open,6.35,275,Initial,Medium,482
+LA20260338,Gujarat, Bhopal,Village_67,Airport,1.7,Commercial,Company,3,Yes,Medium,Yes,Obtained,5157103.0,14895691.0,Paid,44,Approved,85,Not Required,None,17.41,222,Initial,High,420
+LA20260296,Uttar Pradesh,Kanpur,Village_20,Expressway,32.3,Forest,Individual,1,No,None,Yes,Pending,4510456.0,23353110.0,Pending,115,Approved,77,Not Required,None,63.32,162,Advanced,Low,243
+LA20260252,Karnataka,Kapurtala,Village_84,Metro,8.42,Commercial,Individual,2,No,None,No,Disputed,11123422.0,427306.0,Paid,8,Approved,3,Pending,None,46.6,289,In Progress,Low,360
+LA20260462,Maharashtra,Noida,Village_10,State Highway,14.71,Residential,Company,3,Yes,Medium,No,Obtained,6064300.0,24178266.0,Partial,44,Pending,87,In Progress,None,37.08,317,In Progress,High,405
+LA20260456,Tamil Nadu,Puri,Village_91,National Highway,41.19,Industrial,Company,7,Yes,None,No,Obtained,3730964.0,1206526.0,Paid,44,Pending,74,Completed,Resolved,72.65,264,Advanced,Medium,265
+LA20260649,Madhya Pradesh,Ajmer,Village_50,Expressway,18.41,Government,Company,5,No,None,Yes,Pending,8442442.0,21287879.0,Partial,46,Pending,65,Pending,None,99.47,155,Near Completion,Low,124
+LA20260270,Rajasthan,Bhagalpur,Village_73,Expressway,38.17,Forest,Company,1,No,Low,No,Pending,1596891.0,17375805.0,Paid,177,Approved,47,Pending,Resolved,94.02,125,Near Completion,Low,127
+LA20260202,Karnataka,Kanpur,Village_17,Metro,40.68,Forest,Joint Family,2,No,None,Yes,Disputed,17167613.0,21980661.0,Paid,49,Pending,59,Completed,Open,84.26,8,Near Completion,Low,99
+LA20260162,Uttar Pradesh,Kanpur,Village_81,Industrial Corridor,2.56,Industrial,Company,2,Yes,High,Yes,Obtained,13537475.0,6411977.0,Paid,57,Pending,112,Not Required,None,39.77,269,In Progress,High,372
+LA20260556,Bihar,Darbhanga,Village_44,Railway,39.53,Commercial,Company,7,No,None,Yes,Pending,1911859.0,9217564.0,Partial,51,Approved,138,Pending,Open,41.22,361,In Progress,Medium,414
+LA20260402,Uttar Pradesh,Surat,Village_60,Dam,30.62,Government,Joint Family,4,No,Low,Yes,Obtained,11715459.0,21364214.0,Pending,0,Approved,148,Pending,None,51.52,341,Advanced,Low,371
+LA20260477,Uttar Pradesh,Varanasi,Village_7,Airport,49.18,Residential,Joint Family,4,No,None,Yes,Pending,2807849.0,5005970.0,Paid,60,Approved,135,Completed,Resolved,73.8,116,Advanced,Low,187
+LA20260106,Haryana,Thane,Village_39,Airport,18.7,Agricultural,Company,3,No,Medium,Yes,Pending,15602606.0,20521076.0,Paid,108,Pending,130,Completed,None,63.99,99,Advanced,High,210
+LA20260566,Karnataka, Chattarpur (Delhi),Village_78,National Highway,27.56,Residential,Government,4,No,None,Yes,Disputed,5846695.0,12234339.0,Pending,48,Approved,56,Not Required,None,56.16,176,Advanced,Low,273
+LA20260390,Odisha,Solapur,Village_59,Industrial Corridor,46.87,Forest,Company,7,Yes,None,Yes,Obtained,1173138.0,16615159.0,Partial,130,Pending,39,Not Required,None,89.47,293,Near Completion,Medium,225
+LA20260002,New Delhi,Gurugram,Village_74,Airport,46.4,Industrial,Joint Family,7,No,None,Yes,Pending,1635942.0,5823614.0,Paid,103,Approved,119,In Progress,None,60.91,49,Advanced,Medium,195
+LA20260608,Telangana, Bhopal,Village_79,State Highway,39.83,Forest,Trust,1,Yes,Medium,Yes,Pending,16033899.0,15272517.0,Partial,62,Approved,40,Completed,None,57.91,76,Advanced,Medium,218
+LA20260562,Gujarat,Vadodara,Village_46,Airport,5.99,Residential,Company,4,Yes,None,Yes,Pending,5879564.0,10719789.0,Pending,142,Approved,4,Not Required,None,21.01,68,Initial,High,332
+LA20260081,Haryana,Satara,Village_53,Airport,23.26,Industrial,Joint Family,2,No,High,Yes,Pending,16904874.0,16025870.0,Paid,109,Approved,117,Not Required,Resolved,40.37,219,In Progress,High,345
+LA20260206,Uttar Pradesh,Vadodara,Village_99,Metro,46.44,Government,Trust,5,No,None,Yes,Pending,17492550.0,12363138.0,Pending,68,Approved,132,Not Required,None,16.06,320,Initial,Medium,474
+LA20260035,New Delhi, Chattarpur (Delhi),Village_81,Airport,46.56,Agricultural,Joint Family,4,No,None,Yes,Obtained,11171166.0,11744077.0,Paid,17,Approved,43,Not Required,Resolved,44.0,362,In Progress,Low,405
+LA20260509,Gujarat,Satara,Village_27,Railway,27.27,Industrial,Company,1,No,None,Yes,Obtained,18612451.0,23655213.0,Paid,68,Pending,80,Not Required,None,71.81,53,Advanced,Low,162
+LA20260428,Haryana,Agra,Village_27,Industrial Corridor,3.58,Residential,Individual,7,Yes,Medium,No,Pending,3599228.0,7676113.0,Paid,176,Approved,118,Not Required,Resolved,81.38,73,Near Completion,High,141
+LA20260455,Odisha,Sarai Rohilla (Delhi),Village_68,State Highway,33.01,Residential,Government,3,No,High,Yes,Pending,6548274.0,22216238.0,Paid,147,Approved,65,Not Required,Resolved,58.8,166,Advanced,High,260
+LA20260367,Bihar,Satara,Village_81,Expressway,14.47,Residential,Government,3,No,None,Yes,Obtained,3265860.0,15369061.0,Pending,180,Approved,128,Pending,None,35.33,345,In Progress,High,424
+LA20260092,Bihar,Vadodara,Village_2,Industrial Corridor,34.76,Agricultural,Company,7,No,Low,Yes,Pending,9153859.0,20336800.0,Paid,156,Approved,90,In Progress,None,55.87,69,Advanced,Low,221
+LA20260340,Rajasthan, Bhopal,Village_98,State Highway,14.02,Industrial,Government,7,Yes,Low,Yes,Obtained,17787789.0,12648002.0,Paid,86,Approved,75,Not Required,None,65.31,282,Advanced,Medium,297
+LA20260565,New Delhi,Patna,Village_94,National Highway,43.3,Industrial,Government,6,No,Medium,Yes,Obtained,3448459.0,20663345.0,Paid,125,Approved,87,In Progress,Resolved,41.17,319,In Progress,Medium,393
+LA20260346,Karnataka,Sarai Rohilla (Delhi),Village_25,Railway,43.7,Industrial,Government,4,No,Low,Yes,Obtained,5518259.0,20355776.0,Paid,171,Approved,29,Not Required,None,16.13,6,Initial,Medium,316
+LA20260242,Telangana,Sarai Rohilla (Delhi),Village_29,State Highway,36.77,Forest,Company,2,No,None,Yes,Disputed,10684766.0,2455199.0,Pending,130,Pending,148,Completed,None,19.97,61,Initial,High,332
+LA20260014,Karnataka,Sangli,Village_1,State Highway,6.82,Agricultural,Individual,2,No,None,Yes,Pending,2641706.0,23952613.0,Pending,170,Approved,126,Not Required,Open,90.29,145,Near Completion,Medium,149
+LA20260316,Madhya Pradesh,Gurugram,Village_61,Airport,16.75,Commercial,Company,5,No,Medium,Yes,Pending,16021826.0,17835821.0,Paid,91,Approved,91,Pending,None,80.19,350,Near Completion,High,283
+LA20260601,Tamil Nadu,Sarai Rohilla (Delhi),Village_51,Metro,42.69,Government,Individual,1,No,None,Yes,Obtained,2141282.0,3083587.0,Paid,81,Approved,15,Completed,None,20.97,37,Initial,Low,316
+LA20260388,Madhya Pradesh,Ahmednagar,Village_97,Airport,48.19,Forest,Government,4,No,Medium,No,Obtained,8324014.0,15406625.0,Partial,106,Approved,67,Not Required,None,11.75,172,Initial,High,413
+LA20260274, Punjab, Chattarpur (Delhi),Village_68,Industrial Corridor,47.92,Commercial,Company,5,No,None,Yes,Obtained,16513148.0,13444096.0,Partial,113,Approved,52,Completed,Open,18.21,41,Initial,Medium,327
+LA20260167,Telangana,Solapur,Village_25,State Highway,1.1,Forest,Trust,6,Yes,None,Yes,Disputed,9218218.0,21667997.0,Paid,73,Pending,90,Completed,Resolved,56.86,256,Advanced,Medium,311
+LA20260646,Rajasthan,Nagpur,Village_76,Expressway,31.89,Agricultural,Joint Family,5,No,None,Yes,Obtained,1891088.0,21555615.0,Pending,73,Approved,136,Not Required,Open,78.01,236,Advanced,Medium,233
+LA20260485,Karnataka,Coimbtore,Village_75,Dam,30.96,Forest,Government,4,No,None,Yes,Obtained,17315179.0,13058626.0,Partial,20,Approved,20,Pending,None,52.07,34,Advanced,Low,215
+LA20260636,Uttar Pradesh, Nizamabad,Village_75,Dam,12.25,Agricultural,Individual,7,Yes,None,Yes,Pending,18386726.0,10210438.0,Pending,25,Pending,120,Not Required,None,52.18,203,Advanced,Medium,300
+LA20260505,Maharashtra,Nanded,Village_78,Expressway,36.71,Commercial,Joint Family,1,No,Medium,Yes,Disputed,7703327.0,13702641.0,Paid,138,Approved,49,Not Required,Resolved,92.65,340,Near Completion,Medium,239
+LA20260244,Maharashtra,Darbhanga,Village_93,National Highway,29.72,Agricultural,Government,6,Yes,Medium,No,Pending,616531.0,17294127.0,Partial,88,Approved,131,Not Required,Resolved,75.59,273,Advanced,High,260
+LA20260567,Bihar,patiyala,Village_71,Railway,19.33,Agricultural,Individual,7,No,Medium,Yes,Obtained,15898233.0,13676465.0,Partial,20,Approved,25,In Progress,None,89.72,71,Near Completion,Low,113
+LA20260563,Maharashtra,Patna,Village_15,Industrial Corridor,22.63,Forest,Individual,5,No,High,No,Disputed,5753010.0,11277880.0,Paid,92,Approved,109,Pending,Resolved,48.31,344,In Progress,High,382
+LA20260190,Karnataka,Ahmednagar,Village_48,National Highway,30.94,Industrial,Individual,2,No,None,Yes,Obtained,14904193.0,13534765.0,Paid,143,Approved,93,Not Required,Open,26.12,235,In Progress,High,399
+LA20260476,Telangana,Nagpur,Village_76,Metro,14.21,Residential,Company,3,No,None,Yes,Obtained,1452417.0,1886654.0,Pending,115,Approved,96,Not Required,None,54.45,148,Advanced,Medium,265
+LA20260511,Odisha, Mangaluru,Village_81,Metro,16.06,Commercial,Company,7,No,Medium,No,Obtained,13297031.0,21909008.0,Paid,124,Approved,141,Not Required,Resolved,65.41,99,Advanced,High,205
+LA20260059,Tamil Nadu,Ludhiana,Village_18,Railway,25.38,Forest,Individual,3,No,Low,Yes,Obtained,12467735.0,20087466.0,Paid,121,Pending,106,Pending,None,27.76,288,In Progress,High,420
+LA20260475, Punjab,Karnal,Village_52,Metro,45.35,Residential,Individual,2,No,High,Yes,Obtained,5077695.0,17631088.0,Paid,163,Approved,22,Not Required,Open,81.8,160,Near Completion,High,183
+LA20260561,Uttar Pradesh,Kolhapur,Village_20,State Highway,28.24,Forest,Trust,5,No,None,Yes,Pending,19984305.0,15008492.0,Paid,171,Pending,49,Pending,None,10.16,130,Initial,Medium,397
+LA20260253,Uttar Pradesh,Ahmednagar,Village_5,Airport,23.35,Commercial,Trust,2,No,None,Yes,Pending,16853704.0,5194698.0,Pending,109,Approved,68,Not Required,None,85.04,253,Near Completion,Low,219
+LA20260022, Punjab,Puri,Village_12,Railway,4.84,Commercial,Trust,1,Yes,Low,Yes,Obtained,3197927.0,12676200.0,Paid,40,Approved,16,Completed,Resolved,43.31,245,In Progress,Medium,349
+LA20260314,Odisha,Solapur,Village_99,State Highway,22.29,Government,Individual,3,No,High,Yes,Obtained,15700403.0,15804636.0,Partial,164,Approved,90,Pending,None,85.31,212,Near Completion,High,198
+LA20260460,Tamil Nadu,Kolhapur,Village_22,Dam,10.59,Residential,Trust,6,No,None,Yes,Obtained,6547238.0,19774408.0,Pending,46,Pending,2,In Progress,None,54.84,115,Advanced,Low,247
+LA20260161,Madhya Pradesh,Ahmednagar,Village_21,Metro,34.17,Government,Individual,3,No,Low,Yes,Pending,18911338.0,5364149.0,Pending,58,Approved,125,In Progress,Resolved,59.17,167,Advanced,Low,259
+LA20260277,Madhya Pradesh,Pune,Village_37,Dam,7.87,Forest,Trust,5,No,Low,Yes,Obtained,14336367.0,12153474.0,Partial,106,Approved,19,Completed,None,11.19,201,Initial,Medium,430
+LA20260192,Tamil Nadu, Bhopal,Village_59,Industrial Corridor,32.37,Agricultural,Joint Family,7,Yes,None,Yes,Pending,11386062.0,19642502.0,Paid,133,Pending,133,Pending,Open,63.44,127,Advanced,High,225
+LA20260386,Telangana,Satara,Village_40,Expressway,1.58,Industrial,Individual,3,No,None,Yes,Pending,1915071.0,8596140.0,Paid,51,Approved,87,Not Required,Resolved,44.69,255,In Progress,Low,349
+LA20260414,Rajasthan,Panipat,Village_39,Dam,3.85,Forest,Government,5,No,None,No,Obtained,15329093.0,16814847.0,Pending,44,Approved,33,Pending,None,52.76,29,Advanced,Low,211
+LA20260492,Bihar, Indore,Village_29,Airport,49.21,Agricultural,Trust,5,Yes,None,No,Pending,1640178.0,23612224.0,Pending,122,Pending,59,Completed,None,36.84,222,In Progress,High,358
+LA20260344,Karnataka,Nashik,Village_79,Railway,13.34,Commercial,Company,1,Yes,Low,Yes,Obtained,16138343.0,12722334.0,Partial,91,Approved,64,Completed,Resolved,90.57,60,Near Completion,Medium,105
+LA20260309,Telangana, Chattarpur (Delhi),Village_54,National Highway,17.04,Industrial,Individual,6,No,Medium,No,Obtained,15475172.0,11652801.0,Pending,23,Pending,47,Pending,Open,10.07,86,Initial,Medium,376
+LA20260131,Odisha,Satara,Village_89,Airport,24.67,Government,Individual,7,No,None,Yes,Pending,9440326.0,1162561.0,Partial,65,Pending,141,Pending,None,33.19,326,In Progress,Medium,422
+LA20260100, Punjab, Mangaluru,Village_21,Airport,26.59,Forest,Company,3,Yes,Low,No,Pending,1848502.0,22085879.0,Pending,148,Approved,69,Completed,None,22.92,182,Initial,High,383
+LA20260373, Punjab,Amritsar,Village_58,Railway,38.09,Agricultural,Government,5,No,Medium,No,Obtained,11329795.0,6268947.0,Paid,156,Approved,149,In Progress,None,66.28,68,Advanced,High,187
+LA20260088,Bihar,Sonipat,Village_92,Expressway,7.54,Agricultural,Company,3,Yes,None,Yes,Pending,11462492.0,8068028.0,Paid,6,Approved,110,Completed,Resolved,59.06,28,Advanced,Medium,190
+LA20260459,Tamil Nadu,Nashik,Village_12,Dam,48.24,Industrial,Joint Family,4,No,Low,Yes,Disputed,5173602.0,7579754.0,Pending,96,Approved,66,Completed,Resolved,77.3,267,Advanced,Low,251
+LA20260331,Karnataka,Agra,Village_98,State Highway,19.5,Agricultural,Company,5,No,None,Yes,Obtained,7434263.0,12635749.0,Pending,138,Pending,77,Not Required,None,61.48,197,Advanced,Low,267
+LA20260215, Punjab, Bhopal,Village_55,Industrial Corridor,10.27,Forest,Government,4,Yes,None,No,Disputed,17160125.0,19507194.0,Pending,40,Approved,47,Not Required,Open,81.23,272,Near Completion,Medium,241
+LA20260467,New Delhi,Puri,Village_50,Dam,20.1,Government,Individual,5,No,None,Yes,Obtained,17891497.0,24735868.0,Pending,163,Pending,148,Not Required,None,16.67,39,Initial,High,331
+LA20260122,Maharashtra, Chattarpur (Delhi),Village_98,Dam,48.81,Government,Company,1,No,None,Yes,Pending,780129.0,5133459.0,Paid,52,Approved,7,Not Required,None,9.99,166,Initial,Low,416
+LA20260615,Odisha,Nashik,Village_74,Airport,41.65,Government,Government,7,Yes,Medium,Yes,Pending,453869.0,9333728.0,Partial,14,Approved,147,Not Required,None,23.7,114,Initial,High,346
+LA20260021,Bihar,Noida,Village_87,Airport,18.33,Government,Individual,6,No,None,Yes,Obtained,7592393.0,23957888.0,Partial,112,Approved,47,Not Required,Open,82.49,278,Near Completion,Medium,240
+LA20260072,Gujarat,Gurugram,Village_85,Dam,22.26,Forest,Company,2,No,Medium,Yes,Obtained,12836843.0,23373388.0,Paid,10,Approved,51,In Progress,None,26.42,314,In Progress,Medium,437
+LA20260107,Maharashtra,Kanpur,Village_99,Industrial Corridor,21.0,Agricultural,Trust,2,No,Low,No,Obtained,7770794.0,9123658.0,Pending,34,Pending,99,In Progress,None,82.85,316,Near Completion,Low,258
+LA20260271,Haryana,Varanasi,Village_15,Industrial Corridor,2.25,Commercial,Government,6,Yes,None,Yes,Obtained,18693853.0,14383059.0,Paid,3,Approved,86,In Progress,None,13.31,324,Initial,Medium,484
+LA20260436,Haryana,Darbhanga,Village_70,Expressway,8.65,Government,Individual,7,No,None,Yes,Disputed,10588512.0,5354031.0,Pending,87,Approved,120,Not Required,None,14.05,301,Initial,Medium,471
+LA20260103,Haryana,Solapur,Village_11,Railway,44.39,Residential,Joint Family,7,No,Low,Yes,Obtained,15701888.0,11949578.0,Paid,57,Approved,55,Completed,Open,79.45,248,Advanced,Low,235
