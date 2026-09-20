@@ -1,0 +1,17 @@
+CREATE INDEX idx_projects_state_status ON projects(state_id, project_status);
+CREATE INDEX idx_projects_district ON projects(district_id);
+CREATE INDEX idx_parcels_project_status ON land_parcels(project_id, acquisition_status);
+CREATE INDEX idx_parcels_village_survey ON land_parcels(village_id, survey_number);
+CREATE INDEX idx_parcels_geom ON land_parcels USING GIST(geom);
+CREATE INDEX idx_parcels_centroid ON land_parcels USING GIST(centroid);
+CREATE INDEX idx_gis_layers_geom ON gis_layers USING GIST(geom);
+CREATE INDEX idx_field_verifications_location ON parcel_field_verifications USING GIST(verified_location);
+CREATE INDEX idx_field_observations_location ON field_observations USING GIST(location);
+CREATE INDEX idx_notifications_project_date ON acquisition_notifications(project_id, issue_date);
+CREATE INDEX idx_compensation_status ON compensation_assessments(assessment_status);
+CREATE INDEX idx_payments_status_date ON compensation_payments(payment_status, payment_date);
+CREATE INDEX idx_rr_family_status ON rr_benefits(family_id, benefit_status);
+CREATE INDEX idx_documents_project ON documents(project_id);
+CREATE INDEX idx_audit_logs_entity ON audit_logs(entity_table, entity_id);
+CREATE INDEX idx_audit_logs_occurred_at ON audit_logs(occurred_at);
+CREATE INDEX idx_in_app_notifications_recipient ON in_app_notifications(recipient_user_id, read_at);
