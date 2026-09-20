@@ -3,6 +3,7 @@ package com.sih.landacquisitionsystem.service;
 import com.sih.landacquisitionsystem.model.AcquisitionCase;
 import com.sih.landacquisitionsystem.model.Notification;
 import com.sih.landacquisitionsystem.model.StatusHistory;
+import com.sih.landacquisitionsystem.model.User;
 import com.sih.landacquisitionsystem.repository.AcquisitionCaseRepository;
 import com.sih.landacquisitionsystem.repository.UserRepository;
 import lombok.RequiredArgsConstructor;

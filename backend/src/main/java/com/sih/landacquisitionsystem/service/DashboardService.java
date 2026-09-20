@@ -29,14 +29,14 @@ public class DashboardService {
         summary.put("rrCompleteCount", count(allProjects, Status.RR_COMPLETE));
 
         Map<String, Long> projectsByState = allProjects.stream()
-                .filter(p -> p.getState() != null)
-                .collect(Collectors.groupingBy(Project::getState, Collectors.counting()));
+                .filter(p -> p.getStatus() != null)
+                .collect(Collectors.groupingBy(p -> p.getStatus().name(), Collectors.counting()));
         summary.put("projectsByState", projectsByState);
 
         Map<String, Map<String, Long>> projectsByStateAndStatus = allProjects.stream()
-                .filter(p -> p.getState() != null && p.getStatus() != null)
+                .filter(p -> p.getStatus() != null && p.getStatus() != null)
                 .collect(Collectors.groupingBy(
-                        Project::getState,
+                        p -> p.getStatus().name(),
                         Collectors.groupingBy(
                                 p -> p.getStatus().name(),
                                 Collectors.counting()

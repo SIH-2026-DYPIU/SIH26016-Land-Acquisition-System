@@ -64,6 +64,17 @@ public class Project {
     }
 
     public enum Status {
+        DRAFT,
+        SUBMITTED,
+        UNDER_SCRUTINY,
+        APPROVED,
+        LAND_IDENTIFICATION,
+        NOTIFICATION,
+        AWARD,
+        COMPENSATION,
+        POSSESSION,
+        R_AND_R,
+        COMPLETED,
         NOTIFIED,
         AWARDED,
         COMPENSATION_PAID,
