@@ -1,4 +1,6 @@
 import { useState, useEffect } from "react";
+import { onAuthStateChanged, signOut } from "firebase/auth";
+import { auth } from "./firebase";
 import { LoginPage } from "./auth/LoginPage.jsx";
 import GISMap from "./GISMap.jsx";
 
@@ -50,7 +52,6 @@ import {
   LineChart,
   Line,
 } from "recharts";
-
 
 /* =========================
    DATA
@@ -239,7 +240,6 @@ const monthlyProjects = [
   { month: "Sep", projects: 128 },
 ];
 
-
 /* =========================
    SMALL COMPONENTS
 ========================= */
@@ -278,7 +278,6 @@ function StatCard({
   );
 }
 
-
 function StatusBadge({ status }) {
   const type = status.toLowerCase().replaceAll(" ", "-");
 
@@ -291,7 +290,6 @@ function StatusBadge({ status }) {
     </span>
   );
 }
-
 
 /* =========================
    DASHBOARD
@@ -332,7 +330,6 @@ function Dashboard({ setActivePage }) {
         </div>
       </div>
 
-
       <div className="stats-grid">
         <StatCard
           title="Active Projects"
@@ -368,9 +365,7 @@ function Dashboard({ setActivePage }) {
         />
       </div>
 
-
       <div className="charts-grid">
-
         <div className="panel large-panel">
           <div className="panel-header">
             <div>
@@ -381,149 +376,143 @@ function Dashboard({ setActivePage }) {
             <button className="icon-btn">
               <MoreHorizontal size={19} />
             </button>
-          </div>
 
-          <div className="chart-container">
-            <ResponsiveContainer width="100%" height={320}>
-              <BarChart data={acquisitionData}>
-                <CartesianGrid strokeDasharray="3 3" vertical={false} />
-                <XAxis dataKey="month" />
-                <YAxis />
-                <Tooltip />
-                <Bar
-                  dataKey="acquisition"
-                  fill="#285985"
-                  radius={[6, 6, 0, 0]}
-                />
-              </BarChart>
-            </ResponsiveContainer>
+            <div className="chart-container">
+              <ResponsiveContainer width="100%" height={320}>
+                <BarChart data={acquisitionData}>
+                  <CartesianGrid strokeDasharray="3 3" vertical={false} />
+                  <XAxis dataKey="month" />
+                  <YAxis />
+                  <Tooltip />
+                  <Bar
+                    dataKey="acquisition"
+                    fill="#285985"
+                    radius={[6, 6, 0, 0]}
+                  />
+                </BarChart>
+              </ResponsiveContainer>
+            </div>
           </div>
         </div>
 
-
-        <div className="panel">
-          <div className="panel-header">
-            <div>
-              <h3>Project Status</h3>
-              <p>Current project distribution</p>
-            </div>
-          </div>
-
-          <div className="pie-container">
-            <ResponsiveContainer width="100%" height={260}>
-              <PieChart>
-                <Pie
-                  data={statusData}
-                  dataKey="value"
-                  nameKey="name"
-                  innerRadius={70}
-                  outerRadius={100}
-                  paddingAngle={3}
-                >
-                  {statusData.map((_, index) => (
-                    <Cell
-                      key={index}
-                      fill={
-                        ["#285985", "#4c7ca5", "#5e9676", "#d7a348"][
-                          index
-                        ]
-                      }
-                    />
-                  ))}
-                </Pie>
-
-                <Tooltip />
-              </PieChart>
-            </ResponsiveContainer>
-          </div>
-
-          <div className="legend">
-            {statusData.map((item, index) => (
-              <div className="legend-item" key={item.name}>
-                <span
-                  className="legend-dot"
-                  style={{
-                    background: [
-                      "#285985",
-                      "#4c7ca5",
-                      "#5e9676",
-                      "#d7a348",
-                    ][index],
-                  }}
-                ></span>
-
-                <span>{item.name}</span>
-
-                <strong>{item.value}%</strong>
+          <div className="panel">
+            <div className="panel-header">
+              <div>
+                <h3>Project Status</h3>
+                <p>Current project distribution</p>
               </div>
-            ))}
-          </div>
-        </div>
-      </div>
 
+              <div className="pie-container">
+                <ResponsiveContainer width="100%" height={260}>
+                  <PieChart>
+                    <Pie
+                      data={statusData}
+                      dataKey="value"
+                      nameKey="name"
+                      innerRadius={70}
+                      outerRadius={100}
+                      paddingAngle={3}
+                    >
+                      {statusData.map((_, index) => (
+                        <Cell
+                          key={index}
+                          fill={
+                            ["#285985", "#4c7ca5", "#5e9676", "#d7a348"][
+                              index
+                            ]
+                          }
+                        />
+                      ))}
+                    </Pie>
 
-      <div className="bottom-grid">
+                    <Tooltip />
+                  </PieChart>
+                </ResponsiveContainer>
+              </div>
 
-        <div className="panel">
-          <div className="panel-header">
-            <div>
-              <h3>Project Growth</h3>
-              <p>Active projects over the last 6 months</p>
+              <div className="legend">
+                {statusData.map((item, index) => (
+                  <div className="legend-item" key={item.name}>
+                    <span
+                      className="legend-dot"
+                      style={{
+                        background: [
+                          "#285985",
+                          "#4c7ca5",
+                          "#5e9676",
+                          "#d7a348",
+                        ][index],
+                      }}
+                    ></span>
+
+                    <span>{item.name}</span>
+
+                    <strong>{item.value}%</strong>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
 
-          <ResponsiveContainer width="100%" height={240}>
-            <LineChart data={monthlyProjects}>
-              <CartesianGrid strokeDasharray="3 3" vertical={false} />
-              <XAxis dataKey="month" />
-              <YAxis />
-              <Tooltip />
-              <Line
-                type="monotone"
-                dataKey="projects"
-                stroke="#285985"
-                strokeWidth={3}
-                dot={{ r: 4 }}
-              />
-            </LineChart>
-          </ResponsiveContainer>
-        </div>
+          <div className="bottom-grid">
+            <div className="panel">
+              <div className="panel-header">
+                <div>
+                  <h3>Project Growth</h3>
+                  <p>Active projects over the last 6 months</p>
+                </div>
 
+                <ResponsiveContainer width="100%" height={240}>
+                  <LineChart data={monthlyProjects}>
+                    <CartesianGrid strokeDasharray="3 3" vertical={false} />
+                    <XAxis dataKey="month" />
+                    <YAxis />
+                    <Tooltip />
+                    <Line
+                      type="monotone"
+                      dataKey="projects"
+                      stroke="#285985"
+                      strokeWidth={3}
+                      dot={{ r: 4 }}
+                    />
+                  </LineChart>
+                </ResponsiveContainer>
+              </div>
 
-        <div className="panel quick-panel">
-          <div className="panel-header">
-            <div>
-              <h3>Quick Actions</h3>
-              <p>Frequently used operations</p>
+              <div className="panel quick-panel">
+                <div className="panel-header">
+                  <div>
+                    <h3>Quick Actions</h3>
+                    <p>Frequently used operations</p>
+                  </div>
+
+                  <button onClick={() => setActivePage("projects")}>
+                    <Plus size={18} />
+                    Create New Project
+                  </button>
+
+                  <button onClick={() => setActivePage("proposals")}>
+                    <FileText size={18} />
+                    Review Proposals
+                  </button>
+
+                  <button onClick={() => setActivePage("parcels")}>
+                    <Map size={18} />
+                    Search Land Parcels
+                  </button>
+
+                  <button onClick={() => setActivePage("gis")}>
+                    <MapPin size={18} />
+                    Open GIS Map
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
-
-          <button onClick={() => setActivePage("projects")}>
-            <Plus size={18} />
-            Create New Project
-          </button>
-
-          <button onClick={() => setActivePage("proposals")}>
-            <FileText size={18} />
-            Review Proposals
-          </button>
-
-          <button onClick={() => setActivePage("parcels")}>
-            <Map size={18} />
-            Search Land Parcels
-          </button>
-
-          <button onClick={() => setActivePage("gis")}>
-            <MapPin size={18} />
-            Open GIS Map
-          </button>
-        </div>
-
       </div>
-    </>
-  );
-}
-
+        </>
+      );
+    }
 
 /* =========================
    PROJECTS
@@ -643,18 +632,17 @@ function Projects() {
             </tbody>
           </table>
         </div>
-      </div>
 
-      {showModal && (
-        <Modal
-          title="Create New Project"
-          close={() => setShowModal(false)}
-        />
-      )}
+        {showModal && (
+          <Modal
+            title="Create New Project"
+            close={() => setShowModal(false)}
+          />
+        )}
+      </div>
     </>
   );
 }
-
 
 /* =========================
    PROPOSALS
@@ -802,7 +790,6 @@ function Proposals() {
   );
 }
 
-
 /* =========================
    PARCELS
 ========================= */
@@ -909,7 +896,6 @@ function Parcels() {
     </>
   );
 }
-
 
 /* =========================
    GIS MAP
@@ -1049,9 +1035,7 @@ function ModulePage({ title, icon: Icon, description }) {
                   </td>
 
                   <td>{item.activity}</td>
-
                   <td>{item.district}</td>
-
                   <td>{item.amount}</td>
 
                   <td>
@@ -1083,7 +1067,6 @@ function ModulePage({ title, icon: Icon, description }) {
   );
 }
 
-
 /* =========================
    MODAL
 ========================= */
@@ -1109,7 +1092,6 @@ function Modal({ title, close }) {
             <input placeholder="Enter project name" />
 
             <label>District</label>
-
             <select>
               <option>Pune</option>
               <option>Mumbai</option>
@@ -1162,7 +1144,6 @@ function Modal({ title, close }) {
     </div>
   );
 }
-
 
 /* =========================
    APP
@@ -1326,44 +1307,44 @@ function SecureApp({ onLogout }) {
               </div>
             )}
 
+
+            {notificationsOpen && (
+              <div className="notification-panel">
+
+                <div className="notification-header">
+                  <strong>Notifications</strong>
+
+                  <span>3 new</span>
+                </div>
+
+                <div className="notification">
+                  <AlertCircle size={18} />
+                  <div>
+                    <strong>6 urgent actions</strong>
+                    <p>Require your attention.</p>
+                  </div>
+                </div>
+
+                <div className="notification">
+                  <FileText size={18} />
+                  <div>
+                    <strong>8 proposals pending</strong>
+                    <p>Review submitted proposals.</p>
+                  </div>
+                </div>
+
+                <div className="notification">
+                  <CheckCircle2 size={18} />
+                  <div>
+                    <strong>Project completed</strong>
+                    <p>Aurangabad Industrial Zone.</p>
+                  </div>
+                </div>
+
+              </div>
+            )}
+
           </div>
-
-
-          {notificationsOpen && (
-            <div className="notification-panel">
-
-              <div className="notification-header">
-                <strong>Notifications</strong>
-
-                <span>3 new</span>
-              </div>
-
-              <div className="notification">
-                <AlertCircle size={18} />
-                <div>
-                  <strong>6 urgent actions</strong>
-                  <p>Require your attention.</p>
-                </div>
-              </div>
-
-              <div className="notification">
-                <FileText size={18} />
-                <div>
-                  <strong>8 proposals pending</strong>
-                  <p>Review submitted proposals.</p>
-                </div>
-              </div>
-
-              <div className="notification">
-                <CheckCircle2 size={18} />
-                <div>
-                  <strong>Project completed</strong>
-                  <p>Aurangabad Industrial Zone.</p>
-                </div>
-              </div>
-
-            </div>
-          )}
 
         </div>
       </header>
@@ -1421,7 +1402,6 @@ function SecureApp({ onLogout }) {
 
         </aside>
 
-
         <main className="main">
           {renderPage()}
         </main>
@@ -1441,39 +1421,27 @@ function SecureApp({ onLogout }) {
 }
 
 function App() {
-  const [authenticated, setAuthenticated] = useState(() => {
-    return sessionStorage.getItem("nlams_authenticated") === "true";
-  });
-
-  const [authLoading, setAuthLoading] = useState(true);
+  const [firebaseUser, setFirebaseUser] = useState(null);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // In production this check should call the backend session endpoint.
-    // For the SIH frontend prototype, sessionStorage keeps the browser session
-    // locked after refresh and is cleared on sign-out.
-    const timer = window.setTimeout(() => setAuthLoading(false), 250);
-    return () => window.clearTimeout(timer);
+    const unsubscribe = onAuthStateChanged(auth, (user) => {
+      setFirebaseUser(user);
+      setLoading(false);
+    });
+
+    return () => unsubscribe();
   }, []);
 
-  const handleAuthenticated = () => {
-    sessionStorage.setItem("nlams_authenticated", "true");
-    setAuthenticated(true);
-  };
-
-  const handleLogout = () => {
-    sessionStorage.removeItem("nlams_authenticated");
-    setAuthenticated(false);
-  };
-
-  if (authLoading) {
+  if (loading) {
     return <div className="auth-loading">Loading secure portal...</div>;
   }
 
-  if (!authenticated) {
-    return <LoginPage onAuthenticated={handleAuthenticated} />;
+  if (!firebaseUser) {
+    return <LoginPage />;
   }
 
-  return <SecureApp onLogout={handleLogout} />;
+  return <SecureApp onLogout={() => signOut(auth)} />;
 }
 
 export default App;

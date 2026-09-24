@@ -1,11 +1,18 @@
+import { auth } from "../firebase";
+import { signInWithEmailAndPassword, signOut } from "firebase/auth";
+
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "";
 
-function getToken() {
-  return sessionStorage.getItem("nlams_token");
+async function getToken() {
+  const user = auth.currentUser;
+  if (user) {
+    return await user.getIdToken();
+  }
+  return null;
 }
 
 export function getStoredUser() {
-  const token = getToken();
+  const token = sessionStorage.getItem("nlams_token");
   if (!token) return null;
   try {
     const payload = token.split(".")[1];
@@ -27,7 +34,7 @@ async function request(path, options = {}) {
     headers.set("Content-Type", "application/json");
   }
 
-  const token = getToken();
+  const token = await getToken();
   if (token) headers.set("Authorization", `Bearer ${token}`);
 
   const response = await fetch(`${API_BASE_URL}${path}`, {
@@ -47,10 +54,7 @@ async function request(path, options = {}) {
     const message =
       data?.message || data?.error || (typeof data === "string" ? data : null) ||
       `Request failed with status ${response.status}`;
-    if (response.status === 401) {
-      sessionStorage.removeItem("nlams_token");
-      sessionStorage.removeItem("nlams_authenticated");
-    }
+    // Note: We no longer remove sessionStorage items as we rely on Firebase auth state.
     throw new Error(message);
   }
 
@@ -95,8 +99,8 @@ export const api = {
     byId: (id) => request(`/api/parcels/${id}`),
     byProject: (projectId) => request(`/api/parcels/project/${projectId}`),
     create: (payload) => request("/api/parcels", { method: "POST", body: JSON.stringify(payload) }),
-    update: (id, payload) => request(`/api/parcels/${id}`, { method: "PUT", body: JSON.stringify(payload) }),
-    remove: (id) => request(`/api/parcels/${id}`, { method: "DELETE" }),
+    update: (id, payload) => request(`/api/parcels/{id}`, { method: "PUT", body: JSON.stringify(payload) }),
+    remove: (id) => request(`/api/parcels/{id}`, { method: "DELETE" }),
   },
 
   acquisitionStages: {
@@ -130,14 +134,16 @@ export const api = {
 };
 
 export async function loginWithBackend(email, password) {
-  const data = await api.auth.login(email, password);
-  if (!data?.token) throw new Error("Authentication server did not return a token.");
-  sessionStorage.setItem("nlams_token", data.token);
-  sessionStorage.setItem("nlams_authenticated", "true");
-  return data;
+  // Use Firebase for authentication
+  await signInWithEmailAndPassword(auth, email, password);
+  const user = auth.currentUser;
+  if (user) {
+    const token = await user.getIdToken();
+    return { token };
+  }
+  throw new Error("Failed to authenticate with Firebase");
 }
 
 export function logoutFromBackend() {
-  sessionStorage.removeItem("nlams_token");
-  sessionStorage.removeItem("nlams_authenticated");
+  signOut(auth);
 }

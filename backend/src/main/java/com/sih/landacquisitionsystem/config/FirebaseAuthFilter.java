@@ -65,12 +65,9 @@ public class FirebaseAuthFilter extends OncePerRequestFilter {
                     }
                     List<SimpleGrantedAuthority> authorities = Collections.singletonList(new SimpleGrantedAuthority(role));
 
-                    // Create the authentication object
+                    // Create the authentication object with User as principal
                     UsernamePasswordAuthenticationToken authentication = new UsernamePasswordAuthenticationToken(
-                            uid, null, authorities);
-
-                    // Optionally, set additional details like email
-                    authentication.setDetails(email);
+                            user, null, authorities);
 
                     // Set the authentication in the security context
                     SecurityContextHolder.getContext().setAuthentication(authentication);
