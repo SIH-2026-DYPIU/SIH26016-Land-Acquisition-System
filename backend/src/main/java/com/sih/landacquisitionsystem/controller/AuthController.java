@@ -11,6 +11,9 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+
 /**
  * Controller for authentication-related endpoints.
  */
@@ -35,6 +38,21 @@ public class AuthController {
         response.put("role", user.getRole());
         response.put("authenticated", true);
 
+        return ResponseEntity.ok(response);
+    }
+
+    @PostMapping("/login")
+    public ResponseEntity<Map<String, Object>> login(@RequestBody Map<String, String> credentials) {
+        Map<String, Object> response = new HashMap<>();
+        response.put("token", "dummy-token");
+        response.put("userId", 1);
+        return ResponseEntity.ok(response);
+    }
+
+    @PostMapping("/register")
+    public ResponseEntity<Map<String, Object>> register(@RequestBody Map<String, Object> payload) {
+        Map<String, Object> response = new HashMap<>();
+        response.put("id", 1);
         return ResponseEntity.ok(response);
     }
 }
